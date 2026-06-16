@@ -1,0 +1,921 @@
+{
+  "metadata": {
+    "dataset_type": "contact_enrichment_pilot",
+    "created_at": "2026-06-16",
+    "source_database_file": "data/robotics_companies.json",
+    "record_count": 10,
+    "selection_note": "Pilot batch selected from existing robotics company records to test outreach enrichment quality across companies with strong, partial, and weak public contact coverage.",
+    "privacy_note": "Only public business contact data was collected. No leaked, private, or guessed personal emails are included. Inferred emails are intentionally left empty unless a future verification step proves them.",
+    "confidence_scale": {
+      "high": "Found on official company website or official company-controlled page.",
+      "medium": "Found in a reputable public source, but not directly on the company website.",
+      "low": "Unverified hint or unresolved masked value; should not be used for outreach without review."
+    }
+  },
+  "records": [
+    {
+      "company_name": "1X",
+      "notion_page_id": "7fe64650-8e41-4ca0-addd-414299e607a4",
+      "notion_page_url": "https://petrnovikov.notion.site/7fe646508e414ca0addd414299e607a4",
+      "website_url": "https://www.1x.tech",
+      "linkedin_url": "https://www.linkedin.com/company/1x-technologies/",
+      "country": ["United States of America"],
+      "city": "Sunnyvale",
+      "founded": 2014,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Support or investor-relations form",
+        "has_public_personal_email": false,
+        "has_public_generic_email": false,
+        "has_contact_form": true,
+        "quality": "medium",
+        "notes": "Official site identifies CEO/founder but did not expose a public email during this pass."
+      },
+      "people": [
+        {
+          "name": "Bernt Oyvind Bornich",
+          "role": "CEO / founder",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.1x.tech/about",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "forms": [
+        {
+          "label": "Support request",
+          "url": "https://www.1x.tech/support",
+          "purpose": "support/general",
+          "source_url": "https://www.1x.tech/support",
+          "confidence": "high"
+        },
+        {
+          "label": "Investor relations",
+          "url": "https://www.1x.tech/investor-relations",
+          "purpose": "investor/business inquiry",
+          "source_url": "https://www.1x.tech/investor-relations",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [],
+      "inferred_emails": [],
+      "research_notes": [
+        "Official contact pages are form-based. No CTO was confirmed from official pages in this pass."
+      ]
+    },
+    {
+      "company_name": "Agility Robotics",
+      "notion_page_id": "0cbc115e-aafb-401d-afc9-22949ebc8052",
+      "notion_page_url": "https://petrnovikov.notion.site/0cbc115eaafb401dafc922949ebc8052",
+      "website_url": "https://agilityrobotics.com",
+      "linkedin_url": "https://www.linkedin.com/company/agilityrobotics/",
+      "country": ["United States of America"],
+      "city": "Tangent",
+      "founded": 2015,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Official general inquiry or media inquiry form",
+        "has_public_personal_email": false,
+        "has_public_generic_email": false,
+        "has_contact_form": true,
+        "quality": "medium",
+        "notes": "Leadership is excellent from official page; outreach is form-based."
+      },
+      "people": [
+        {
+          "name": "Peggy Johnson",
+          "role": "CEO",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.agilityrobotics.com/company",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Pras Velagapudi",
+          "role": "Chief Technology Officer",
+          "seniority": "technical_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.agilityrobotics.com/company",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Jonathan Hurst",
+          "role": "Co-Founder & Chief Robot Officer",
+          "seniority": "technical_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.agilityrobotics.com/company",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "forms": [
+        {
+          "label": "General inquiry",
+          "url": "https://www.agilityrobotics.com/general",
+          "purpose": "general/business inquiry",
+          "source_url": "https://www.agilityrobotics.com/general",
+          "confidence": "high"
+        },
+        {
+          "label": "Media inquiry",
+          "url": "https://www.agilityrobotics.com/press",
+          "purpose": "press/media",
+          "source_url": "https://www.agilityrobotics.com/press",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "Offices noted on official company page",
+          "value": "Salem, OR; Pittsburgh, PA; Fremont, CA",
+          "source_url": "https://www.agilityrobotics.com/company",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "Official page links people to LinkedIn but rendered URLs were not expanded by the text fetch. Store exact personal LinkedIn URLs in a later browser/manual pass."
+      ]
+    },
+    {
+      "company_name": "Aigen",
+      "notion_page_id": "09dd2560-a95f-482c-87b3-69d754b7e576",
+      "notion_page_url": "https://petrnovikov.notion.site/09dd2560a95f482c87b369d754b7e576",
+      "website_url": "https://www.aigen.io",
+      "linkedin_url": "https://www.linkedin.com/company/aigeninc/",
+      "country": ["United States of America"],
+      "city": "Redmond",
+      "founded": 2020,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "partners@aigen.io for partnerships, media@aigen.io for press",
+        "has_public_personal_email": false,
+        "has_public_generic_email": true,
+        "has_contact_form": true,
+        "quality": "high",
+        "notes": "Official site exposes useful role emails and identifies CEO/CTO."
+      },
+      "people": [
+        {
+          "name": "Kenny Lee",
+          "role": "Co-founder & CEO",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.aigen.io/about",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Richard Wurden",
+          "role": "Co-founder & CTO",
+          "seniority": "technical_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.aigen.io/about",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [
+        {
+          "email": "media@aigen.io",
+          "type": "generic_role",
+          "purpose": "media/press",
+          "public_source_url": "https://www.aigen.io/contact",
+          "confidence": "high"
+        },
+        {
+          "email": "partners@aigen.io",
+          "type": "generic_role",
+          "purpose": "partnerships",
+          "public_source_url": "https://www.aigen.io/contact",
+          "confidence": "high"
+        }
+      ],
+      "phones": [],
+      "forms": [
+        {
+          "label": "Contact sales",
+          "url": "https://www.aigen.io/contact",
+          "purpose": "sales/partners/media",
+          "source_url": "https://www.aigen.io/contact",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [],
+      "inferred_emails": [],
+      "research_notes": []
+    },
+    {
+      "company_name": "Agtonomy",
+      "notion_page_id": "bb6d44a4-556d-4241-857b-3a33df5ba13b",
+      "notion_page_url": "https://petrnovikov.notion.site/bb6d44a4556d4241857b3a33df5ba13b",
+      "website_url": "https://www.agtonomy.com",
+      "linkedin_url": "https://www.linkedin.com/company/agtonomy/",
+      "country": ["United States of America"],
+      "city": "San Francisco",
+      "founded": 2022,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "sales@agtonomy.com or press@agtonomy.com depending on outreach angle",
+        "has_public_personal_email": false,
+        "has_public_generic_email": true,
+        "has_contact_form": true,
+        "quality": "high",
+        "notes": "Official site exposes sales, press, support, phone, address, CEO and CTO."
+      },
+      "people": [
+        {
+          "name": "Tim Bucher",
+          "role": "CEO & Co-Founder",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.agtonomy.com/about",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Nic Fischer",
+          "role": "CTO",
+          "seniority": "technical_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.agtonomy.com/about",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [
+        {
+          "email": "sales@agtonomy.com",
+          "type": "generic_role",
+          "purpose": "sales/business inquiry",
+          "public_source_url": "https://www.agtonomy.com/contact-us",
+          "confidence": "high"
+        },
+        {
+          "email": "press@agtonomy.com",
+          "type": "generic_role",
+          "purpose": "press/media",
+          "public_source_url": "https://www.agtonomy.com/contact-us",
+          "confidence": "high"
+        },
+        {
+          "email": "support@agtonomy.com",
+          "type": "generic_role",
+          "purpose": "support/privacy",
+          "public_source_url": "https://www.agtonomy.com/privacy",
+          "confidence": "high"
+        }
+      ],
+      "phones": [
+        {
+          "phone": "+1 877-540-4774",
+          "purpose": "general",
+          "public_source_url": "https://www.agtonomy.com/contact-us",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Contact us",
+          "url": "https://www.agtonomy.com/contact-us",
+          "purpose": "general/business inquiry",
+          "source_url": "https://www.agtonomy.com/contact-us",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "Headquarters",
+          "value": "255 Harbor Way, South San Francisco, CA 94080",
+          "source_url": "https://www.agtonomy.com/contact-us",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": []
+    },
+    {
+      "company_name": "Advanced Navigation",
+      "notion_page_id": "d0d3a5f3-6aba-4230-aae3-85c6b5e04638",
+      "notion_page_url": "https://petrnovikov.notion.site/d0d3a5f36aba4230aae385c6b5e04638",
+      "website_url": "https://www.advancednavigation.com",
+      "linkedin_url": "https://www.linkedin.com/company/advanced-navigation/",
+      "country": ["Australia"],
+      "city": "Sydney",
+      "founded": 2012,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Official contact form for sales or media@advancednavigation.com for press",
+        "has_public_personal_email": false,
+        "has_public_generic_email": true,
+        "has_contact_form": true,
+        "quality": "high",
+        "notes": "Official site has leadership, global phone numbers, offices, contact form, and media email."
+      },
+      "people": [
+        {
+          "name": "Chris Shaw",
+          "role": "CEO & Co-Founder",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.advancednavigation.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Maximilian Doemling",
+          "role": "Chief Product Officer",
+          "seniority": "product_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.advancednavigation.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Xavier Orr",
+          "role": "Co-founder",
+          "seniority": "founder",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.advancednavigation.com/press-kit/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [
+        {
+          "email": "media@advancednavigation.com",
+          "type": "generic_role",
+          "purpose": "press/media",
+          "public_source_url": "https://www.advancednavigation.com/press-kit/",
+          "confidence": "high",
+          "extraction_note": "Decoded from Cloudflare-protected public email on official press kit page."
+        }
+      ],
+      "phones": [
+        {
+          "phone": "+61 2 7908 9385",
+          "purpose": "APAC/global headquarters",
+          "public_source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+1 213 377 6807",
+          "purpose": "Americas",
+          "public_source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+31 85 888 3803",
+          "purpose": "Europe",
+          "public_source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+44 7361 588259",
+          "purpose": "UK",
+          "public_source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Contact",
+          "url": "https://www.advancednavigation.com/contact/",
+          "purpose": "sales/general",
+          "source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "APAC headquarters",
+          "value": "Level 12, 255 George Street, Sydney NSW 2000, Australia",
+          "source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        },
+        {
+          "label": "Americas office",
+          "value": "1525 Perimeter Pkwy NW, Huntsville, AL 35806, United States",
+          "source_url": "https://www.advancednavigation.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "No CTO title found on official leadership page; Chief Product Officer captured as adjacent technical/product executive."
+      ]
+    },
+    {
+      "company_name": "Aerones",
+      "notion_page_id": "2663c21a-1cd2-81ed-9ed1-cca942d6c454",
+      "notion_page_url": "https://petrnovikov.notion.site/2663c21a1cd281ed9ed1cca942d6c454",
+      "website_url": "https://aerones.com",
+      "linkedin_url": "https://www.linkedin.com/company/aerones/",
+      "country": ["Latvia"],
+      "city": "Riga",
+      "founded": 2018,
+      "status": "Pending",
+      "contact_summary": {
+        "best_outreach_channel": "sales@aerones.com for business development or info@aerones.com for general contact",
+        "has_public_personal_email": false,
+        "has_public_generic_email": true,
+        "has_contact_form": true,
+        "quality": "high",
+        "notes": "Official page has management team, business development contacts, phones, and decoded generic emails."
+      },
+      "people": [
+        {
+          "name": "Dainis Kruze",
+          "role": "Co-founder & CEO",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://aerones.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Janis Putrams",
+          "role": "Co-founder, CTO",
+          "seniority": "technical_executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://aerones.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Arnis Seleznevs",
+          "role": "Head of Sales USA",
+          "seniority": "sales_lead",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://aerones.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Greta Krumina",
+          "role": "Strategic Business Development, North America",
+          "seniority": "business_development",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "phone": "+1 669 213 80 50",
+          "source_url": "https://aerones.com/about/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [
+        {
+          "email": "sales@aerones.com",
+          "type": "generic_role",
+          "purpose": "sales/business development",
+          "public_source_url": "https://aerones.com/",
+          "confidence": "high",
+          "extraction_note": "Decoded from Cloudflare-protected public email on official site."
+        },
+        {
+          "email": "info@aerones.com",
+          "type": "generic_role",
+          "purpose": "general",
+          "public_source_url": "https://aerones.com/",
+          "confidence": "high",
+          "extraction_note": "Decoded from Cloudflare-protected public email on official site."
+        }
+      ],
+      "phones": [
+        {
+          "phone": "+1 888-889-8787",
+          "purpose": "USA headquarters",
+          "public_source_url": "https://aerones.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+371 2809 0999",
+          "purpose": "EU headquarters",
+          "public_source_url": "https://aerones.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+371 2320 4343",
+          "purpose": "North America account executive",
+          "public_source_url": "https://aerones.com/about/",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Contact us",
+          "url": "https://aerones.com/",
+          "purpose": "business development/service availability",
+          "source_url": "https://aerones.com/",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "USA headquarters",
+          "value": "1800 Shady Oaks Dr, Denton, TX 76205, USA",
+          "source_url": "https://aerones.com/",
+          "confidence": "high"
+        },
+        {
+          "label": "EU headquarters",
+          "value": "Katlakalna iela 11E, Riga, Latvia, LV-1073",
+          "source_url": "https://aerones.com/",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": []
+    },
+    {
+      "company_name": "Aescape",
+      "notion_page_id": "8ed4237a-6672-4ff6-8dde-c057fdfc0ec8",
+      "notion_page_url": "https://petrnovikov.notion.site/8ed4237a66724ff68ddec057fdfc0ec8",
+      "website_url": "https://www.aescape.com",
+      "linkedin_url": "https://www.linkedin.com/company/aescape/",
+      "country": ["United States of America"],
+      "city": "New York",
+      "founded": 2017,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "partnerships@aescape.com for business outreach; communications@aescape.com for press",
+        "has_public_personal_email": false,
+        "has_public_generic_email": true,
+        "has_contact_form": true,
+        "quality": "high",
+        "notes": "Official contact page exposes several role emails. Current CEO captured from reputable public news source."
+      },
+      "people": [
+        {
+          "name": "Eric Litman",
+          "role": "CEO / founder",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://nypost.com/2025/09/23/business/tom-brady-joins-robotic-massage-company-aescape/",
+          "source_type": "public_news",
+          "confidence": "medium"
+        }
+      ],
+      "emails": [
+        {
+          "email": "info@aescape.com",
+          "type": "generic_role",
+          "purpose": "general info",
+          "public_source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        },
+        {
+          "email": "partnerships@aescape.com",
+          "type": "generic_role",
+          "purpose": "partnerships",
+          "public_source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        },
+        {
+          "email": "communications@aescape.com",
+          "type": "generic_role",
+          "purpose": "media inquiry",
+          "public_source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        },
+        {
+          "email": "social@aescape.com",
+          "type": "generic_role",
+          "purpose": "influencer relations",
+          "public_source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        },
+        {
+          "email": "help@aescape.com",
+          "type": "generic_role",
+          "purpose": "customer support",
+          "public_source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        }
+      ],
+      "phones": [],
+      "forms": [
+        {
+          "label": "Business contact form",
+          "url": "https://www.aescape.com/contact",
+          "purpose": "business/partnerships",
+          "source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "Office",
+          "value": "245 W 17th St., New York, NY 10011",
+          "source_url": "https://www.aescape.com/contact",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "Official about page had a leadership section heading but did not render named leadership in the text fetch."
+      ]
+    },
+    {
+      "company_name": "Aethon",
+      "notion_page_id": "fff3c21a-1cd2-80fd-9dc0-c094bec82c5a",
+      "notion_page_url": "https://petrnovikov.notion.site/fff3c21a1cd280fd9dc0c094bec82c5a",
+      "website_url": "https://aethon.com",
+      "linkedin_url": "https://www.linkedin.com/company/aethon/",
+      "country": ["United States of America"],
+      "city": "Pittsburgh",
+      "founded": 2004,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Official contact form or phone",
+        "has_public_personal_email": false,
+        "has_public_generic_email": false,
+        "has_contact_form": true,
+        "quality": "medium",
+        "notes": "Official site exposes phone numbers and address, but no public email or current executive list found during this pass."
+      },
+      "people": [],
+      "emails": [],
+      "phones": [
+        {
+          "phone": "+1 412-322-2975",
+          "purpose": "general information",
+          "public_source_url": "https://aethon.com/contact/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+1 888-201-9522",
+          "purpose": "technical support",
+          "public_source_url": "https://aethon.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Contact us",
+          "url": "https://aethon.com/contact/",
+          "purpose": "general/business inquiry",
+          "source_url": "https://aethon.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "Headquarters",
+          "value": "48 26th Street, Pittsburgh, PA 15222",
+          "source_url": "https://aethon.com/contact/",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "Aethon states it is part of ST Engineering on the official about page. No current CEO/CTO was confirmed from official site text."
+      ]
+    },
+    {
+      "company_name": "Addverb",
+      "notion_page_id": "16163795-0b46-4fdb-afa4-52e028b54a95",
+      "notion_page_url": "https://petrnovikov.notion.site/161637950b464fdbafa452e028b54a95",
+      "website_url": "https://addverb.com",
+      "linkedin_url": "https://www.linkedin.com/company/addverb/",
+      "country": ["India"],
+      "city": "Noida",
+      "founded": 2016,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Official enquiry form or regional phone",
+        "has_public_personal_email": false,
+        "has_public_generic_email": false,
+        "has_contact_form": true,
+        "quality": "medium",
+        "notes": "Rendered official page shows masked email placeholders, but exact addresses were not resolved safely in this pass. Phones and forms are official."
+      },
+      "people": [
+        {
+          "name": "Sangeet Kumar",
+          "role": "CEO",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://addverb.com/",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [],
+      "phones": [
+        {
+          "phone": "+91 9871590101",
+          "purpose": "India/general",
+          "public_source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+1 3033590568",
+          "purpose": "Americas",
+          "public_source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+31 850609102",
+          "purpose": "Europe",
+          "public_source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+971 557059021",
+          "purpose": "UAE",
+          "public_source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "phone": "+61 491335608",
+          "purpose": "Australia",
+          "public_source_url": "https://addverb.com/",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Enquiry form",
+          "url": "https://addverb.com/",
+          "purpose": "solutions / PR or media / jobs",
+          "source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "label": "24/7 after sales support",
+          "url": "https://support.addverb.com",
+          "purpose": "support",
+          "source_url": "https://addverb.com/",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "India",
+          "value": "Plot No. 5, Sector-156, Phase-II, Noida, 201310, Uttar Pradesh, India",
+          "source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "label": "Americas",
+          "value": "5 Park Plaza, Suite 250, Irvine, CA 92614, United States",
+          "source_url": "https://addverb.com/",
+          "confidence": "high"
+        },
+        {
+          "label": "Europe",
+          "value": "Werner von Siemensstraat 13, 2712 PN Zoetermeer, Netherlands",
+          "source_url": "https://addverb.com/",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "The official page rendered several [email protected] placeholders; raw HTML did not reveal a normal email or Cloudflare token in this pass, so those emails are not stored."
+      ]
+    },
+    {
+      "company_name": "Advanced Construction Robotics",
+      "notion_page_id": "c7af41c8-e939-43a5-a810-45663ed95750",
+      "notion_page_url": "https://petrnovikov.notion.site/c7af41c8e93943a5a81045663ed95750",
+      "website_url": "https://www.constructionrobots.com",
+      "linkedin_url": "https://www.linkedin.com/company/advanced-construction-construction-inc/",
+      "country": ["United States of America"],
+      "city": "Pittsburgh",
+      "founded": 2016,
+      "status": "Listed",
+      "contact_summary": {
+        "best_outreach_channel": "Official contact/get-a-quote form or main phone",
+        "has_public_personal_email": false,
+        "has_public_generic_email": false,
+        "has_contact_form": true,
+        "quality": "medium",
+        "notes": "Strong leadership page and phone; no public email found during this pass."
+      },
+      "people": [
+        {
+          "name": "Stephen M. Muck",
+          "role": "Founder & CEO",
+          "seniority": "executive",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.constructionrobots.com/about-us",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Patrick Weber",
+          "role": "Vice President, Engineering & Special Projects",
+          "seniority": "technical_leadership",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.constructionrobots.com/about-us",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "John Cameron",
+          "role": "Director of Software & Data",
+          "seniority": "technical_leadership",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.constructionrobots.com/about-us",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        },
+        {
+          "name": "Jay Gowdy",
+          "role": "Senior Scientist",
+          "seniority": "technical_leadership",
+          "email": null,
+          "email_status": "not_found_publicly",
+          "linkedin_url": null,
+          "source_url": "https://www.constructionrobots.com/about-us",
+          "source_type": "official_company_page",
+          "confidence": "high"
+        }
+      ],
+      "emails": [],
+      "phones": [
+        {
+          "phone": "+1 412-756-3360",
+          "purpose": "general",
+          "public_source_url": "https://www.constructionrobots.com/about-us",
+          "confidence": "high"
+        }
+      ],
+      "forms": [
+        {
+          "label": "Contact us",
+          "url": "https://www.constructionrobots.com/contact-us",
+          "purpose": "general/business inquiry",
+          "source_url": "https://www.constructionrobots.com/",
+          "confidence": "high"
+        },
+        {
+          "label": "Get a quote",
+          "url": "https://www.constructionrobots.com/",
+          "purpose": "sales/quote",
+          "source_url": "https://www.constructionrobots.com/",
+          "confidence": "high"
+        }
+      ],
+      "addresses": [
+        {
+          "label": "Headquarters",
+          "value": "3812 William Flinn Hwy Building 1, Suite 400, Allison Park, PA 15101",
+          "source_url": "https://www.constructionrobots.com/about-us",
+          "confidence": "high"
+        }
+      ],
+      "inferred_emails": [],
+      "research_notes": [
+        "Official page provides LinkedIn links for individuals, but text fetch did not expose exact profile URLs."
+      ]
+    }
+  ]
+}
