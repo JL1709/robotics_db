@@ -8,7 +8,9 @@ const FACETS = [
   { key: "software_type", label: "Software type", limit: 14 },
   { key: "hardware_component_type", label: "Hardware type", limit: 14 },
   { key: "tags", label: "Tags", limit: 18 },
+  { key: "source_name", label: "Source", limit: 14 },
 ];
+const SOURCE_FACET = FACETS.find((facet) => facet.key === "source_name");
 
 const MODERN_START_YEAR = 1990;
 const STARTUP_START_YEAR = 2015;
@@ -117,7 +119,9 @@ function normalizeCompany(company) {
   for (const facet of FACETS) {
     normalized[facet.key] = Array.isArray(company[facet.key])
       ? company[facet.key].filter(Boolean)
-      : [];
+      : company[facet.key]
+        ? [company[facet.key]]
+        : [];
   }
 
   normalized.country = [
@@ -133,6 +137,15 @@ function normalizeCompany(company) {
       ? company.founded
       : null;
   normalized.website_preview_url = company.website_preview?.url ?? null;
+  normalized.contact_emails = Array.isArray(company.contact_emails)
+    ? company.contact_emails
+        .filter((contact) => contact?.email)
+        .map((contact) => ({
+          email: String(contact.email),
+          type: contact.type ?? "unknown",
+          confidence: contact.confidence ?? "unknown",
+        }))
+    : [];
   normalized.search_blob = [
     company.company_name,
     company.short_description,
@@ -153,6 +166,7 @@ function normalizeCompany(company) {
     normalized.hardware_component_type.join(" "),
     normalized.software_type.join(" "),
     normalized.tags.join(" "),
+    normalized.contact_emails.map((contact) => `${contact.email} ${contact.type}`).join(" "),
   ]
     .filter(Boolean)
     .join(" ")
@@ -251,6 +265,8 @@ function renderFilters(filtered) {
           </div>
         </div>
         <div class="filter-panel">
+          ${renderFacet(SOURCE_FACET)}
+
           <section class="filter-section">
             <div class="section-head"><h3>Founded</h3></div>
             <div class="facet-list year-mode-list">
@@ -270,7 +286,7 @@ function renderFilters(filtered) {
           </section>
 
           ${renderWebsiteConfidenceFilter()}
-          ${FACETS.map((facet) => renderFacet(facet)).join("")}
+          ${FACETS.filter((facet) => facet.key !== "source_name").map((facet) => renderFacet(facet)).join("")}
         </div>
       </div>
     </aside>
@@ -758,10 +774,6 @@ function renderCards(rows) {
 
 function renderCard(company) {
   const chips = [
-    {
-      value: `Website ${company.website_confidence_score}/100`,
-      tone: confidenceTone(company.website_confidence_score),
-    },
     ...company.product_type.slice(0, 2).map((value) => ({ value, tone: "teal" })),
     ...company.targeted_industries.slice(0, 2).map((value) => ({ value, tone: "amber" })),
     ...company.country.slice(0, 1).map((value) => ({ value, tone: "coral" })),
@@ -873,6 +885,7 @@ function renderDrawer(company) {
             ${detail("Website status", formatWebsiteStatus(company.website_status))}
             ${detail("Website final URL", company.website_final_url)}
             ${detail("Website confidence", `${company.website_confidence_score}/100`)}
+            ${renderContactEmails(company.contact_emails)}
             ${detail("Source", company.source_name)}
             ${detail("Tags", company.tags)}
             ${detail("City", company.city)}
@@ -1595,6 +1608,32 @@ function detail(label, value) {
   `;
 }
 
+function renderContactEmails(emails) {
+  const contacts = Array.isArray(emails) ? emails.filter((contact) => contact?.email) : [];
+  if (!contacts.length) return detail("Contact emails", null);
+
+  const visible = contacts.slice(0, 10);
+  const hiddenCount = Math.max(0, contacts.length - visible.length);
+  return `
+    <div class="detail-item detail-item-wide">
+      <span class="detail-label">Contact emails</span>
+      <div class="contact-email-list">
+        ${visible
+          .map(
+            (contact) => `
+              <a class="contact-email-row" href="mailto:${escapeAttr(contact.email)}">
+                <span>${escapeHtml(contact.email)}</span>
+                <em>${escapeHtml(contact.type ?? "unknown")} · ${escapeHtml(contact.confidence ?? "unknown")}</em>
+              </a>
+            `,
+          )
+          .join("")}
+        ${hiddenCount ? `<span class="contact-email-more">+${hiddenCount.toLocaleString()} more</span>` : ""}
+      </div>
+    </div>
+  `;
+}
+
 function formatWebsiteStatus(value) {
   return value ? String(value).replace(/_/g, " ") : null;
 }
@@ -1748,6 +1787,7 @@ function toCsv(rows) {
     "website_confidence_score",
     "website_status",
     "website_confidence",
+    "contact_emails",
     "linkedin_url",
     "source_name",
     "source_url",
@@ -1756,14 +1796,28 @@ function toCsv(rows) {
   const body = rows.map((row) =>
     columns
       .map((column) => {
-        const value = Array.isArray(row[column])
-          ? row[column].join("; ")
-          : row[column] ?? "";
+        const value = csvColumnValue(row, column);
         return csvEscape(value);
       })
       .join(","),
   );
   return `${header}\n${body.join("\n")}\n`;
+}
+
+function csvColumnValue(row, column) {
+  if (column === "contact_emails") {
+    return (row.contact_emails ?? [])
+      .map((contact) =>
+        [contact.email, contact.type || contact.confidence ? `(${[contact.type, contact.confidence].filter(Boolean).join(", ")})` : ""]
+          .filter(Boolean)
+          .join(" "),
+      )
+      .join("; ");
+  }
+
+  const value = row[column];
+  if (Array.isArray(value)) return value.join("; ");
+  return value ?? "";
 }
 
 function download(filename, content, type) {
