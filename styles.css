@@ -459,6 +459,37 @@ a {
   font-size: 13px;
 }
 
+.confidence-control {
+  display: grid;
+  gap: 10px;
+}
+
+.confidence-control input[type="range"] {
+  width: 100%;
+  accent-color: var(--teal);
+}
+
+.confidence-number {
+  display: grid;
+  grid-template-columns: 1fr 86px;
+  align-items: center;
+  gap: 8px;
+  color: #69736c;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.confidence-number input {
+  width: 100%;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fffefa;
+  padding: 0 9px;
+  color: var(--ink);
+  font: inherit;
+}
+
 .facet-list {
   display: grid;
   gap: 6px;
@@ -1208,6 +1239,16 @@ a {
   color: #7a2c1d;
 }
 
+.data-chip.green {
+  background: var(--green-soft);
+  color: #275b30;
+}
+
+.data-chip.blue {
+  background: var(--blue-soft);
+  color: #28456f;
+}
+
 .card-foot {
   display: flex;
   justify-content: space-between;
@@ -1224,6 +1265,11 @@ a {
   gap: 5px;
   color: var(--teal);
   text-decoration: none;
+}
+
+.mini-link.is-disabled {
+  color: var(--muted);
+  cursor: default;
 }
 
 .mini-link svg {
@@ -1392,6 +1438,12 @@ a {
   text-decoration: none;
   font-size: 13px;
   font-weight: 900;
+}
+
+.link-grid a[aria-disabled="true"] {
+  color: var(--muted);
+  background: #f7f4ed;
+  pointer-events: none;
 }
 
 .link-grid svg {

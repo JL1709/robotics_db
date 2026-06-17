@@ -1,0 +1,2511 @@
+[
+  {
+    "company_name": "OLYMPUS TECHNOLOGIES LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://olympustechnologies.co.uk/",
+    "proposed_short_description": "UK robotic welding and automation integrator supplying turnkey industrial robot systems, fixtures, tooling, programming and support.",
+    "evidence_urls": [
+      "https://olympustechnologies.co.uk/",
+      "https://www.automate-uk.com/company-listings/olympus-technologies-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Omnetics Connector Corporation",
+    "country": "United States",
+    "proposed_website_url": "https://www.omnetics.com",
+    "proposed_short_description": "Manufacturer of miniature and nano-miniature high-reliability connectors and cable assemblies used in robotics, aerospace, defense and medical systems.",
+    "evidence_urls": [
+      "https://www.omnetics.com",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "OMRON ELECTRONICS UK LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://industrial.omron.co.uk/en/home",
+    "proposed_short_description": "UK arm of OMRON industrial automation, supplying sensors, controls, safety systems, robotics and factory automation products.",
+    "evidence_urls": [
+      "https://industrial.omron.co.uk/en/home",
+      "https://www.automate-uk.com/company-listings/omron-electronics-uk-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "OPTIMA MACHINERY UK PLC",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.optima-packaging.com/",
+    "proposed_short_description": "Packaging machinery and automation group providing filling, closing, packaging and turnkey production systems for regulated industries.",
+    "evidence_urls": [
+      "https://www.optima-packaging.com/",
+      "https://www.automate-uk.com/company-listings/optima-machinery-uk-plc/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "ORIENTAL MOTOR CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.orientalmotor.com/",
+    "proposed_short_description": "Manufacturer of precision electric motors, actuators, drivers and motion-control products for automation and robotics applications.",
+    "evidence_urls": [
+      "https://www.orientalmotor.com/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "OXFORD ROBOTICS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "OXFORD ROBOTICS LTD appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/72EFC0CA-1C28-4615-9E6A-57A6C43E4FAE"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Paar Autonomy",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Paar Autonomy appears in F6S's India robotics snapshot as a company building perception and autonomy technology for mobile robots.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#paar-autonomy"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "PACE MECHANICAL HANDLING LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.pacepacker.com/",
+    "proposed_short_description": "UK automation supplier of packing, palletising, bagging and robotic handling systems for production and logistics lines.",
+    "evidence_urls": [
+      "https://www.pacepacker.com/",
+      "https://www.automate-uk.com/company-listings/pace-mechanical-handling-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Palmr",
+    "country": "",
+    "proposed_website_url": "https://palmr.ai",
+    "proposed_short_description": "Develops AI-powered palm-scanning and robotics-adjacent perception technology for fast identity and interaction workflows.",
+    "evidence_urls": [
+      "https://palmr.ai",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-10540"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Panasonic Connect Co., Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "https://connect.panasonic.com/en/",
+    "proposed_short_description": "Panasonic business unit providing B2B hardware, software and services for supply chain, manufacturing, media and public-sector operations.",
+    "evidence_urls": [
+      "https://connect.panasonic.com/en/",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "PaXini Perception Technology",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "PaXini Perception Technology is listed by Tech Buzz China as a Dexterous Hand / Gripper company based in Shenzhen, Guangdong with tracked products including DexH13, PX-6AX, and TORA-ONE.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=pacini-perception"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "PAYPER S.A.",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.payper.com/",
+    "proposed_short_description": "Manufacturer of bagging, palletizing and wrapping machinery for bulk solids, powders and granulated products.",
+    "evidence_urls": [
+      "https://www.payper.com/",
+      "https://www.automate-uk.com/company-listings/payper-sa/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "PENN PACKAGING LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.penn-packaging.co.uk/",
+    "proposed_short_description": "UK supplier of packaging machinery, materials and service support for automated packing and production lines.",
+    "evidence_urls": [
+      "https://www.penn-packaging.co.uk/",
+      "https://www.automate-uk.com/company-listings/penn-packaging-limited/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Pentanova CS GmbH",
+    "country": "Germany",
+    "proposed_website_url": "https://www.pentanova.com/en/",
+    "proposed_short_description": "Automation and intralogistics company delivering conveyor, materials-handling and factory automation systems.",
+    "evidence_urls": [
+      "https://www.pentanova.com/en/",
+      "https://service.cemat-asia.com/VSCENTER2/visitor/cemat21/match/exhibitor?lang=zh-CN"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Perforated AI",
+    "country": "United States",
+    "proposed_website_url": "https://www.perforatedai.com",
+    "proposed_short_description": "Develops neural-network optimization software that reduces model size, compute and energy use for AI deployment.",
+    "evidence_urls": [
+      "https://www.perforatedai.com",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "PetroBot Technologies",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "PetroBot Technologies appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#petrobot-technologies"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "PFM PACKAGING MACHINERY LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.pfmuk.com/",
+    "proposed_short_description": "UK supplier of horizontal and vertical flow wrapping, bagging and automated packaging machinery.",
+    "evidence_urls": [
+      "https://www.pfmuk.com/",
+      "https://www.automate-uk.com/company-listings/pfm-packaging-machinery-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Phlux Technologies",
+    "country": "United States",
+    "proposed_website_url": "https://www.phlux.io",
+    "proposed_short_description": "Develops high-performance infrared sensing technology for LiDAR, imaging and industrial sensing applications.",
+    "evidence_urls": [
+      "https://www.phlux.io",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Photron Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.photron.com",
+    "proposed_short_description": "Supplier of high-speed imaging cameras, motion-analysis tools and imaging systems for research and industrial applications.",
+    "evidence_urls": [
+      "https://www.photron.com",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "PHYBOT",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "PHYBOT appears in Humanoid.guide's humanoid robotics directory with PHYBOT C1 and PHYBOT M1 products.",
+    "evidence_urls": [
+      "https://humanoid.guide/product/phybot-c1/"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Piaggio",
+    "country": "Italy",
+    "proposed_website_url": "https://www.piaggiogroup.com",
+    "proposed_short_description": "Italian mobility group behind scooters, motorcycles and light commercial vehicles, with robotics work including the former Piaggio Fast Forward unit.",
+    "evidence_urls": [
+      "https://www.piaggiogroup.com",
+      "https://www.wikidata.org/wiki/Q841263"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "POSITAL",
+    "country": "China",
+    "proposed_website_url": "https://www.posital.com/",
+    "proposed_short_description": "FRABA brand supplying industrial position and motion sensors including encoders, inclinometers and Wiegand sensor technology.",
+    "evidence_urls": [
+      "https://www.posital.com/",
+      "https://service.cemat-asia.com/VSCENTER2/visitor/cemat21/match/exhibitor?lang=zh-CN"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Premier Automation",
+    "country": "United States",
+    "proposed_website_url": "https://premierautomation.com",
+    "proposed_short_description": "Industrial automation distributor and systems provider offering controls, robotics, drives, panels and engineering services.",
+    "evidence_urls": [
+      "https://premierautomation.com",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "PREMIER TECH SYSTEMS AND AUTOMATION",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.ptchronos.com/en-gb",
+    "proposed_short_description": "Premier Tech business supplying packaging, palletizing, weighing and material-handling automation systems.",
+    "evidence_urls": [
+      "https://www.ptchronos.com/en-gb",
+      "https://www.automate-uk.com/company-listings/premier-tech-systems-and-automation/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Prequel Solutions",
+    "country": "United States",
+    "proposed_website_url": "https://prequelsolutions.com",
+    "proposed_short_description": "Technology staffing and consulting firm supporting software, IT and engineering teams in sectors including robotics and automation.",
+    "evidence_urls": [
+      "https://prequelsolutions.com",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Prioria",
+    "country": "United States",
+    "proposed_website_url": "https://www.prioria.com/",
+    "proposed_short_description": "Robotics and unmanned-aircraft company known for the Maveric UAV; public official-site status is unclear.",
+    "evidence_urls": [
+      "https://www.prioria.com/",
+      "https://en.wikipedia.org/wiki/Prioria_(company)",
+      "https://en.wikipedia.org/?curid=16922421"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "Prosperous Robotics",
+    "country": "",
+    "proposed_website_url": "https://www.prosperousrobotics.com",
+    "proposed_short_description": "Robotics startup developing automated systems for agriculture and food-production workflows.",
+    "evidence_urls": [
+      "https://www.prosperousrobotics.com",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-8227"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Puppet Robotics",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Autonomous construction crews that do hazardous work",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/35316"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "PWR PACK LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://pwrpack.com/",
+    "proposed_short_description": "Packaging automation company specializing in robotic pick-and-place, flow wrapping, feeding and vision-guided handling systems.",
+    "evidence_urls": [
+      "https://pwrpack.com/",
+      "https://www.automate-uk.com/company-listings/pwr-pack-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "QDIR",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Thermal cameras for drones",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/36032"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Qianjue Robotics",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Qianjue Robotics is listed by Tech Buzz China as a Shenzhen dexterous-hand and gripper company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=qianjue-robotics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Qianyan Drive",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Qianyan Drive is listed by Tech Buzz China as a Beijing humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=qianyan-drive"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Qingbao Robotics",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Qingbao Robotics is listed by Tech Buzz China as a Shanghai humanoid robotics company working on bipedal walking and cloud robotics.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=qingbao-robotics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "QUANTIFIED ENERGY LABS PTE. LTD.",
+    "country": "Singapore",
+    "proposed_website_url": "https://www.qel.sg/",
+    "proposed_short_description": "Singapore deep-tech company providing drone-enabled electroluminescence inspection and analytics for solar PV assets.",
+    "evidence_urls": [
+      "https://www.qel.sg/",
+      "https://www.startupsg.gov.sg/directory/startups/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "QUEST EQUIPMENT LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.questequipment.co.uk/",
+    "proposed_short_description": "UK supplier of packaging machinery, handling equipment and production-line automation for food and industrial manufacturers.",
+    "evidence_urls": [
+      "https://www.questequipment.co.uk/",
+      "https://www.automate-uk.com/company-listings/quest-equipment-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "QUIN SYSTEMS LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.quinsystems.com/",
+    "proposed_short_description": "UK motion-control and automation company supplying controllers, drives and robotic packaging-machine control systems.",
+    "evidence_urls": [
+      "https://www.quinsystems.com/",
+      "https://www.automate-uk.com/company-listings/quin-systems-limited/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "R U Robots Limited",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "R U Robots Limited appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/46CC7677-5AC5-4696-9AFD-BD06CBE060D3"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "RARUK AUTOMATION",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.rarukautomation.com/",
+    "proposed_short_description": "UK automation distributor supplying collaborative robots, mobile robots, grippers, sensors and industrial automation components.",
+    "evidence_urls": [
+      "https://www.rarukautomation.com/",
+      "https://www.automate-uk.com/company-listings/raruk-automation/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RayLife",
+    "country": "",
+    "proposed_website_url": "https://raylife.co",
+    "proposed_short_description": "Develops healthcare and elder-care technology using robotics and AI to support safer independent living.",
+    "evidence_urls": [
+      "https://raylife.co",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-8188"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Realman Intelligent Technology",
+    "country": "China",
+    "proposed_website_url": "https://www.realman-robotics.com/en/",
+    "proposed_short_description": "Chinese robotics company developing lightweight robotic arms, integrated joints and dexterous hands for embodied AI and automation.",
+    "evidence_urls": [
+      "https://www.realman-robotics.com/en/",
+      "https://robotics.techbuzzchina.com/company.html?id=realman-intelligent"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "ReconRobotics, Inc.",
+    "country": "",
+    "proposed_website_url": "https://reconrobotics.com/",
+    "proposed_short_description": "Develops throwable tactical micro-robots and reconnaissance systems for military, law-enforcement and emergency-response teams.",
+    "evidence_urls": [
+      "https://reconrobotics.com/",
+      "https://www.wikidata.org/wiki/Q7302719"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RECORD PACKAGING SYSTEMS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://recordpackaging.co.uk/",
+    "proposed_short_description": "UK supplier of flow wrapping and automatic packaging systems for food, medical and consumer-goods production.",
+    "evidence_urls": [
+      "https://recordpackaging.co.uk/",
+      "https://www.automate-uk.com/company-listings/record-packaging-systems-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Red Zone Robotics",
+    "country": "",
+    "proposed_website_url": "https://redzone.com/",
+    "proposed_short_description": "Robotics company historically focused on sewer and wastewater inspection robots; official brand status appears unclear.",
+    "evidence_urls": [
+      "https://redzone.com/",
+      "https://gtr.ukri.org/gtr/api/organisations/72C76634-702A-4E57-9F95-335CB92414D1"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "redfly.ai",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Helping Companies Fully Automate their Backend",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/29015"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Redwood Robotics",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Redwood Robotics is listed in Wikidata robotics-industry records, but no current official website was confidently verified.",
+    "evidence_urls": [
+      "https://www.wikidata.org/wiki/Q15702456"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "REECO AUTOMATION LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.reeco.co.uk/",
+    "proposed_short_description": "UK robotic automation integrator delivering palletising, packing, welding and turnkey industrial robot systems.",
+    "evidence_urls": [
+      "https://www.reeco.co.uk/",
+      "https://www.automate-uk.com/company-listings/reeco-automation-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Reis Robotics",
+    "country": "Germany",
+    "proposed_website_url": "https://www.kuka.com/",
+    "proposed_short_description": "German industrial robotics company acquired by KUKA; current official information is under KUKA rather than a standalone Reis site.",
+    "evidence_urls": [
+      "https://www.kuka.com/",
+      "https://en.wikipedia.org/wiki/Reis_Robotics",
+      "https://en.wikipedia.org/?curid=28352523"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "Relay Robotics",
+    "country": "United States",
+    "proposed_website_url": "https://www.relayrobotics.com/",
+    "proposed_short_description": "Builds autonomous service robots for hotel, healthcare and commercial indoor delivery workflows.",
+    "evidence_urls": [
+      "https://www.relayrobotics.com/",
+      "https://www.svrobo.org/membership/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RESOLVE ROBOTICS LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "RESOLVE ROBOTICS LIMITED appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/0BDBCE50-E3CE-4A6F-85FB-50B1D8D490A5"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Retail Robotics Solutions (RRS)",
+    "country": "",
+    "proposed_website_url": "https://rrs-catering.eu",
+    "proposed_short_description": "Develops automated catering and food-service robotics for retail and hospitality environments.",
+    "evidence_urls": [
+      "https://rrs-catering.eu",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-10071"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Rethink公司",
+    "country": "China",
+    "proposed_website_url": "https://rethinkrobotics.com/",
+    "proposed_short_description": "Rethink Robotics develops collaborative robots and is now associated with United Robotics Group.",
+    "evidence_urls": [
+      "https://rethinkrobotics.com/",
+      "https://www.worldrobotconference.com/208/?ext_expo_year=2016"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "revati technologies private limited",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "revati technologies private limited appears in F6S's India robotics companies snapshot as: Autonomous micro electric tractor for small and medium farmers.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#revati-technologies-private-limited"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Rhoman Aerospace",
+    "country": "",
+    "proposed_website_url": "https://www.rhoman.aero",
+    "proposed_short_description": "Aerospace startup developing robotic and autonomous systems for aircraft inspection and maintenance workflows.",
+    "evidence_urls": [
+      "https://www.rhoman.aero",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-7159"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RIVERSIDE FARM JK LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "RIVERSIDE FARM JK LIMITED appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/4626E8FD-E006-4C8C-A35A-2C08134ECF0D"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "RM GROUP UK",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://rmgroupuk.com/",
+    "proposed_short_description": "UK packaging and automation integrator providing robotic palletising, bagging, weighing and material-handling systems.",
+    "evidence_urls": [
+      "https://rmgroupuk.com/",
+      "https://www.automate-uk.com/company-listings/rm-group-uk/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RNA Automation",
+    "country": "Germany; United Kingdom",
+    "proposed_website_url": "http://www.rnaautomation.com",
+    "proposed_short_description": "Automation specialist supplying parts feeding, handling, bowl feeders, linear systems and robotic automation solutions.",
+    "evidence_urls": [
+      "http://www.rnaautomation.com",
+      "https://www.wikidata.org/wiki/Q7277165"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robo Bionics",
+    "country": "India",
+    "proposed_website_url": "https://www.robobionics.in/",
+    "proposed_short_description": "Indian assistive-technology company developing affordable myoelectric prosthetic hands and rehabilitation devices.",
+    "evidence_urls": [
+      "https://www.robobionics.in/",
+      "https://www.f6s.com/companies/robotics/india/co#robo-bionics"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robo Reliance",
+    "country": "United States",
+    "proposed_website_url": "https://www.roboreliance.com",
+    "proposed_short_description": "Robotics company focused on automated systems and services for inspection, security and operational support.",
+    "evidence_urls": [
+      "https://www.roboreliance.com",
+      "https://www.wikidata.org/wiki/Q139565242"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RoboDIB",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "RoboDIB appears in F6S's India robotics snapshot as a robotics and AIoT components company for makers.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#robodib"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Robomow",
+    "country": "",
+    "proposed_website_url": "https://www.robomow.com/",
+    "proposed_short_description": "Manufacturer of robotic lawn mowers and outdoor garden-maintenance robots.",
+    "evidence_urls": [
+      "https://www.robomow.com/",
+      "https://en.wikipedia.org/wiki/Robomow",
+      "https://en.wikipedia.org/?curid=1089165"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Roboneers",
+    "country": "Ukraine",
+    "proposed_website_url": "https://roboneers.net",
+    "proposed_short_description": "Ukrainian robotics company developing unmanned ground vehicles and robotic systems for defense and security applications.",
+    "evidence_urls": [
+      "https://roboneers.net",
+      "https://www.wikidata.org/wiki/Q126519645"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Roborock",
+    "country": "China",
+    "proposed_website_url": "https://global.roborock.com/",
+    "proposed_short_description": "Consumer robotics company producing robotic vacuum cleaners, mops, wet-dry vacuums and smart home cleaning devices.",
+    "evidence_urls": [
+      "https://global.roborock.com/",
+      "https://en.wikipedia.org/?curid=63517158"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "RoboScience",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "RoboScience is listed by Tech Buzz China as a Beijing humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=roboscience"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Robot Aviation (Norway)",
+    "country": "Norway",
+    "proposed_website_url": "http://www.robotaviation.com",
+    "proposed_short_description": "Norwegian unmanned aircraft company developing fixed-wing UAV systems for maritime, defense and commercial missions.",
+    "evidence_urls": [
+      "http://www.robotaviation.com",
+      "https://www.wikidata.org/wiki/Q30259957"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robot on Rails",
+    "country": "",
+    "proposed_website_url": "https://www.robotonrails.com",
+    "proposed_short_description": "Robotics startup developing rail-based automation systems for inspection, manipulation and facility operations.",
+    "evidence_urls": [
+      "https://www.robotonrails.com",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-10258"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "ROBOTEC Co., Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.robotec.co.jp/",
+    "proposed_short_description": "Japanese robotics and automation company supplying robot systems, mechatronics products and engineering services.",
+    "evidence_urls": [
+      "https://www.robotec.co.jp/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robotics (Stealth Mode)",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Robotics (Stealth Mode) appears in F6S's India robotics snapshot as a deep-tech robotics startup.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#robotics-stealth-mode"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Robotics Design Inc.",
+    "country": "Canada",
+    "proposed_website_url": "https://www.roboticsdesign.com/",
+    "proposed_short_description": "Canadian robotics company known for modular robotic arms and industrial automation systems.",
+    "evidence_urls": [
+      "https://www.roboticsdesign.com/",
+      "https://en.wikipedia.org/wiki/Robotics_Design_Inc.",
+      "https://en.wikipedia.org/?curid=24223815"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robowatch",
+    "country": "Germany",
+    "proposed_website_url": "http://www.robowatch.de/",
+    "proposed_short_description": "German robotics company historically focused on mobile service and security robots.",
+    "evidence_urls": [
+      "http://www.robowatch.de/",
+      "https://www.wikidata.org/wiki/Q7418147"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Robsub",
+    "country": "Denmark",
+    "proposed_website_url": "https://robsub.com/",
+    "proposed_short_description": "Danish company developing underwater robotics and automation for inspection and environmental applications.",
+    "evidence_urls": [
+      "https://robsub.com/",
+      "https://www.odenserobotics.dk/members/robsub/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Rorsico Joint Module Technology",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Rorsico Joint Module Technology is listed by Tech Buzz China as a Hangzhou linear-motion and joint-module company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=rorsico-joint"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "ROSS ROBOTICS LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.rossrobotics.co.uk/",
+    "proposed_short_description": "UK developer of modular unmanned ground vehicles and rugged robotic platforms for inspection, security and industrial use.",
+    "evidence_urls": [
+      "https://www.rossrobotics.co.uk/",
+      "https://gtr.ukri.org/gtr/api/organisations/8E278C23-52CF-4158-9E0E-368CCAD0A858"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Rotatum Mechatronics Pvt. Ltd",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Rotatum Mechatronics appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#rotatum-mechatronics-pvt-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Rouchu Robotics",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Rouchu Robotics is listed by Tech Buzz China as a Beijing dexterous-hand and gripper company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=rouchu-robotics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "RUDRAAS DYNAMICS",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "RUDRAAS DYNAMICS appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#rudraas-dynamics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Ruoyu Tech",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Ruoyu Tech is listed by Tech Buzz China as a Beijing humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=ruoyu-tech"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "S engine sales company",
+    "country": "Japan",
+    "proposed_website_url": "https://s-eng.jp",
+    "proposed_short_description": "Japanese supplier listed by JARA, associated with engine, machinery and industrial equipment sales.",
+    "evidence_urls": [
+      "https://s-eng.jp",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Saab-Scania",
+    "country": "",
+    "proposed_website_url": "https://www.saab.com/",
+    "proposed_short_description": "Historic Swedish corporate group; no current standalone Saab-Scania robotics company website exists.",
+    "evidence_urls": [
+      "https://www.saab.com/",
+      "https://en.wikipedia.org/?curid=3829366"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "SAEKI Robotics AG",
+    "country": "Switzerland",
+    "proposed_website_url": "https://www.saeki.ch",
+    "proposed_short_description": "Swiss robotics company building large-scale robotic microfactories for digital manufacturing and construction components.",
+    "evidence_urls": [
+      "https://www.saeki.ch",
+      "https://www.wikidata.org/wiki/Q139596298"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SAGA ROBOTICS LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://sagarobotics.com/",
+    "proposed_short_description": "Agricultural robotics company developing Thorvald autonomous platforms for crop care, harvesting support and field operations.",
+    "evidence_urls": [
+      "https://sagarobotics.com/",
+      "https://gtr.ukri.org/gtr/api/organisations/145A4B36-3447-49D0-AAA9-347F5866FE31"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sagami Chemical Metal Co.,LTD",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sagami-magnet.co.jp/english/",
+    "proposed_short_description": "Japanese manufacturer of magnets and magnetic materials used in motors, sensors and industrial equipment.",
+    "evidence_urls": [
+      "https://www.sagami-magnet.co.jp/english/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sagar Defence Engineering",
+    "country": "India",
+    "proposed_website_url": "https://www.sagardefence.com/",
+    "proposed_short_description": "Indian company developing unmanned marine, aerial and land systems for defense, security and industrial operations.",
+    "evidence_urls": [
+      "https://www.sagardefence.com/",
+      "https://www.f6s.com/companies/robotics/india/co#sagar-defence-engineering"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SAKTHI ROBOTICS AND AUTOMATIONS PVT LTD",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "SAKTHI ROBOTICS AND AUTOMATIONS appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#sakthi-robotics-and-automations-pvt-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SANKI ENGINEERING CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "http://www.sanki.co.jp/en/",
+    "proposed_short_description": "Japanese engineering company providing facilities systems, industrial plant engineering and automation-related services.",
+    "evidence_urls": [
+      "http://www.sanki.co.jp/en/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SANKODENGYO",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sankodengyo.co.jp/",
+    "proposed_short_description": "Japanese electrical and industrial equipment company listed by JARA; English official details are limited.",
+    "evidence_urls": [
+      "https://www.sankodengyo.co.jp/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "SANMEI Co.,LTD.",
+    "country": "Japan",
+    "proposed_website_url": null,
+    "proposed_short_description": "SANMEI Co., LTD. is listed by JARA as a corporate supporting member; no official website was confidently verified.",
+    "evidence_urls": [
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Sanmei Mechanical Inc.",
+    "country": "Japan",
+    "proposed_website_url": "http://sanmei-kikou.co.jp/english/",
+    "proposed_short_description": "Official website identified for Sanmei Mechanical Inc.; description not confidently expanded beyond source records.",
+    "evidence_urls": [
+      "http://sanmei-kikou.co.jp/english/",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 60,
+    "status": "uncertain",
+    "notes": "Existing website retained, but prior validation status was not verified."
+  },
+  {
+    "company_name": "SANSHU-DENSEN",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sanshu-densen.co.jp/",
+    "proposed_short_description": "Japanese cable and wire manufacturer listed by JARA; English official details are limited.",
+    "evidence_urls": [
+      "https://www.sanshu-densen.co.jp/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "SANYO DENKI CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sanyodenki.com/index.html",
+    "proposed_short_description": "Japanese manufacturer of cooling fans, servo systems, stepper systems and power equipment for industrial automation.",
+    "evidence_urls": [
+      "https://www.sanyodenki.com/index.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sarcos",
+    "country": "United States",
+    "proposed_website_url": "https://www.palladyneai.com",
+    "proposed_short_description": "Palladyne AI, formerly Sarcos Technology and Robotics, develops AI software for robotic systems and industrial automation.",
+    "evidence_urls": [
+      "https://www.palladyneai.com",
+      "https://www.wikidata.org/wiki/Q2747818"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sastra Robotics",
+    "country": "India",
+    "proposed_website_url": "https://sastrarobotics.com/",
+    "proposed_short_description": "Indian robotics and AI company building automated test systems and robotic platforms for electronics and industrial customers.",
+    "evidence_urls": [
+      "https://sastrarobotics.com/",
+      "https://en.wikipedia.org/wiki/Sastra_Robotics",
+      "https://en.wikipedia.org/?curid=54404643"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Satori E-Technology (America)",
+    "country": "United States",
+    "proposed_website_url": "https://www.satori.co.jp/english.html",
+    "proposed_short_description": "Satori group company supplying electronics, embedded systems, semiconductors and technology products for industrial customers.",
+    "evidence_urls": [
+      "https://www.satori.co.jp/english.html",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Scalvy",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Providing Scalable Electrification Solutions to Automotive Companies Suffering from Slow Development, and a Complex Supply Chain",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/25537"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SCHUBERT UK LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.schubert.group/en/uk/",
+    "proposed_short_description": "UK arm of Schubert, supplying modular robotic packaging machines and automated packaging lines.",
+    "evidence_urls": [
+      "https://www.schubert.group/en/uk/",
+      "https://www.automate-uk.com/company-listings/schubert-uk-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SCHUNK Intec. K.K.",
+    "country": "Japan",
+    "proposed_website_url": "https://schunk.com/jp/en",
+    "proposed_short_description": "Japanese subsidiary of SCHUNK supplying gripping systems, clamping technology and automation components.",
+    "evidence_urls": [
+      "https://schunk.com/jp/en",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SCIBOTICS LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "SCIBOTICS LIMITED appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/087A831C-87F1-4034-9240-C52D58175339"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SciRobotics",
+    "country": "Israel",
+    "proposed_website_url": "https://scirobotics.com",
+    "proposed_short_description": "Develops autonomous laboratory and life-science robotics for sample handling and scientific workflows.",
+    "evidence_urls": [
+      "https://scirobotics.com",
+      "https://www.wikidata.org/wiki/Q131599873"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SCM HANDLING LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.scmhandling.com/",
+    "proposed_short_description": "UK supplier of material-handling, conveyor, palletising and packaging automation systems.",
+    "evidence_urls": [
+      "https://www.scmhandling.com/",
+      "https://www.automate-uk.com/company-listings/scm-handling-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SCOTT AUTOMATION LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.scottautomation.com/",
+    "proposed_short_description": "Global automation company delivering robotic systems, materials handling, meat processing automation and industrial solutions.",
+    "evidence_urls": [
+      "https://www.scottautomation.com/",
+      "https://www.automate-uk.com/company-listings/scott-automation-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SDTech Robotics",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "SDTech Robotics appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#sdtech-robotics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SEALPAC UK & PARTNERS",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.sealpac-uk.com/",
+    "proposed_short_description": "UK supplier of traysealing, thermoforming and packaging machinery for food production lines.",
+    "evidence_urls": [
+      "https://www.sealpac-uk.com/",
+      "https://www.automate-uk.com/company-listings/sealpac-uk-partners/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SEIKO EPSON CORPORATION",
+    "country": "Japan",
+    "proposed_website_url": "https://www.epson.com",
+    "proposed_short_description": "Global technology company producing printers, projectors, sensors and industrial robots including SCARA and six-axis robots.",
+    "evidence_urls": [
+      "https://www.epson.com",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SEIWA ELECTRIC MFG. CO.,LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.seiwa.co.jp/en/",
+    "proposed_short_description": "Japanese manufacturer of information display, lighting, mechatronics and industrial electronic equipment.",
+    "evidence_urls": [
+      "https://www.seiwa.co.jp/en/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SENJU METAL INDUSTRY CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "http://www.senju-m.co.jp/en/index.html",
+    "proposed_short_description": "Japanese manufacturer of soldering materials, factory automation equipment and related electronics manufacturing technologies.",
+    "evidence_urls": [
+      "http://www.senju-m.co.jp/en/index.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Senodia",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Senodia is listed by Tech Buzz China as a Bengbu sensor and perception company developing MEMS inertial sensors.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=senodia"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Sensory Robotics",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Sensory Robotics is listed by Alchemist as working on safety systems and computer vision for factories.",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/22380"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SESTO ROBOTICS PTE. LTD.",
+    "country": "Singapore",
+    "proposed_website_url": "https://www.sestorobotics.com/",
+    "proposed_short_description": "Singapore AMR company developing autonomous mobile robots and automated guided vehicles for manufacturing and logistics.",
+    "evidence_urls": [
+      "https://www.sestorobotics.com/",
+      "https://www.startupsg.gov.sg/directory/startups/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SF ENGINEERING",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://sfengineering.ie/",
+    "proposed_short_description": "Food production automation company designing processing, handling, packing and robotic systems for manufacturers.",
+    "evidence_urls": [
+      "https://sfengineering.ie/",
+      "https://www.automate-uk.com/company-listings/sf-engineering/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SGS Japan Inc.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sgsgroup.jp/en",
+    "proposed_short_description": "Japanese arm of SGS providing testing, inspection, certification and technical services for industrial markets.",
+    "evidence_urls": [
+      "https://www.sgsgroup.jp/en",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Shanchuan Harmonic",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shanchuan Harmonic is listed by Tech Buzz China as a Hangzhou motor and drive company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shanchuan-harmonic"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shanghai Banxing Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shanghai Banxing is listed by Tech Buzz China as a humanoid robotics company developing Elf-series robots, joint motors and dexterous hands.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shanghai-banxing"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shanghai Kuilai Enterprise Development Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shanghai Kuilai is listed by Tech Buzz China as a bearing company supplying TPI, NTN and custom bearing application services.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shanghai-kuilai"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shanghai Matrix Robotics System Integration Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shanghai Matrix Robotics is listed by Tech Buzz China as a Shanghai humanoid robot system-integration company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shanghai-matrix-robotics-system-integration-co-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Sheffield Robotics",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "Sheffield Robotics appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/1CE9E538-4290-4A21-82FE-ED0277EB8B6D"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shengji Miaosuan",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shengji Miaosuan is listed by Tech Buzz China as a Shanghai humanoid robotics company developing rope-driven dexterous hands and AI tools.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shengji-miaosuan"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenqiong Xinghe",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenqiong Xinghe is listed by Tech Buzz China as a Shanghai embodied-intelligence and humanoid-face technology company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenqiong-xinghe"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Charming Tech Ltd",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Charming Tech is listed by Tech Buzz China as a Shenzhen robot maker and integrator for service, industrial and AI hardware robots.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=charming-tech"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Gaodecheng Intelligent Co. Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Gaodecheng Intelligent is listed by Tech Buzz China as a Shenzhen servo and robot-component company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-gaodecheng"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Inovance Technology Co., Ltd",
+    "country": "China",
+    "proposed_website_url": "http://www.inovance.cn",
+    "proposed_short_description": "Chinese industrial automation company supplying drives, motors, controls, robots and motion-control systems.",
+    "evidence_urls": [
+      "http://www.inovance.cn",
+      "https://www.wikidata.org/wiki/Q22098886"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Shenzhen Lingpeng Intelligent Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Lingpeng is listed by Tech Buzz China as a Shenzhen humanoid robotics and dexterous-hand company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-lingpeng"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Picea Robotics",
+    "country": "China",
+    "proposed_website_url": "https://www.picea-robotics.com/",
+    "proposed_short_description": "Chinese robotics company developing household and commercial cleaning robots under the Picea Robotics brand.",
+    "evidence_urls": [
+      "https://www.picea-robotics.com/",
+      "https://en.wikipedia.org/?curid=81864863"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Shenzhen Tianyuanxing Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Tianyuanxing is listed by Tech Buzz China as a Shenzhen humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-tianyuanxing-technology-co-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Woer Intelligent Equipment Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Woer Intelligent Equipment is listed by Tech Buzz China as a cable, connector and industrial automation solutions company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-woer-equipment"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Xindahua Intelligent Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Xindahua is listed by Tech Buzz China as a motor, fan, connector and sensor supplier.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-xindahua"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shenzhen Yuqing Intelligent Technology Co. Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shenzhen Yuqing Intelligent Technology is listed by Tech Buzz China as a motor and drive company in a robotics exhibition context.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shenzhen-yuqing"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SHIBAURA MACHINE CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.shibaura-machine.co.jp/en/",
+    "proposed_short_description": "Japanese manufacturer of machine tools, injection molding machines, die-casting machines and industrial robots.",
+    "evidence_urls": [
+      "https://www.shibaura-machine.co.jp/en/",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "ShinMaywa Industries, Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.shinmaywa.co.jp/english/index.html",
+    "proposed_short_description": "Japanese industrial company producing aircraft, special-purpose trucks, fluid systems, parking systems and related machinery.",
+    "evidence_urls": [
+      "https://www.shinmaywa.co.jp/english/index.html",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Shinohara Press Service Co.,Ltd.",
+    "country": "Japan",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shinohara Press Service is listed by JARA as a corporate supporting member; no official website was confidently verified.",
+    "evidence_urls": [
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shouzhi Innovation",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shouzhi Innovation is listed by Tech Buzz China as a Wuhan humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=shouzhi-innovation"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shri Awadhesh Pachouri Automations Pvt.",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shri Awadhesh Pachouri Automations appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#shri-awadhesh-pachouri-automations-pvt"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Shrike AI",
+    "country": "United States",
+    "proposed_website_url": "https://www.shrike.ai",
+    "proposed_short_description": "AI company developing autonomous inspection and perception software for robotics and industrial workflows.",
+    "evidence_urls": [
+      "https://www.shrike.ai",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Shutoko Engineering Company",
+    "country": "Japan",
+    "proposed_website_url": null,
+    "proposed_short_description": "Shutoko Engineering Company is listed by JARA as a corporate supporting member; no official website was confidently verified.",
+    "evidence_urls": [
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Sichuan Quansheng Intelligent Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Sichuan Quansheng is listed by Tech Buzz China as a robot maker and integrator for intelligent cleaning robots and smart-home devices.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=sichuan-quansheng"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SIDEL UK LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.sidel.com/",
+    "proposed_short_description": "Packaging and production-line company supplying complete systems for beverage, food, home and personal-care manufacturers.",
+    "evidence_urls": [
+      "https://www.sidel.com/",
+      "https://www.automate-uk.com/company-listings/sidel-uk-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SINGA ROBOTICS PTE. LTD.",
+    "country": "Singapore",
+    "proposed_website_url": "https://singarobotics.com/",
+    "proposed_short_description": "Singapore robotics company developing service and cleaning robot solutions.",
+    "evidence_urls": [
+      "https://singarobotics.com/",
+      "https://www.startupsg.gov.sg/directory/startups/"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "SKEYEBOTS PRIVATE LIMITED",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "SKEYEBOTS PRIVATE LIMITED appears in F6S's India robotics companies snapshot as: Robotics and AI company building autonomous systems for defense and disaster response.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#skeyebots-private-limited"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Skilancer Solar Pvt. Ltd.",
+    "country": "India",
+    "proposed_website_url": "https://www.skilancer.com/",
+    "proposed_short_description": "Indian company developing autonomous solar-panel cleaning robots and services for photovoltaic plants.",
+    "evidence_urls": [
+      "https://www.skilancer.com/",
+      "https://www.f6s.com/companies/robotics/india/co#skilancer-solar-pvt-ltd"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Skycharge",
+    "country": "Germany",
+    "proposed_website_url": "https://www.skycharge.de/",
+    "proposed_short_description": "Develops charging infrastructure and docking systems for drones and autonomous aerial operations.",
+    "evidence_urls": [
+      "https://www.skycharge.de/",
+      "https://www.techstars.com/portfolio"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "skyfly aviations",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "skyfly aviations appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#skyfly-aviations"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "SmartDrone",
+    "country": "",
+    "proposed_website_url": "https://www.smartdrone.com",
+    "proposed_short_description": "Drone technology company offering unmanned aerial systems, data capture and autonomous flight solutions.",
+    "evidence_urls": [
+      "https://www.smartdrone.com",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-9788"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SMFL Rental Company,Limited",
+    "country": "Japan",
+    "proposed_website_url": "https://www.smfl-r.co.jp/english/",
+    "proposed_short_description": "Japanese equipment rental company offering industrial machinery, ICT devices and business equipment rental services.",
+    "evidence_urls": [
+      "https://www.smfl-r.co.jp/english/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SMITH ROBOTICS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "SMITH ROBOTICS LTD appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/30646A24-B2BA-4E70-9314-5CE1A84E274C"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Smoodi",
+    "country": "United States",
+    "proposed_website_url": "https://www.getsmoodi.com",
+    "proposed_short_description": "Food robotics company providing automated smoothie kiosks for retail, food-service and workplace locations.",
+    "evidence_urls": [
+      "https://www.getsmoodi.com",
+      "https://www.wikidata.org/wiki/Q138655908"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Social Glass",
+    "country": "United States",
+    "proposed_website_url": null,
+    "proposed_short_description": "Social Glass is listed by Alchemist as a government marketplace for small purchases under $10K.",
+    "evidence_urls": [
+      "https://vault.alchemistaccelerator.com/api/v1/companies/17272"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Software Design Solutions",
+    "country": "United States",
+    "proposed_website_url": "https://teamsds.com",
+    "proposed_short_description": "Embedded software and product-development consultancy serving robotics, IoT, medical and industrial technology companies.",
+    "evidence_urls": [
+      "https://teamsds.com",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Solavio labs",
+    "country": "India",
+    "proposed_website_url": "https://www.solavio.com/",
+    "proposed_short_description": "Indian company developing robotic and waterless cleaning systems for solar photovoltaic panels.",
+    "evidence_urls": [
+      "https://www.solavio.com/",
+      "https://www.f6s.com/companies/robotics/india/co#solavio-labs"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Solenica",
+    "country": "Italy",
+    "proposed_website_url": "https://solenica.com/",
+    "proposed_short_description": "Italian smart-home robotics company known for Lucy, a solar-powered daylighting robot for indoor spaces.",
+    "evidence_urls": [
+      "https://solenica.com/",
+      "https://www.techstars.com/portfolio"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SOLENT AUTOMATION LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.solentautomation.co.uk/",
+    "proposed_short_description": "UK automation integrator providing robotic handling, conveyors, packaging systems and bespoke production-line machinery.",
+    "evidence_urls": [
+      "https://www.solentautomation.co.uk/",
+      "https://www.automate-uk.com/company-listings/solent-automation-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SOVEREIGN LABELLING MACHINES LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.sovereign-labelling.co.uk/",
+    "proposed_short_description": "UK manufacturer of self-adhesive labelling machines and automated labeling systems for packaging lines.",
+    "evidence_urls": [
+      "https://www.sovereign-labelling.co.uk/",
+      "https://www.automate-uk.com/company-listings/sovereign-labelling-machines-limited/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Spaceo Pro MUKS",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Spaceo Pro MUKS appears in Humanoid.guide's humanoid robotics directory with Spaceo M1 and Spaceo Pro products.",
+    "evidence_urls": [
+      "https://humanoid.guide/product/spaceo-m1/"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Spitze Aerospace Private Limited",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Spitze Aerospace Private Limited appears in F6S's India robotics companies snapshot as: Autonomous smart drone with computer vision for precision agriculture.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#spitze-aerospace-private-limited"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Sprint Robotics",
+    "country": "",
+    "proposed_website_url": "https://sprintrobotics.org/",
+    "proposed_short_description": "Industry association promoting robotics for inspection, maintenance and repair in capital-intensive infrastructure sectors.",
+    "evidence_urls": [
+      "https://sprintrobotics.org/",
+      "https://gtr.ukri.org/gtr/api/organisations/ADDBFB02-8251-493E-862E-B53C0A78493C"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Squishy Robotics",
+    "country": "",
+    "proposed_website_url": "https://squishyrobotics.com/",
+    "proposed_short_description": "Develops rapidly deployable sensor robots for emergency response, hazardous materials incidents and industrial safety.",
+    "evidence_urls": [
+      "https://squishyrobotics.com/",
+      "https://skydeck.berkeley.edu/companies/squishy-robotics-2/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SrishtiRobotics Technologies Pvt. Ltd.",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "SrishtiRobotics Technologies Pvt. Ltd. appears in F6S's India robotics companies snapshot as: Robotics, embedded systems, industrial automation, and robotics education.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#srishtirobotics-technologies-pvt-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "ST ROBOTICS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.strobotics.com/",
+    "proposed_short_description": "Supplier of low-cost bench-top and industrial robot arms, controllers and automation systems.",
+    "evidence_urls": [
+      "https://www.strobotics.com/",
+      "https://gtr.ukri.org/gtr/api/organisations/CF140DD1-7A7F-4473-BAD1-7E374D6F2DFB"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Stability Robotics",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Stability Robotics appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#stability-robotics"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "STAR SEIKI Co.,Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "http://www.stertec.co.jp/~star/us/index.html",
+    "proposed_short_description": "Official website identified for STAR SEIKI Co.,Ltd.; description not confidently expanded beyond source records.",
+    "evidence_urls": [
+      "http://www.stertec.co.jp/~star/us/index.html",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 82,
+    "status": "accepted",
+    "notes": "Existing verified website retained; description kept conservative."
+  },
+  {
+    "company_name": "Stäubli",
+    "country": "",
+    "proposed_website_url": "https://www.staubli.com/",
+    "proposed_short_description": "Global mechatronics company supplying industrial robots, textile machinery, electrical connectors and fluid connectors.",
+    "evidence_urls": [
+      "https://www.staubli.com/",
+      "https://en.wikipedia.org/?curid=23252946"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "STÄUBLI (UK) LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.staubli.com/gb/en/robotics.html",
+    "proposed_short_description": "UK presence of Stäubli Robotics, supplying SCARA, six-axis and mobile robot systems for industrial automation.",
+    "evidence_urls": [
+      "https://www.staubli.com/gb/en/robotics.html",
+      "https://www.automate-uk.com/company-listings/stubli-uk-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "STECK DEPOSITORS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.steckdepositors.com/",
+    "proposed_short_description": "UK manufacturer of depositors and automated filling equipment for food and bakery production lines.",
+    "evidence_urls": [
+      "https://www.steckdepositors.com/",
+      "https://www.automate-uk.com/company-listings/steck-depositors-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Steve Sulu.be humanoid robot",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "Steve appears in Humanoid.guide's humanoid robotics directory as a Sulu.be humanoid robot product.",
+    "evidence_urls": [
+      "https://humanoid.guide/product/steve/"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "STRANGE THOUGHTS LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": null,
+    "proposed_short_description": "STRANGE THOUGHTS LTD appears in UKRI Gateway to Research robotics organisation records.",
+    "evidence_urls": [
+      "https://gtr.ukri.org/gtr/api/organisations/C212429F-F774-4404-B761-C3C79E18F972"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Strength Robotics",
+    "country": "",
+    "proposed_website_url": "https://strengthrobotics.ai",
+    "proposed_short_description": "Robotics startup developing strength-assistance and physical AI systems for industrial and human-support applications.",
+    "evidence_urls": [
+      "https://strengthrobotics.ai",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-10239"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Stride Dynamics",
+    "country": "India",
+    "proposed_website_url": "https://stridedynamics.com/",
+    "proposed_short_description": "Indian startup developing autonomous aerial systems and drone technology.",
+    "evidence_urls": [
+      "https://stridedynamics.com/",
+      "https://www.f6s.com/companies/robotics/india/co#stride-dynamics"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sudoyantra India Private Limited",
+    "country": "India",
+    "proposed_website_url": "https://sudoyantra.com/",
+    "proposed_short_description": "Indian company developing autonomous solar-panel cleaning robots for utility-scale photovoltaic installations.",
+    "evidence_urls": [
+      "https://sudoyantra.com/",
+      "https://www.f6s.com/companies/robotics/india/co#sudoyantra-india-private-limited"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SUGATSUNE KOGYO CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://global.sugatsune.com/location",
+    "proposed_short_description": "Japanese manufacturer of industrial hardware, motion components and architectural fittings used in machinery and equipment.",
+    "evidence_urls": [
+      "https://global.sugatsune.com/location",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sugino Machine Limited",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sugino.com/index-e.html",
+    "proposed_short_description": "Japanese manufacturer of high-pressure water systems, machine tools, cleaning machines and industrial automation equipment.",
+    "evidence_urls": [
+      "https://www.sugino.com/index-e.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Sumitomo Heavy Industries, Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "http://www.sumitomodrive.com/country_select.php",
+    "proposed_short_description": "Industrial machinery group supplying power transmission, motion-control, precision machinery and automation-related products.",
+    "evidence_urls": [
+      "http://www.sumitomodrive.com/country_select.php",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SUN-WA Technos Corporation",
+    "country": "Japan",
+    "proposed_website_url": "https://www.sunwa.co.jp/en/index.html",
+    "proposed_short_description": "Japanese technology trading company supplying electrical, electronics and machinery products for industrial automation.",
+    "evidence_urls": [
+      "https://www.sunwa.co.jp/en/index.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SUNMECHANIC CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": null,
+    "proposed_short_description": "SUNMECHANIC is listed by JARA as a corporate supporting member; no official website was confidently verified.",
+    "evidence_urls": [
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Superpedestrian",
+    "country": "",
+    "proposed_website_url": "https://content.superpedestrian.com",
+    "proposed_short_description": "Mobility technology company formerly operating LINK shared e-scooters and vehicle intelligence systems.",
+    "evidence_urls": [
+      "https://content.superpedestrian.com",
+      "https://www.wikidata.org/wiki/Q43082774"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Suzhou Apache Robot",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Suzhou Apache Robot is listed by Tech Buzz China as a Suzhou AI and robot-control software company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=apache-robot"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Suzhou Bearing (Suzhou Shaft)",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Suzhou Bearing is listed by Tech Buzz China as a bearing company producing needle, cross-roller and cylindrical roller bearings.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=suzhou-bearing"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Suzhou Mengwu Intelligent Technology Co., Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Suzhou Mengwu is listed by Tech Buzz China as a Suzhou humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=suzhou-mengwu-intelligent-technology-co-ltd"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Suzhou Xiaozhu Intelligent Robot Co. Ltd.",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Suzhou Xiaozhu Intelligent Robot is listed by Tech Buzz China as a Suzhou humanoid robotics software and control company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=suzhou-xiaozhu-robot"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Synopsys, Inc.",
+    "country": "China",
+    "proposed_website_url": "https://www.synopsys.com/",
+    "proposed_short_description": "Electronic design automation and semiconductor IP company providing software used to design chips and intelligent systems.",
+    "evidence_urls": [
+      "https://www.synopsys.com/",
+      "https://robotics.techbuzzchina.com/company.html?id=synopsys"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "SYNTEGON TECHNOLOGY LIMITED",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.syntegon.com/",
+    "proposed_short_description": "Packaging and processing technology company supplying automated machinery for food and pharmaceutical manufacturers.",
+    "evidence_urls": [
+      "https://www.syntegon.com/",
+      "https://www.automate-uk.com/company-listings/syntegon-technology-limited/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Synthium",
+    "country": "",
+    "proposed_website_url": "https://www.synthium.xyz",
+    "proposed_short_description": "Robotics and AI startup developing synthetic-data and simulation tools for embodied AI systems.",
+    "evidence_urls": [
+      "https://www.synthium.xyz",
+      "https://www.massrobotics.org/startups/massrobotics-resident-startups/#post-8777"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Systemantics",
+    "country": "India",
+    "proposed_website_url": "https://systemantics.com/",
+    "proposed_short_description": "Indian robotics company designing and manufacturing collaborative robots and industrial automation systems.",
+    "evidence_urls": [
+      "https://systemantics.com/",
+      "https://www.f6s.com/companies/robotics/india/co#systemantics"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Taiga Robotics",
+    "country": "",
+    "proposed_website_url": "https://www.taigarobotics.com/",
+    "proposed_short_description": "Robotics startup listed by Berkeley SkyDeck; official-site identity is plausible but not fully disambiguated.",
+    "evidence_urls": [
+      "https://www.taigarobotics.com/",
+      "https://skydeck.berkeley.edu/companies/taiga-robotics/"
+    ],
+    "confidence": 62,
+    "status": "uncertain",
+    "notes": "Plausible official or successor page found, but identity, current status, or standalone-company continuity is uncertain."
+  },
+  {
+    "company_name": "Taisei Corporation",
+    "country": "Japan",
+    "proposed_website_url": "http://www.taisei.co.jp/english/index.html",
+    "proposed_short_description": "Japanese construction and civil-engineering company developing automation and robotics for construction sites.",
+    "evidence_urls": [
+      "http://www.taisei.co.jp/english/index.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "TAISEI INDUSTRY CO., LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.taisei-industry.co.jp/en/",
+    "proposed_short_description": "Japanese manufacturer of filters, hydraulic accessories and industrial components for machinery and automation equipment.",
+    "evidence_urls": [
+      "https://www.taisei-industry.co.jp/en/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Taiyo Cable Tech Co., Ltd.",
+    "country": "Japan",
+    "proposed_website_url": "http://en.taiyocable.com",
+    "proposed_short_description": "Japanese manufacturer of industrial cables, robot cables and wiring products for factory automation.",
+    "evidence_urls": [
+      "http://en.taiyocable.com",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "TAKAMARU ENGINEERS CO.,LTD.",
+    "country": "Japan",
+    "proposed_website_url": "https://www.takamaru.com/english/",
+    "proposed_short_description": "Japanese robot system integrator providing robotic automation, welding and handling systems.",
+    "evidence_urls": [
+      "https://www.takamaru.com/english/",
+      "https://www.jara.jp/e/list/regular.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "TAKENAKA CORPORATION",
+    "country": "Japan",
+    "proposed_website_url": "http://www.takenaka.co.jp/takenaka_e/index.html",
+    "proposed_short_description": "Japanese architecture, engineering and construction company using advanced construction automation and robotics technologies.",
+    "evidence_urls": [
+      "http://www.takenaka.co.jp/takenaka_e/index.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Tangwen Zhixin",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Tangwen Zhixin is listed by Tech Buzz China as a Beijing humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=tangwen-zhixin"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "TARS",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "TARS appears in Humanoid.guide's humanoid robotics product directory.",
+    "evidence_urls": [
+      "https://humanoid.guide/product/tars/"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Tashi Intelligent",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "Tashi Intelligent is listed by Tech Buzz China as a Hangzhou humanoid robotics company.",
+    "evidence_urls": [
+      "https://robotics.techbuzzchina.com/company.html?id=tashi-intelligent"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "TAVIL IND, S.A.U.",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://www.tavil.com/",
+    "proposed_short_description": "Manufacturer of end-of-line packaging automation, palletizing systems and box handling machinery.",
+    "evidence_urls": [
+      "https://www.tavil.com/",
+      "https://www.automate-uk.com/company-listings/tavil-ind-sau/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "TDK-Lambda Corporation",
+    "country": "Japan",
+    "proposed_website_url": "https://www.jp.lambda.tdk.com/en/",
+    "proposed_short_description": "TDK group company manufacturing power supplies and power conversion products for industrial and automation systems.",
+    "evidence_urls": [
+      "https://www.jp.lambda.tdk.com/en/",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Techman",
+    "country": "",
+    "proposed_website_url": "https://www.tm-robot.com/en/",
+    "proposed_short_description": "Taiwanese collaborative robot manufacturer producing AI-enabled cobots, vision systems and automation software.",
+    "evidence_urls": [
+      "https://www.tm-robot.com/en/",
+      "https://en.wikipedia.org/wiki/Techman"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Techno Orchard LLP",
+    "country": "India",
+    "proposed_website_url": null,
+    "proposed_short_description": "Techno Orchard LLP appears in F6S's India robotics companies snapshot.",
+    "evidence_urls": [
+      "https://www.f6s.com/companies/robotics/india/co#techno-orchard-llp"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Technosoft Motion Technology",
+    "country": "United States",
+    "proposed_website_url": "https://technosoftmotion.com/en/home/",
+    "proposed_short_description": "Motion-control company supplying intelligent drives, motors and servo control products for robotics and automation.",
+    "evidence_urls": [
+      "https://technosoftmotion.com/en/home/",
+      "https://www.robopgh.org/about/members"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Tekceleo",
+    "country": "France",
+    "proposed_website_url": "http://www.tekceleo.com",
+    "proposed_short_description": "French mechatronics company developing compact electric actuators, grippers and motion systems for robotics.",
+    "evidence_urls": [
+      "http://www.tekceleo.com",
+      "https://www.wikidata.org/wiki/Q61933200"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "Tekntrash",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "Tekntrash appears in Humanoid.guide's humanoid robotics directory with product ALPHA.",
+    "evidence_urls": [
+      "https://humanoid.guide/product/alpha/"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "TEKPAK AUTOMATION LTD",
+    "country": "United Kingdom",
+    "proposed_website_url": "https://tekpakautomation.com/",
+    "proposed_short_description": "Irish automation integrator building robotic pick-and-place, packaging and vision systems for production lines.",
+    "evidence_urls": [
+      "https://tekpakautomation.com/",
+      "https://www.automate-uk.com/company-listings/tekpak-automation-ltd/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  },
+  {
+    "company_name": "TEL：+81-3-3434-2919&ensp;|&ensp;FAX：+81-3-3578-1404",
+    "country": "Japan",
+    "proposed_website_url": null,
+    "proposed_short_description": "This appears to be a phone/fax line accidentally ingested from the JARA member list, not a company name.",
+    "evidence_urls": [
+      "https://www.jara.jp/e/list/regular.html",
+      "https://www.jara.jp/e/list/supporting.html"
+    ],
+    "confidence": 35,
+    "status": "not_found",
+    "notes": "No high-confidence official company website found; evidence is directory or source-record provenance only."
+  },
+  {
+    "company_name": "Tensorfield Agriculture",
+    "country": "United States",
+    "proposed_website_url": "https://www.tensorfield.ag/",
+    "proposed_short_description": "Agricultural robotics company developing precision weeding and crop-care systems using vision and micro-fluidics.",
+    "evidence_urls": [
+      "https://www.tensorfield.ag/",
+      "https://vault.alchemistaccelerator.com/api/v1/companies/22852"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official company, parent, or business page identified with high confidence."
+  }
+]

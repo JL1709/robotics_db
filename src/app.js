@@ -16,6 +16,15 @@ const RESULT_PAGE_SIZE = 72;
 const TEXT_INPUT_RENDER_DELAY = 160;
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 430;
+const BAD_WEBSITE_STATUSES = new Set([
+  "missing",
+  "invalid_url",
+  "local_url",
+  "directory_profile_url",
+  "broken",
+  "parked_or_for_sale",
+  "not_found",
+]);
 
 const MAP_COUNTRY_ALIASES = new Map([
   ["United States", "United States of America"],
@@ -40,6 +49,7 @@ const state = {
   search: "",
   facets: Object.fromEntries(FACETS.map((facet) => [facet.key, new Set()])),
   facetSearch: Object.fromEntries(FACETS.map((facet) => [facet.key, ""])),
+  websiteConfidenceMin: 0,
   yearMode: "modern",
   yearFrom: null,
   yearTo: null,
@@ -118,6 +128,7 @@ function normalizeCompany(company) {
   normalized.product_type = Array.isArray(company.product_type)
     ? company.product_type
     : [];
+  normalized.website_confidence_score = getWebsiteConfidenceScore(company);
   normalized.founded =
     typeof company.founded === "number" && Number.isFinite(company.founded)
       ? company.founded
@@ -127,6 +138,14 @@ function normalizeCompany(company) {
     company.company_name,
     company.short_description,
     company.website_url,
+    company.website_status,
+    company.website_final_url,
+    company.website_validation_notes,
+    company.candidate_website_url,
+    company.candidate_short_description,
+    company.candidate_status,
+    company.candidate_notes,
+    `website confidence ${normalized.website_confidence_score}`,
     company.linkedin_url,
     company.city,
     normalized.country.join(" "),
@@ -253,10 +272,33 @@ function renderFilters(filtered) {
             </div>
           </section>
 
+          ${renderWebsiteConfidenceFilter()}
           ${FACETS.map((facet) => renderFacet(facet)).join("")}
         </div>
       </div>
     </aside>
+  `;
+}
+
+function renderWebsiteConfidenceFilter() {
+  const value = state.websiteConfidenceMin;
+  return `
+    <section class="filter-section">
+      <div class="section-head">
+        <h3>Website confidence</h3>
+        <div class="section-actions">
+          ${value ? `<button class="tiny-button" id="clear-website-confidence" type="button">Clear</button>` : ""}
+          <span class="count-pill">${value}+</span>
+        </div>
+      </div>
+      <div class="confidence-control">
+        <input id="website-confidence-range" type="range" min="0" max="100" step="5" value="${value}" aria-label="Minimum website confidence" />
+        <label class="confidence-number">
+          <span>Minimum</span>
+          <input id="website-confidence-min" type="number" min="0" max="100" step="1" value="${value}" aria-label="Minimum website confidence value" />
+        </label>
+      </div>
+    </section>
   `;
 }
 
@@ -277,7 +319,7 @@ function renderFacet(facet) {
   const counts = facetCounts(facet.key);
   const options = [...counts.entries()]
     .filter(([value]) => !search || value.toLowerCase().includes(search))
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .sort((a, b) => sortFacetOptions(facet.key, a, b))
     .slice(0, selected.size > 0 ? Math.max(facet.limit, selected.size) : facet.limit);
 
   const selectedOptions = [...selected]
@@ -579,6 +621,7 @@ function getActiveFilterCount() {
   let count = 0;
   if (state.search.trim()) count += 1;
   if (state.yearMode !== "all") count += 1;
+  if (state.websiteConfidenceMin > 0) count += 1;
   for (const facet of FACETS) count += state.facets[facet.key].size;
   return count;
 }
@@ -596,6 +639,13 @@ function renderActiveFilters() {
     groups.push({
       label: "Founded",
       values: [{ label: getYearFilterValueLabel(), action: "year" }],
+    });
+  }
+
+  if (state.websiteConfidenceMin > 0) {
+    groups.push({
+      label: "Website confidence",
+      values: [{ label: `${state.websiteConfidenceMin}+/100`, action: "websiteConfidence" }],
     });
   }
 
@@ -711,6 +761,10 @@ function renderCards(rows) {
 
 function renderCard(company) {
   const chips = [
+    {
+      value: `Website ${company.website_confidence_score}/100`,
+      tone: confidenceTone(company.website_confidence_score),
+    },
     ...company.product_type.slice(0, 2).map((value) => ({ value, tone: "teal" })),
     ...company.targeted_industries.slice(0, 2).map((value) => ({ value, tone: "amber" })),
     ...company.country.slice(0, 1).map((value) => ({ value, tone: "coral" })),
@@ -732,9 +786,7 @@ function renderCard(company) {
         </div>
         <div class="card-foot">
           <span>${escapeHtml(company.city || company.country[0] || "Location n/a")}</span>
-          <a class="mini-link" href="${escapeAttr(company.website_url)}" target="_blank" rel="noreferrer" data-stop>
-            Site ${icon("external")}
-          </a>
+          ${renderMiniWebsiteLink(company)}
         </div>
       </div>
     </article>
@@ -767,7 +819,7 @@ function renderTable(rows) {
                   <td>${chipList(company.targeted_industries.slice(0, 3), "amber")}</td>
                   <td>${escapeHtml(company.country.join(", ") || "n/a")}</td>
                   <td>${company.founded ?? "n/a"}</td>
-                  <td><a class="mini-link" href="${escapeAttr(company.website_url)}" target="_blank" rel="noreferrer" data-stop>Site ${icon("external")}</a></td>
+                  <td>${renderMiniWebsiteLink(company)}</td>
                 </tr>
               `,
             )
@@ -804,13 +856,13 @@ function renderDrawer(company) {
           </div>
           <p class="drawer-copy">${escapeHtml(company.short_description ?? "No description.")}</p>
           <div class="link-grid">
-            <a href="${escapeAttr(company.website_url)}" target="_blank" rel="noreferrer">${icon("external")}Website</a>
+            ${renderDrawerWebsiteLink(company)}
             ${
               company.linkedin_url
                 ? `<a href="${escapeAttr(company.linkedin_url)}" target="_blank" rel="noreferrer">${icon("external")}LinkedIn</a>`
                 : `<a aria-disabled="true">${icon("external")}LinkedIn</a>`
             }
-            <a href="${escapeAttr(company.notion_page_url)}" target="_blank" rel="noreferrer">${icon("database")}Notion</a>
+            <a href="${escapeAttr(company.notion_page_url)}" target="_blank" rel="noreferrer">${icon("database")}Source</a>
           </div>
           <button class="primary-button" id="toggle-compare" data-company-id="${company.notion_page_id}" type="button">
             ${icon("compare")}${isCompared ? "Remove from compare" : "Add to compare"}
@@ -821,6 +873,14 @@ function renderDrawer(company) {
             ${detail("Robot type", company.robot_or_automated_system_type)}
             ${detail("Software type", company.software_type)}
             ${detail("Hardware type", company.hardware_component_type)}
+            ${detail("Website status", formatWebsiteStatus(company.website_status))}
+            ${detail("Website final URL", company.website_final_url)}
+            ${detail("Website confidence", `${company.website_confidence_score}/100`)}
+            ${detail("Candidate website", company.candidate_website_url)}
+            ${detail("Candidate confidence", company.candidate_confidence ? `${company.candidate_confidence}/100` : null)}
+            ${detail("Candidate status", formatWebsiteStatus(company.candidate_status))}
+            ${detail("Candidate notes", company.candidate_notes)}
+            ${detail("Candidate evidence", company.candidate_evidence_urls)}
             ${detail("Tags", company.tags)}
             ${detail("City", company.city)}
             ${detail("State", company.state)}
@@ -831,6 +891,28 @@ function renderDrawer(company) {
       </aside>
     </div>
   `;
+}
+
+function hasCompanyWebsite(company) {
+  return (
+    typeof company.website_url === "string" &&
+    /^https?:\/\//i.test(company.website_url.trim()) &&
+    !BAD_WEBSITE_STATUSES.has(company.website_status)
+  );
+}
+
+function renderMiniWebsiteLink(company) {
+  if (!hasCompanyWebsite(company)) {
+    return `<span class="mini-link is-disabled" aria-disabled="true">Site n/a</span>`;
+  }
+  return `<a class="mini-link" href="${escapeAttr(company.website_url)}" target="_blank" rel="noreferrer" data-stop>Site ${icon("external")}</a>`;
+}
+
+function renderDrawerWebsiteLink(company) {
+  if (!hasCompanyWebsite(company)) {
+    return `<a aria-disabled="true">${icon("external")}Website n/a</a>`;
+  }
+  return `<a href="${escapeAttr(company.website_url)}" target="_blank" rel="noreferrer">${icon("external")}Website</a>`;
 }
 
 function renderCompareTray(rows) {
@@ -884,6 +966,7 @@ function renderCompareTable(rows) {
   const fields = [
     ["Description", (company) => company.short_description],
     ["Website", (company) => company.website_url],
+    ["Website status", (company) => formatWebsiteStatus(company.website_status)],
     ["Founded", (company) => company.founded ?? "n/a"],
     ["Country", (company) => company.country.join(", ")],
     ["Product type", (company) => company.product_type.join(", ")],
@@ -976,6 +1059,29 @@ function bindEvents() {
       resetResultLimit();
       render();
     });
+  });
+
+  const setWebsiteConfidence = (value) => {
+    state.websiteConfidenceMin = clampConfidence(value);
+    resetResultLimit();
+  };
+
+  const updateWebsiteConfidence = (value) => {
+    setWebsiteConfidence(value);
+    render();
+  };
+
+  document.querySelector("#website-confidence-range")?.addEventListener("input", (event) => {
+    updateWebsiteConfidence(event.target.value);
+  });
+
+  document.querySelector("#website-confidence-min")?.addEventListener("input", (event) => {
+    setWebsiteConfidence(event.target.value);
+    scheduleTextInputRender("#website-confidence-min", event.target);
+  });
+
+  document.querySelector("#clear-website-confidence")?.addEventListener("click", () => {
+    updateWebsiteConfidence(0);
   });
 
   document.querySelectorAll("[data-facet-search]").forEach((input) => {
@@ -1173,6 +1279,13 @@ function getFilteredCompanies(ignoreFacet = null, options = {}) {
       }
     }
 
+    if (
+      state.websiteConfidenceMin > 0 &&
+      company.website_confidence_score < state.websiteConfidenceMin
+    ) {
+      return false;
+    }
+
     for (const facet of FACETS) {
       if (facet.key === ignoreFacet) continue;
       const selected = state.facets[facet.key];
@@ -1229,6 +1342,10 @@ function facetCounts(key) {
   }
 
   return counts;
+}
+
+function sortFacetOptions(key, a, b) {
+  return b[1] - a[1] || a[0].localeCompare(b[0]);
 }
 
 function uniqueValues(rows, key) {
@@ -1492,6 +1609,72 @@ function detail(label, value) {
   `;
 }
 
+function formatWebsiteStatus(value) {
+  return value ? String(value).replace(/_/g, " ") : null;
+}
+
+function getWebsiteConfidenceScore(company) {
+  if (hasTrustedNotionWebsite(company)) return 99;
+  if (company.profile_review_status === "not_found" || company.candidate_status === "not_found") {
+    return 0;
+  }
+  if (BAD_WEBSITE_STATUSES.has(company.website_status)) return 0;
+
+  const websiteConfidence = clampConfidence(company.website_confidence);
+  if (hasCompanyWebsite(company) && websiteConfidence > 0) return websiteConfidence;
+
+  const candidateConfidence = clampConfidence(company.candidate_confidence);
+  if (company.profile_review_status === "needs_review" || company.candidate_website_url) {
+    return candidateConfidence;
+  }
+
+  return 0;
+}
+
+function hasTrustedNotionWebsite(company) {
+  if (!hasCompanyWebsite(company)) return false;
+  return (company.source_records ?? []).some((source) => {
+    if (!isTrustedNotionSource(source)) return false;
+    return Boolean(normalizeComparableUrl(source.observed_fields?.website_url));
+  });
+}
+
+function isTrustedNotionSource(source) {
+  return (
+    source?.source_name === "Petr Novikov Robotics Database" ||
+    String(source?.source_id ?? "").startsWith("notion:") ||
+    String(source?.source_url ?? "").includes("petrnovikov.notion.site") ||
+    String(source?.observed_fields?.notion_page_url ?? "").includes("petrnovikov.notion.site")
+  );
+}
+
+function normalizeComparableUrl(value) {
+  if (typeof value !== "string" || !value.trim()) return null;
+  try {
+    const url = new URL(/^[a-z][a-z0-9+.-]*:\/\//i.test(value) ? value : `https://${value}`);
+    url.hostname = url.hostname.toLowerCase();
+    let normalized = url.toString();
+    if (normalized.endsWith("/") && url.pathname === "/") normalized = normalized.slice(0, -1);
+    return normalized;
+  } catch {
+    return value.trim();
+  }
+}
+
+function confidenceTone(score) {
+  if (score >= 95) return "green";
+  if (score >= 80) return "teal";
+  if (score >= 50) return "blue";
+  if (score > 0) return "amber";
+  return "coral";
+}
+
+function clampConfidence(value) {
+  const confidence = Number.parseInt(value, 10);
+  if (!Number.isFinite(confidence)) return 0;
+  return Math.max(0, Math.min(100, confidence));
+}
+
 function formatDate(value) {
   if (!value) return null;
   return new Intl.DateTimeFormat("en", {
@@ -1555,6 +1738,7 @@ function resetFilters() {
   state.search = "";
   state.facets = Object.fromEntries(FACETS.map((facet) => [facet.key, new Set()]));
   state.facetSearch = Object.fromEntries(FACETS.map((facet) => [facet.key, ""]));
+  state.websiteConfidenceMin = 0;
   resetResultLimit();
   applyYearMode("modern");
 }
@@ -1563,6 +1747,9 @@ function clearChip(dataset) {
   if (dataset.chipAction === "search") state.search = "";
   if (dataset.chipAction === "year") {
     applyYearMode("all");
+  }
+  if (dataset.chipAction === "websiteConfidence") {
+    state.websiteConfidenceMin = 0;
   }
   if (dataset.chipAction === "facet") {
     state.facets[dataset.chipFacet]?.delete(dataset.chipValue);
@@ -1611,6 +1798,12 @@ function toCsv(rows) {
     "city",
     "founded",
     "website_url",
+    "website_confidence_score",
+    "website_status",
+    "website_confidence",
+    "candidate_website_url",
+    "candidate_confidence",
+    "candidate_status",
     "linkedin_url",
     "notion_page_url",
   ];

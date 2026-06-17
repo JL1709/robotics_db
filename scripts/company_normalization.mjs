@@ -25,6 +25,13 @@ const CONFLICT_EXCLUDED_FIELDS = new Set([
   "notion_page_url",
   "website_preview",
   "legacy_website_preview",
+  "contact_enrichment",
+  "contact_best_outreach_channel",
+  "contact_quality",
+  "contact_email_count",
+  "contact_form_count",
+  "contact_phone_count",
+  "contact_people_count",
 ]);
 const SHARED_HOSTING_DOMAINS = new Set([
   "github.io",
@@ -33,6 +40,12 @@ const SHARED_HOSTING_DOMAINS = new Set([
   "sites.google.com",
   "wixsite.com",
   "wordpress.com",
+]);
+const NORMALIZED_NAME_ALIASES = new Map([
+  ["ihub robotic", "i hub research and robotics"],
+  ["peppermint robots", "peppermint robotics"],
+  ["un box robotics", "unbox robotics"],
+  ["unboxrobotics", "unbox robotics"],
 ]);
 const METADATA_FIELDS = new Set([
   "company_id",
@@ -300,10 +313,10 @@ function normalizeName(value) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\b(inc|incorporated|llc|ltd|limited|gmbh|ag|sa|sarl|bv|pte|plc|corp|corporation|co|company)\b/g, "")
+    .replace(/\b(inc|incorporated|llc|ltd|limited|pvt|private|llp|gmbh|ag|sa|sarl|bv|pte|plc|corp|corporation|co|company)\b/g, "")
     .trim()
     .replace(/\s+/g, " ");
-  if (asciiName) return asciiName;
+  if (asciiName) return NORMALIZED_NAME_ALIASES.get(asciiName) ?? asciiName;
 
   return raw
     .normalize("NFKC")

@@ -1,0 +1,3035 @@
+[
+  {
+    "company_name": "1stVision Inc.",
+    "canonical_company_id": "name:1stvision",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://1stvision.com",
+    "accepted_score": 94,
+    "accepted_description": "1stVision is the most experienced distributor of industrial machine vision systems, cameras, lenses, software and other accessories. Request a quote today.",
+    "notes": "company-name token appears in hostname; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.1stvision.com",
+        "final_url": "https://www.1stvision.com",
+        "score": 94,
+        "title": "Industrial Machine Vision Systems: Cameras & Accessories",
+        "description": "1stVision is the most experienced distributor of industrial machine vision systems, cameras, lenses, software and other accessories. Request a quote today.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "3Laws Robotics",
+    "canonical_company_id": "name:3laws robotics",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.3lawsrobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.3lawsrobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      },
+      {
+        "url": "https://www.3lawsrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.3lawsrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.3lawsrobotics.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "4D Systems Corporation",
+    "canonical_company_id": "name:4d systems",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.4dsystems.ai",
+    "candidates": [
+      {
+        "url": "https://www.4dsystems.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.4dsystems.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.4dsystems.io",
+        "final_url": "https://4dsystems.com.au",
+        "score": 0,
+        "title": "Just a moment...",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "company name has no distinctive token for direct-domain acceptance",
+          "candidate returned HTTP 403"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 403
+      },
+      {
+        "url": "https://www.4dsystems.com",
+        "final_url": "https://4dsysco.com",
+        "score": 0,
+        "title": "4D Systems Controls Engineering, Robot Programming & Simulation",
+        "description": null,
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "final domain does not match the full guessed company slug",
+          "company name has no distinctive token for direct-domain acceptance",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "4moms",
+    "canonical_company_id": "domain:4moms.com",
+    "existing_website_url": "https://www.4moms.com",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://4moms.com",
+    "accepted_score": 100,
+    "accepted_description": "4moms® is dedicated to making innovative, easy to use baby products that make life easier for parents. Shop our selection of baby swings, portable playards, bassinets, high chairs and more.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.4moms.com",
+        "final_url": "https://www.4moms.com",
+        "score": 100,
+        "title": "High-Tech Baby Gear | Baby Swings, Bassinets, Playards & More! | 4moms - 4moms.com",
+        "description": "4moms® is dedicated to making innovative, easy to use baby products that make life easier for parents. Shop our selection of baby swings, portable playards, bassinets, high chairs and more.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "10 Things",
+    "canonical_company_id": "name:10 things",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://10things.ai",
+    "accepted_score": 100,
+    "accepted_description": "10Things converts robot designs and specs into simulation-ready artifacts, baseline control stacks, validation gates, and deployment packages for real hardware.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.10things.ai",
+        "final_url": "https://10things.ai",
+        "score": 100,
+        "title": "10Things — Contract-first robotics deployment acceleration",
+        "description": "10Things converts robot designs and specs into simulation-ready artifacts, baseline control stacks, validation gates, and deployment packages for real hardware.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.10things.com",
+        "final_url": "https://www.10things.com",
+        "score": 31,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "10x Genomics",
+    "canonical_company_id": "name:10x genomics",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://10xgenomics.com",
+    "accepted_score": 100,
+    "accepted_description": "We deliver powerful, reliable tools that fuel scientific discoveries and drive exponential progress to master biology to advance human health.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.10xgenomics.com",
+        "final_url": "https://www.10xgenomics.com",
+        "score": 100,
+        "title": "Decoding Biology. Transforming Health. | 10x Genomics",
+        "description": "We deliver powerful, reliable tools that fuel scientific discoveries and drive exponential progress to master biology to advance human health.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "80/20, LLC",
+    "canonical_company_id": "name:80 20",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.8020.com",
+    "candidates": [
+      {
+        "url": "https://www.8020.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.8020.ai",
+        "final_url": "https://www.8020.ai",
+        "score": 0,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "company name has no distinctive token for direct-domain acceptance",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.8020.io",
+        "final_url": "https://www.8020.io",
+        "score": 0,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "company name has no distinctive token for direct-domain acceptance",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.8020.co",
+        "final_url": "https://www.8020.co",
+        "score": 0,
+        "title": "The 80/20 Rule",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "company name has no distinctive token for direct-domain acceptance",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "A.M.P AUTOMATION",
+    "canonical_company_id": "name:a m p automation",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.ampautomation.ai",
+    "candidates": [
+      {
+        "url": "https://www.ampautomation.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ampautomation.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ampautomation.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ampautomation.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AAE North America",
+    "canonical_company_id": "name:aae north america",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.aaenorthamerica.ai",
+    "candidates": [
+      {
+        "url": "https://www.aaenorthamerica.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aaenorthamerica.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aaenorthamerica.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aaenorthamerica.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Aatonomy",
+    "canonical_company_id": "name:aatonomy",
+    "existing_website_url": null,
+    "existing_short_description": "A platform that can bring instant autonomous intelligence to robots of any form factor",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 78: https://www.aatonomy.com",
+    "candidates": [
+      {
+        "url": "https://www.aatonomy.com",
+        "final_url": "https://www.aatonomy.com",
+        "score": 78,
+        "title": "aatonomy.com | 525: SSL handshake failed",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "candidate returned HTTP 525"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 525
+      }
+    ]
+  },
+  {
+    "company_name": "ABB Group",
+    "canonical_company_id": "domain:global.abb",
+    "existing_website_url": "https://global.abb",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.abbgroup.ai",
+    "candidates": [
+      {
+        "url": "https://www.abbgroup.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abbgroup.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abbgroup.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abbgroup.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      },
+      {
+        "url": "https://global.abb",
+        "score": 20,
+        "reasons": [],
+        "source": "existing_website_url",
+        "error": "Request timed out."
+      }
+    ]
+  },
+  {
+    "company_name": "ABICOR Binzel",
+    "canonical_company_id": "name:abicor binzel",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.abicorbinzel.ai",
+    "candidates": [
+      {
+        "url": "https://www.abicorbinzel.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abicorbinzel.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abicorbinzel.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.abicorbinzel.com",
+        "final_url": "https://domains.atom.com/lpd/name/www.abicorbinzel.com",
+        "score": 0,
+        "title": "AbicorBinzel.com — Premium Domain For Sale | Atom",
+        "description": null,
+        "reasons": [
+          "multiple company-name tokens appear in homepage text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200",
+          "page appears parked or for sale"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Able Innovations",
+    "canonical_company_id": "domain:ableinnovations.com",
+    "existing_website_url": "https://www.ableinnovations.com",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://ableinnovations.com",
+    "accepted_score": 100,
+    "accepted_description": "Able Innovations is developing advanced medical robotics to tackle the pressing problem of patient transfers in healthcare.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.ableinnovations.com",
+        "final_url": "https://www.ableinnovations.com",
+        "score": 100,
+        "title": "Able Innovations: New Standard of Care in Patient Handling",
+        "description": "Able Innovations is developing advanced medical robotics to tackle the pressing problem of patient transfers in healthcare.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AC3D",
+    "canonical_company_id": "name:ac3d",
+    "existing_website_url": null,
+    "existing_short_description": "Next Gen 3D Printers making construction cheaper, greener and more productive.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.ac3d.ai",
+    "candidates": [
+      {
+        "url": "https://www.ac3d.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ac3d.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ac3d.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.ac3d.com",
+        "final_url": "https://www.ac3d.com",
+        "score": 1,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Academy of Robotics",
+    "canonical_company_id": "domain:academyofrobotics.co.uk",
+    "existing_website_url": "http://www.academyofrobotics.co.uk",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://academyofrobotics.co.uk",
+    "accepted_score": 100,
+    "accepted_description": "We make autonomous machines designed to make life that little bit easier.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "http://www.academyofrobotics.co.uk",
+        "final_url": "https://www.academyofrobotics.co.uk",
+        "score": 100,
+        "title": "Academy of Robotics",
+        "description": "We make autonomous machines designed to make life that little bit easier.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "ACE Robotics",
+    "canonical_company_id": "name:ace robotics",
+    "existing_website_url": null,
+    "existing_short_description": "ACE Robotics is listed by Tech Buzz China as a AI / Software company based in Shanghai with tracked products including Kairos 3.0 (开悟世界模型).",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.acerobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.acerobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acerobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acerobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acerobotics.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Acieta, LLC",
+    "canonical_company_id": "name:acieta",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://acieta.com",
+    "accepted_score": 100,
+    "accepted_description": "Acieta is the custom robotic integrator manufacturers trust to boost productivity and efficiency. Click here to learn more.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.acieta.com",
+        "final_url": "https://www.acieta.com",
+        "score": 100,
+        "title": "Acieta – Automation & Robotics Integrator",
+        "description": "Acieta is the custom robotic integrator manufacturers trust to boost productivity and efficiency. Click here to learn more.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Acme Manufacturing",
+    "canonical_company_id": "name:acme manufacturing",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.acmemanufacturing.ai",
+    "candidates": [
+      {
+        "url": "https://www.acmemanufacturing.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acmemanufacturing.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acmemanufacturing.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acmemanufacturing.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ACP Manufacturing LLC",
+    "canonical_company_id": "name:acp manufacturing",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.acpmanufacturing.ai",
+    "candidates": [
+      {
+        "url": "https://www.acpmanufacturing.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acpmanufacturing.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acpmanufacturing.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acpmanufacturing.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ACRO Automation Systems",
+    "canonical_company_id": "name:acro automation systems",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.acroautomationsystems.ai",
+    "candidates": [
+      {
+        "url": "https://www.acroautomationsystems.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acroautomationsystems.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acroautomationsystems.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acroautomationsystems.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ACROVISION LTD",
+    "canonical_company_id": "name:acrovision",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.acrovision.ai",
+    "candidates": [
+      {
+        "url": "https://www.acrovision.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acrovision.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acrovision.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acrovision.co",
+        "final_url": "https://www.acrovision.co",
+        "score": 0,
+        "title": "403 Forbidden",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "candidate returned HTTP 403"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 403
+      }
+    ]
+  },
+  {
+    "company_name": "ACS",
+    "canonical_company_id": "name:acs",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 54: https://www.acs.com",
+    "candidates": [
+      {
+        "url": "https://www.acs.com",
+        "final_url": "https://acs.com",
+        "score": 54,
+        "title": "ACS Services, Inc. | We're IT for You",
+        "description": null,
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.acs.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.acs.ai",
+        "final_url": "https://www.acs.ai",
+        "score": 0,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.acs.io",
+        "final_url": "https://www.acs.io",
+        "score": 0,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "ACS Motion Control",
+    "canonical_company_id": "name:acs motion control",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://acsmotioncontrol.com",
+    "accepted_score": 81,
+    "accepted_description": "Advanced motion controllers and servo drives that boost throughput, accuracy, flexibility, and speed development for OEM precision systems.",
+    "notes": "company-name token appears in hostname; multiple company-name tokens appear in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.acsmotioncontrol.com",
+        "final_url": "https://acsmotioncontrol.com",
+        "score": 81,
+        "title": "ACS: High Precision Motion Control Systems & Solutions",
+        "description": "Advanced motion controllers and servo drives that boost throughput, accuracy, flexibility, and speed development for OEM precision systems.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "multiple company-name tokens appear in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Active Inspection Inc.",
+    "canonical_company_id": "name:active inspection",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://activeinspection.com",
+    "accepted_score": 100,
+    "accepted_description": "We provide Machine Vision solutions focusing on inspection, with products from surface and print inspection to detailed deep learning 3D part inspection.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.activeinspection.com",
+        "final_url": "https://activeinspection.com",
+        "score": 100,
+        "title": "Active Inspection - Automated Machine Vision Solutions for Manufacturers",
+        "description": "We provide Machine Vision solutions focusing on inspection, with products from surface and print inspection to detailed deep learning 3D part inspection.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Active Silicon, Inc.",
+    "canonical_company_id": "name:active silicon",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://activesilicon.com",
+    "accepted_score": 100,
+    "accepted_description": "Leading provider of cameras and camera electronics for image data transmission, frame grabbers for data acquisition and embedded systems for image processing.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.activesilicon.com",
+        "final_url": "https://www.activesilicon.com",
+        "score": 100,
+        "title": "Imaging products, embedded systems & solutions | Active Silicon",
+        "description": "Leading provider of cameras and camera electronics for image data transmission, frame grabbers for data acquisition and embedded systems for image processing.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Adamo",
+    "canonical_company_id": "domain:adamohq.com",
+    "existing_website_url": "https://adamohq.com",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://adamohq.com",
+    "accepted_score": 100,
+    "accepted_description": "Teleoperation software with sub-40ms latency streaming, vetted operators, and 99.5% uptime — built for humanoids, autonomous vehicles, and robot arms.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://adamohq.com",
+        "final_url": "https://adamohq.com",
+        "score": 100,
+        "title": "Adamo — Managed Teleoperation as a Service for Robotics",
+        "description": "Teleoperation software with sub-40ms latency streaming, vetted operators, and 99.5% uptime — built for humanoids, autonomous vehicles, and robot arms.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Adams Magnetic Products Co.",
+    "canonical_company_id": "name:adams magnetic products",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.adamsmagneticproducts.ai",
+    "candidates": [
+      {
+        "url": "https://www.adamsmagneticproducts.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adamsmagneticproducts.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adamsmagneticproducts.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adamsmagneticproducts.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Adaptec Solutions",
+    "canonical_company_id": "name:adaptec solutions",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://adaptecsolutions.com",
+    "accepted_score": 100,
+    "accepted_description": "An industry-leading automation and material handling integration partner, developing custom solutions for the manufacturing industry.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.adaptecsolutions.com",
+        "final_url": "https://adaptecsolutions.com",
+        "score": 100,
+        "title": "Automation & Material Handling Integration - Adaptec Solutions",
+        "description": "An industry-leading automation and material handling integration partner, developing custom solutions for the manufacturing industry.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Adaptive Resources, Inc.",
+    "canonical_company_id": "name:adaptive resources",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 44: https://www.adaptiveresources.com",
+    "candidates": [
+      {
+        "url": "https://www.adaptiveresources.com",
+        "final_url": "https://adaptive-companies.com",
+        "score": 44,
+        "title": "Process Control Software, Consulting & Integration - Adaptive Companies",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.adaptiveresources.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adaptiveresources.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adaptiveresources.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ADELPHI MASTERFIL",
+    "canonical_company_id": "name:adelphi masterfil",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.adelphimasterfil.ai",
+    "candidates": [
+      {
+        "url": "https://www.adelphimasterfil.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adelphimasterfil.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adelphimasterfil.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adelphimasterfil.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      }
+    ]
+  },
+  {
+    "company_name": "Adept Technology",
+    "canonical_company_id": "domain:adept.com",
+    "existing_website_url": "http://www.adept.com",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 51: https://www.adepttechnology.com",
+    "candidates": [
+      {
+        "url": "https://www.adepttechnology.com",
+        "final_url": "https://www.adept-techconsulting.com",
+        "score": 51,
+        "title": "IT Service Provider | 24/7 Support | Adept Technology Consulting",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "http://www.adept.com",
+        "final_url": "https://robotics.omron.com",
+        "score": 34,
+        "title": "OMRON Robotics | Transforming Manufacturing with Robotics",
+        "description": null,
+        "reasons": [
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.adepttechnology.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adepttechnology.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adepttechnology.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Adept Turnkey Pty. Ltd.",
+    "canonical_company_id": "name:adept turnkey pty",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.adeptturnkeypty.ai",
+    "candidates": [
+      {
+        "url": "https://www.adeptturnkeypty.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adeptturnkeypty.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adeptturnkeypty.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adeptturnkeypty.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ADPAK MACHINERY SYSTEMS LTD",
+    "canonical_company_id": "name:adpak machinery systems",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.adpakmachinerysystems.ai",
+    "candidates": [
+      {
+        "url": "https://www.adpakmachinerysystems.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adpakmachinerysystems.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adpakmachinerysystems.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.adpakmachinerysystems.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ADVANCE AUTOMATED SYSTEMS LTD",
+    "canonical_company_id": "name:advance automated systems",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.advanceautomatedsystems.ai",
+    "candidates": [
+      {
+        "url": "https://www.advanceautomatedsystems.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advanceautomatedsystems.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advanceautomatedsystems.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advanceautomatedsystems.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Advanced Telecommunications Research Institute International",
+    "canonical_company_id": "domain:irc.atr.jp",
+    "existing_website_url": "http://www.irc.atr.jp/en/",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 28: http://www.irc.atr.jp/en/",
+    "candidates": [
+      {
+        "url": "http://www.irc.atr.jp/en/",
+        "final_url": "https://dil.atr.jp/en/",
+        "score": 28,
+        "title": "Deep Interaction Laboratory Group",
+        "description": null,
+        "reasons": [
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.advancedtelecommunicationsresearchinstituteinternational.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtelecommunicationsresearchinstituteinternational.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtelecommunicationsresearchinstituteinternational.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtelecommunicationsresearchinstituteinternational.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ADVANCED TOOLING SYSTEMS UK LTD",
+    "canonical_company_id": "name:advanced tooling systems uk",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.advancedtoolingsystemsuk.ai",
+    "candidates": [
+      {
+        "url": "https://www.advancedtoolingsystemsuk.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtoolingsystemsuk.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtoolingsystemsuk.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.advancedtoolingsystemsuk.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Aero Systems West",
+    "canonical_company_id": "name:aero systems west",
+    "existing_website_url": null,
+    "existing_short_description": "Builds Hardware and Software to Make Drone Operations — Not Just Drone Flight — Truly Autonomous",
+    "accepted": true,
+    "accepted_url": "https://aerosystemswest.com",
+    "accepted_score": 87,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.aerosystemswest.com",
+        "final_url": "https://aerosystemswest.com",
+        "score": 87,
+        "title": "NDAA-Compliant Heavy-Lift Drones | Aero Systems West",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AETNA UK LTD (ROBOPAC)",
+    "canonical_company_id": "name:aetna uk robopac",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.aetnaukrobopac.ai",
+    "candidates": [
+      {
+        "url": "https://www.aetnaukrobopac.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aetnaukrobopac.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aetnaukrobopac.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aetnaukrobopac.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AGARICUS ROBOTICS LTD",
+    "canonical_company_id": "name:agaricus robotics",
+    "existing_website_url": null,
+    "existing_short_description": "AGARICUS ROBOTICS LTD appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": true,
+    "accepted_url": "https://agaricusrobotics.com",
+    "accepted_score": 94,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.agaricusrobotics.com",
+        "final_url": "https://agaricusrobotics.com",
+        "score": 94,
+        "title": "Home Page",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AgiSense Robotics",
+    "canonical_company_id": "name:agisense robotics",
+    "existing_website_url": null,
+    "existing_short_description": "AgiSense Robotics is listed by Tech Buzz China as a Robot Maker / Integrator company based in Shenzhen, Guangdong.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.agisenserobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.agisenserobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.agisenserobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.agisenserobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.agisenserobotics.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AGRIMECH",
+    "canonical_company_id": "name:agrimech",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://agrimech.com",
+    "accepted_score": 100,
+    "accepted_description": "Contact Agrimech for any industrial, municipal, and agricultural parts + MRO supplies.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.agrimech.com",
+        "final_url": "https://www.agrimech.com",
+        "score": 100,
+        "title": "Industrial Parts & Equip. | Procurement | agrimech.com | Florida",
+        "description": "Contact Agrimech for any industrial, municipal, and agricultural parts + MRO supplies.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AI & Robotics Ventures",
+    "canonical_company_id": "name:ai and robotics ventures",
+    "existing_website_url": null,
+    "existing_short_description": "AI & Robotics Ventures appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.androboticsventures.ai",
+    "candidates": [
+      {
+        "url": "https://www.androboticsventures.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.androboticsventures.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.androboticsventures.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.androboticsventures.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AIDA ENGINEERING, LTD.",
+    "canonical_company_id": "domain:aida.co.jp",
+    "existing_website_url": "http://www.aida.co.jp/en/index.html",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://aida.co.jp",
+    "accepted_score": 100,
+    "accepted_description": "AIDA ENGINEERING develops and manufactures press machines, auto-processing lines, industrial robots, auto-conveyers, and dies.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "http://www.aida.co.jp/en/index.html",
+        "final_url": "https://www.aida.co.jp/en/index.html",
+        "score": 100,
+        "title": "AIDA ENGINEERING, LTD.",
+        "description": "AIDA ENGINEERING develops and manufactures press machines, auto-processing lines, industrial robots, auto-conveyers, and dies.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AIR Robotics",
+    "canonical_company_id": "domain:airoboticstudio.com",
+    "existing_website_url": "https://www.airoboticstudio.com",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 56: https://www.airoboticstudio.com",
+    "candidates": [
+      {
+        "url": "https://www.airoboticstudio.com",
+        "final_url": "https://www.airoboticstudio.com",
+        "score": 56,
+        "title": "Home",
+        "description": null,
+        "reasons": [
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.airrobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      },
+      {
+        "url": "https://www.airrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airrobotics.com",
+        "final_url": "https://www.airrobotics.com",
+        "score": 0,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "single-token direct match lacks robotics context",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AIRBORNE ROBOTICS LIMITED",
+    "canonical_company_id": "name:airborne robotics",
+    "existing_website_url": null,
+    "existing_short_description": "AIRBORNE ROBOTICS LIMITED appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 31: https://www.airbornerobotics.com",
+    "candidates": [
+      {
+        "url": "https://www.airbornerobotics.com",
+        "final_url": "https://www.airbornerobotics.com",
+        "score": 31,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.airbornerobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airbornerobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airbornerobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AIRWORKS ROBOTICS PRIVATE LIMITED",
+    "canonical_company_id": "domain:d1.sg",
+    "existing_website_url": "http://www.d1.sg",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.airworksroboticsprivate.ai",
+    "candidates": [
+      {
+        "url": "https://www.airworksroboticsprivate.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airworksroboticsprivate.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airworksroboticsprivate.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.airworksroboticsprivate.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "http://www.d1.sg",
+        "score": 20,
+        "reasons": [],
+        "source": "existing_website_url",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ALDEBARAN Robotics",
+    "canonical_company_id": "name:aldebaran robotics",
+    "existing_website_url": null,
+    "existing_short_description": "ALDEBARAN Robotics appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 31: https://www.aldebaranrobotics.com",
+    "candidates": [
+      {
+        "url": "https://www.aldebaranrobotics.com",
+        "final_url": "https://www.aldebaranrobotics.com",
+        "score": 31,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.aldebaranrobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aldebaranrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.aldebaranrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Algorized",
+    "canonical_company_id": "domain:algorized.com",
+    "existing_website_url": "https://www.algorized.com",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://algorized.com",
+    "accepted_score": 100,
+    "accepted_description": "The edge-native nervous system for Physical AI. One foundation model gives robots, vehicles, and smart spaces real-time human awareness at sub-100ms.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.algorized.com",
+        "final_url": "https://www.algorized.com",
+        "score": 100,
+        "title": "Algorized | Nervous System for Physical AI",
+        "description": "The edge-native nervous system for Physical AI. One foundation model gives robots, vehicles, and smart spaces real-time human awareness at sub-100ms.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "ALRAD INSTRUMENTS LTD",
+    "canonical_company_id": "name:alrad instruments",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.alradinstruments.ai",
+    "candidates": [
+      {
+        "url": "https://www.alradinstruments.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.alradinstruments.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.alradinstruments.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.alradinstruments.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ALS MECHATRONIC LTD",
+    "canonical_company_id": "name:als mechatronic",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://alsmechatronic.com",
+    "accepted_score": 100,
+    "accepted_description": "PLC / control systems, manufacturing process and packaging machinery (automatic bottle bagging, palletizers, robot integrators, container handling, conveyors and vision inspection equipment.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.alsmechatronic.com",
+        "final_url": "https://alsmechatronic.com",
+        "score": 100,
+        "title": "ALS Mechatronic | Factory Automation and Control Systems",
+        "description": "PLC / control systems, manufacturing process and packaging machinery (automatic bottle bagging, palletizers, robot integrators, container handling, conveyors and vision inspection equipment.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Amaryllo",
+    "canonical_company_id": "domain:amaryllo.eu",
+    "existing_website_url": "http://www.amaryllo.eu",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 60: http://www.amaryllo.eu",
+    "candidates": [
+      {
+        "url": "http://www.amaryllo.eu",
+        "final_url": "https://www.amaryllo.eu",
+        "score": 60,
+        "title": "GSN 全球超級運算平台",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.amaryllo.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amaryllo.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amaryllo.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amaryllo.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Amazon Robotics",
+    "canonical_company_id": "name:amazon robotics",
+    "existing_website_url": null,
+    "existing_short_description": "Amazon Robotics appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 31: https://www.amazonrobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.amazonrobotics.ai",
+        "final_url": "https://www.amazonrobotics.ai",
+        "score": 31,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.amazonrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amazonrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amazonrobotics.com",
+        "final_url": "https://global.api.cupid-na.idprism-auth.amazon.dev/oauth2/authorize?client_id=36eb297db69e3157c9f85ca8ad&redirect_uri=https%3A%2F%2Fidp.federate.amazon.com%2Fapi%2Fv1%2Fintermediate&response_type=code&scope=openid&nonce=P260616225536921PDXDHFESR9M6H8W&state=us-west-2_P260616225536921PDXDHFESR9M6H8W_beea8ef3-2778-4754-9313-cb45d16e38f7&relying_party=internal.transfer.portal.prod",
+        "score": 0,
+        "title": "403 Forbidden",
+        "description": null,
+        "reasons": [
+          "final domain does not match the full guessed company slug",
+          "single-token direct match lacks robotics context",
+          "candidate returned HTTP 403"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 403
+      }
+    ]
+  },
+  {
+    "company_name": "Amio Robot",
+    "canonical_company_id": "name:amio robot",
+    "existing_website_url": null,
+    "existing_short_description": "Amio Robot is listed by Tech Buzz China as a Robot Maker / Integrator company based in Beijing.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.amiorobot.ai",
+    "candidates": [
+      {
+        "url": "https://www.amiorobot.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amiorobot.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amiorobot.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.amiorobot.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ANRITSU CORPORATION",
+    "canonical_company_id": "domain:anritsu.com",
+    "existing_website_url": "https://www.anritsu.com/en-US",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.anritsu.ai",
+    "candidates": [
+      {
+        "url": "https://www.anritsu.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.anritsu.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.anritsu.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.anritsu.com/en-US",
+        "final_url": "https://www.anritsu.com/en-US",
+        "score": 22,
+        "title": "Service unavailable",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "candidate returned HTTP 403"
+        ],
+        "source": "existing_website_url",
+        "http_status": 403
+      }
+    ]
+  },
+  {
+    "company_name": "Apex Robotics",
+    "canonical_company_id": "name:apex robotics",
+    "existing_website_url": null,
+    "existing_short_description": "Apex Robotics is listed by Tech Buzz China as a Dexterous Hand / Gripper company based in Shenzhen, Guangdong with tracked products including Apex Hand.",
+    "accepted": true,
+    "accepted_url": "https://apexrobotics.io",
+    "accepted_score": 100,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.apexrobotics.io",
+        "final_url": "https://apexrobotics.io",
+        "score": 100,
+        "title": "Apex Robotics | Autonomous UAV Systems for Rescue, Delivery, and Mission-Critical Operations",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.apexrobotics.ai",
+        "final_url": "https://www.apexrobotics.ai",
+        "score": 1,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.apexrobotics.com",
+        "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=apexrobotics.com",
+        "score": 0,
+        "title": "ApexRobotics.com is for sale | HugeDomains",
+        "description": null,
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200",
+          "page appears parked or for sale"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Apis Cor",
+    "canonical_company_id": "name:apis cor",
+    "existing_website_url": null,
+    "existing_short_description": "3D Concrete Printers for House Construction",
+    "accepted": true,
+    "accepted_url": "https://apiscor.com",
+    "accepted_score": 81,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; multiple company-name tokens appear in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.apiscor.com",
+        "final_url": "https://apiscor.com",
+        "score": 81,
+        "title": "Apiscor, Inc.",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "multiple company-name tokens appear in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "APP UK LTD",
+    "canonical_company_id": "name:app uk",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.appuk.ai",
+    "candidates": [
+      {
+        "url": "https://www.appuk.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appuk.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appuk.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appuk.com",
+        "final_url": "https://promotion.co.uk",
+        "score": 0,
+        "title": "Home - Apex Print & Promotion | Norwich Norfolk",
+        "description": null,
+        "reasons": [
+          "company name appears in homepage text",
+          "final domain does not match the full guessed company slug",
+          "short-name direct match is ambiguous",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "APPLIED INTEGRATION UK LTD",
+    "canonical_company_id": "name:applied integration uk",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.appliedintegrationuk.ai",
+    "candidates": [
+      {
+        "url": "https://www.appliedintegrationuk.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appliedintegrationuk.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appliedintegrationuk.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.appliedintegrationuk.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Aradon",
+    "canonical_company_id": "name:aradon",
+    "existing_website_url": null,
+    "existing_short_description": "Aradon makes biotech robot labs easy to install and operate for scientists. Removing the manual work bottleneck from biotech will enable new medical solutions and enhance healthcare globally.",
+    "accepted": true,
+    "accepted_url": "https://aradon.com",
+    "accepted_score": 100,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.aradon.com",
+        "final_url": "https://www.aradon.com",
+        "score": 100,
+        "title": "aradon.com",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Ark Infinite",
+    "canonical_company_id": "name:ark infinite",
+    "existing_website_url": null,
+    "existing_short_description": "Ark Infinite is listed by Tech Buzz China as a Humanoid Robot company based in Beijing.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.arkinfinite.ai",
+    "candidates": [
+      {
+        "url": "https://www.arkinfinite.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arkinfinite.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arkinfinite.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arkinfinite.com",
+        "final_url": "https://domains.atom.com/lpd/name/www.arkinfinite.com",
+        "score": 0,
+        "title": "Arkinfinite.com — Premium Domain For Sale | Atom",
+        "description": null,
+        "reasons": [
+          "multiple company-name tokens appear in homepage text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200",
+          "page appears parked or for sale"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "ARREVOLUTION LTD",
+    "canonical_company_id": "name:arrevolution",
+    "existing_website_url": null,
+    "existing_short_description": "ARREVOLUTION LTD appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.arrevolution.ai",
+    "candidates": [
+      {
+        "url": "https://www.arrevolution.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arrevolution.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arrevolution.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arrevolution.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      }
+    ]
+  },
+  {
+    "company_name": "artlabs",
+    "canonical_company_id": "name:artlabs",
+    "existing_website_url": null,
+    "existing_short_description": "AI-native 3D infrastructure",
+    "accepted": true,
+    "accepted_url": "https://artlabs.ai",
+    "accepted_score": 100,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.artlabs.ai",
+        "final_url": "https://artlabs.ai",
+        "score": 100,
+        "title": "artlabs | Boost sales with AI-powered immersive 3D eCommerce",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.artlabs.com",
+        "final_url": "https://www.artlabs.com",
+        "score": 31,
+        "title": "",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "ARWAC LIMITED",
+    "canonical_company_id": "name:arwac",
+    "existing_website_url": null,
+    "existing_short_description": "ARWAC LIMITED appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.arwac.ai",
+    "candidates": [
+      {
+        "url": "https://www.arwac.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arwac.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arwac.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.arwac.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "Request timed out."
+      }
+    ]
+  },
+  {
+    "company_name": "Association for Advancing Automation (A3)",
+    "canonical_company_id": "domain:automate.org",
+    "existing_website_url": "https://www.automate.org",
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.associationforadvancingautomationa3.ai",
+    "candidates": [
+      {
+        "url": "https://www.associationforadvancingautomationa3.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.associationforadvancingautomationa3.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.associationforadvancingautomationa3.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.associationforadvancingautomationa3.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "ATDev",
+    "canonical_company_id": "domain:assistivetech.dev",
+    "existing_website_url": "https://assistivetech.dev",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://assistivetech.dev",
+    "accepted_score": 84,
+    "accepted_description": "Innovative robotic solutions designed to enhance independence and quality of life",
+    "notes": "company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://assistivetech.dev",
+        "final_url": "https://assistivetech.dev",
+        "score": 84,
+        "title": "ATDev - Assistive Technology Development",
+        "description": "Innovative robotic solutions designed to enhance independence and quality of life",
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Audience",
+    "canonical_company_id": "name:audience",
+    "existing_website_url": null,
+    "existing_short_description": "Audience is an audio-visual music platform that allows curators to earn money building robot DJs that play new artists music.",
+    "accepted": true,
+    "accepted_url": "https://audience.io",
+    "accepted_score": 100,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.audience.ai",
+        "final_url": "https://www.audience.io",
+        "score": 100,
+        "title": "Meet Audience 2.0: The Future of Audience Engagement",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.audience.com",
+        "final_url": "https://hilcodigital.com/audience/",
+        "score": 19,
+        "title": "Audience.com - Hilco Digital Assets",
+        "description": null,
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "final domain does not match the full guessed company slug",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Autel Robotics",
+    "canonical_company_id": "name:autel robotics",
+    "existing_website_url": null,
+    "existing_short_description": "Autel Robotics is a Chinese consumer and commercial aerial drone manufacturer. Founded in 2014, the company is headquartered in Shenzhen, China . It was",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 62: https://www.autelrobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.autelrobotics.ai",
+        "final_url": "https://www.autelrobotics.ai",
+        "score": 62,
+        "title": "autelrobotics.ai for sale | Spaceship.com",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200",
+          "page appears parked or for sale"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      },
+      {
+        "url": "https://www.autelrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autelrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autelrobotics.com",
+        "final_url": "https://www.autelrobotics.com",
+        "score": 0,
+        "title": "ERROR: The request could not be satisfied",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "single-token direct match lacks robotics context",
+          "candidate returned HTTP 403"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 403
+      }
+    ]
+  },
+  {
+    "company_name": "AUTOMATED INDUSTRIAL ROBOTICS WAKEFIELD LIMITED",
+    "canonical_company_id": "name:automated industrial robotics wakefield",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.automatedindustrialroboticswakefield.ai",
+    "candidates": [
+      {
+        "url": "https://www.automatedindustrialroboticswakefield.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automatedindustrialroboticswakefield.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automatedindustrialroboticswakefield.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automatedindustrialroboticswakefield.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Automation Industrielle",
+    "canonical_company_id": "name:automation industrielle",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.automationindustrielle.ai",
+    "candidates": [
+      {
+        "url": "https://www.automationindustrielle.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automationindustrielle.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automationindustrielle.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.automationindustrielle.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "Autonomi Robotics",
+    "canonical_company_id": "name:autonomi robotics",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://autonomirobotics.com",
+    "accepted_score": 94,
+    "accepted_description": "Autonomi delivers intelligent hospital logistics through secure, autonomous delivery robots that streamline the movement of medicines, supplies, and specimens across departments. Our systems integrate seamlessly with existing hospital infrastructure such aselevators, doors, and pharmacy workflows to ensure reliable, traceable, and round-the-clock delivery. By automating routine transport, we free clinical staff...",
+    "notes": "company-name token appears in hostname; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.autonomirobotics.com",
+        "final_url": "https://www.autonomirobotics.com",
+        "score": 94,
+        "title": "ctrl robotics — incoming",
+        "description": "Autonomi delivers intelligent hospital logistics through secure, autonomous delivery robots that streamline the movement of medicines, supplies, and specimens across departments. Our systems integrate seamlessly with existing hospital infrastructure such aselevators, doors, and pharmacy workflows to ensure reliable, traceable, and round-the-clock delivery. By automating routine transport, we free clinical staff...",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Autonomous Robotics",
+    "canonical_company_id": "name:autonomous robotics",
+    "existing_website_url": null,
+    "existing_short_description": "Autonomous Robotics appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.autonomousrobotics.ai",
+    "candidates": [
+      {
+        "url": "https://www.autonomousrobotics.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autonomousrobotics.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autonomousrobotics.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autonomousrobotics.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AUTOPAK MACHINERY LTD",
+    "canonical_company_id": "name:autopak machinery",
+    "existing_website_url": null,
+    "existing_short_description": null,
+    "accepted": false,
+    "accepted_url": null,
+    "accepted_score": null,
+    "accepted_description": null,
+    "notes": "Best candidate scored 26: https://www.autopakmachinery.ai",
+    "candidates": [
+      {
+        "url": "https://www.autopakmachinery.ai",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autopakmachinery.io",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autopakmachinery.co",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      },
+      {
+        "url": "https://www.autopakmachinery.com",
+        "score": 26,
+        "reasons": [],
+        "source": "direct_domain_guess",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  {
+    "company_name": "AUTOPICKR LTD",
+    "canonical_company_id": "name:autopickr",
+    "existing_website_url": null,
+    "existing_short_description": "AUTOPICKR LTD appears as an organisation connected to UKRI Gateway to Research robotics project records.",
+    "accepted": true,
+    "accepted_url": "https://autopickr.com",
+    "accepted_score": 100,
+    "accepted_description": null,
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; robotics or automation context appears in page/search text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.autopickr.com",
+        "final_url": "https://www.autopickr.com",
+        "score": 100,
+        "title": "autopickr",
+        "description": null,
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "robotics or automation context appears in page/search text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "direct_domain_guess",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "AUTOTECH MACHINERY CO., JSC",
+    "canonical_company_id": "domain:auto-tech.vn",
+    "existing_website_url": "https://auto-tech.vn/vi/",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://auto-tech.vn",
+    "accepted_score": 93,
+    "accepted_description": "N&Acirc;NG CAO HIỆU SUẤT &ndash; L&Agrave;M CHỦ THỊ TRƯỜNG &ndash; DẪN ĐẦU XU THẾ",
+    "notes": "company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://auto-tech.vn/vi/",
+        "final_url": "https://auto-tech.vn/vi/",
+        "score": 93,
+        "title": "AUTOTECH MACHINERY JSC – Tư vấn, thiết kế & chế tạo máy",
+        "description": "N&Acirc;NG CAO HIỆU SUẤT &ndash; L&Agrave;M CHỦ THỊ TRƯỜNG &ndash; DẪN ĐẦU XU THẾ",
+        "reasons": [
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "company_name": "Axiles Bionics",
+    "canonical_company_id": "domain:axilesbionics.com",
+    "existing_website_url": "https://www.axilesbionics.com",
+    "existing_short_description": null,
+    "accepted": true,
+    "accepted_url": "https://axilesbionics.com",
+    "accepted_score": 100,
+    "accepted_description": "Discover prosthetic feet designed to make walking feel natural again. Explore the Lunaris Product Line by Axiles Bionics.",
+    "notes": "company-name token appears in hostname; company name appears in page title; company name appears in homepage text; multiple company-name tokens appear in homepage text; homepage returned HTTP 200",
+    "candidates": [
+      {
+        "url": "https://www.axilesbionics.com",
+        "final_url": "https://www.axilesbionics.com",
+        "score": 100,
+        "title": "Prosthetic Feet Designed for Natural Movement | Axiles Bionics",
+        "description": "Discover prosthetic feet designed to make walking feel natural again. Explore the Lunaris Product Line by Axiles Bionics.",
+        "reasons": [
+          "company-name token appears in hostname",
+          "company name appears in page title",
+          "company name appears in homepage text",
+          "multiple company-name tokens appear in homepage text",
+          "homepage returned HTTP 200"
+        ],
+        "source": "existing_website_url",
+        "http_status": 200
+      }
+    ]
+  }
+]

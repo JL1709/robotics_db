@@ -169,6 +169,28 @@ const SOURCES = {
     cacheFile: "silicon_valley_robotics_members.json",
     optional: true,
   },
+  techBuzzChinaRoboticsTracker: {
+    url: "https://fsxqzllbuwiwrqhlyfdw.supabase.co/rest/v1/robotics_companies?select=*&order=name.asc&limit=1000",
+    cacheFile: "techbuzz_china_robotics_companies.json",
+    optional: true,
+    directoryUrl: "https://robotics.techbuzzchina.com/directory.html",
+    publishableKey: "sb_publishable_gqPggPEMX8u9IvB8P0M7Iw_qqqg0fWU",
+  },
+  humanoidGuideProducts: {
+    url: "https://humanoid.guide/wp-json/wp/v2/product?per_page=100&_embed=1",
+    cacheFile: "humanoid_guide_products.json",
+    optional: true,
+  },
+  wikipediaIndiaRoboticsSearch: {
+    url: "https://en.wikipedia.org/w/api.php",
+    cacheFile: "wikipedia_india_robotics_search.json",
+    optional: true,
+  },
+  f6sIndiaRoboticsCompanies: {
+    url: "https://www.f6s.com/companies/robotics/india/co",
+    manualFile: path.join("data", "manual_public_sources", "f6s_india_robotics_2026_06.json"),
+    optional: true,
+  },
 };
 
 const WIKIDATA_ROBOTICS_QUERY = `SELECT DISTINCT ?item ?itemLabel ?countryLabel ?website ?inception WHERE {
@@ -185,6 +207,14 @@ const MEDIAWIKI_CHINA_ROBOTICS_QUERIES = [
   { wiki: "zh", query: "機器人 公司" },
   { wiki: "en", query: "China robotics company" },
   { wiki: "en", query: "Chinese robotics company" },
+];
+const MEDIAWIKI_INDIA_ROBOTICS_QUERIES = [
+  { wiki: "en", query: "India robotics company" },
+  { wiki: "en", query: "Indian robotics company" },
+  { wiki: "en", query: "India drone manufacturer" },
+  { wiki: "en", query: "Indian drone manufacturer" },
+  { wiki: "en", query: "India warehouse robotics startup" },
+  { wiki: "en", query: "India autonomous robot startup" },
 ];
 
 const WRC_HIGHLIGHT_YEARS = ["2025", "2024", "2023", "2022", "2021", "2019", "2018", "2017", "2016", "2015"];
@@ -264,6 +294,148 @@ const PUBLIC_STARTUP_ROBOTICS_QUERIES = [
 const SOSV_ROBOTICS_CATEGORY_ID = "1065";
 const SKYDECK_ALGOLIA_APP_ID = "CX8Z9EYL0S";
 const SKYDECK_ALGOLIA_SEARCH_KEY = "f0d707bec122756dc5359e01956323aa";
+const TECH_BUZZ_CATEGORY_LABELS = {
+  humanoid: "Humanoid Robot",
+  robot_maker: "Robot Maker / Integrator",
+  motor: "Motor / Drive",
+  reducer: "Reducer / Transmission",
+  sensor: "Sensor / Perception",
+  end_effector: "Dexterous Hand / Gripper",
+  screw: "Screw / Linear Motion",
+  bearing: "Bearing",
+  gear: "Gear",
+  connector: "Cable / Connector",
+  battery: "Battery / Power",
+  material: "Material / Structure",
+  skin: "Skin / Tactile",
+  ai_software: "AI / Software",
+  automation: "Automation / Control",
+  chips: "Chips / Computing",
+  controller: "Controller",
+  communication: "Communication Module",
+  benchmark: "Global Benchmark",
+  other: "Other / General",
+};
+const TECH_BUZZ_TAXONOMY_LABELS = {
+  humanoid: "Humanoid Robot",
+  quadruped: "Quadruped robot",
+  legged_robot: "Legged robot",
+  cobot: "Collaborative robot",
+  robot_integrator: "Robot integrator",
+  vision_sensor: "Vision sensor",
+  lidar: "LiDAR",
+  force_sensor: "Force sensor",
+  tactile_sensor: "Tactile sensor",
+  imu_encoder: "IMU / Encoder",
+  servo_motor: "Servo motor",
+  bldc_motor: "Brushless DC motor",
+  coreless_motor: "Coreless motor",
+  torque_motor: "Frameless torque motor",
+  stepper_motor: "Stepper motor",
+  linear_motor: "Linear motor",
+  motor_driver: "Motor driver",
+  general_motor: "Motor",
+  harmonic_reducer: "Harmonic reducer",
+  planetary_reducer: "Planetary reducer",
+  rv_reducer: "RV reducer",
+  general_reducer: "Reducer",
+  ball_screw: "Ball screw",
+  roller_screw: "Planetary roller screw",
+  linear_motion: "Linear motion",
+  dexterous_hand: "Dexterous hand",
+  gripper: "Gripper",
+  tactile_hand: "Tactile hand",
+  embodied_ai: "Embodied AI",
+  robot_os: "Robot OS / Middleware",
+  computer_vision: "Computer vision",
+  simulation: "Simulation",
+  battery_power: "Battery / Power",
+  bearing: "Bearing",
+  gear: "Gear",
+  connector_cable: "Cable / Connector",
+  chip_processor: "Chip / Processor",
+  controller: "Controller",
+  material_structure: "Material / Structure",
+  skin_covering: "Skin / Covering",
+  general_sensor: "Sensor",
+  other: "Other",
+};
+const TECH_BUZZ_JSON_FIELDS = [
+  "funding_rounds",
+  "key_products",
+  "key_investors",
+  "key_partnerships",
+  "milestones",
+  "coordinates",
+  "news",
+  "taxonomy_tags",
+  "components",
+  "video_demos",
+];
+const HUMANOID_GUIDE_PRODUCT_CATEGORIES = new Set(["Humanoids", "Hands", "Brains", "Training Hardware"]);
+const HUMANOID_GUIDE_SKIPPED_CATEGORIES = new Set(["Report", "Dummy"]);
+const HUMANOID_GUIDE_NON_COMPANY_PATTERN =
+  /\b(university|college|school|institute|lab\b|laboratory|market survey|innovation center|research center)\b/i;
+const HUMANOID_GUIDE_MAKER_ALIASES = new Map(
+  [
+    ["1x technologied", { name: "1X Technologies", country: "Norway", website: "https://www.1x.tech" }],
+    ["1x", { name: "1X Technologies", country: "Norway", website: "https://www.1x.tech" }],
+    ["aei robot", { name: "AEI Robot", country: "China" }],
+    ["agibot", { name: "AgiBot", country: "China", city: "Shanghai", website: "https://www.agibot.com" }],
+    ["agibot a2", { name: "AgiBot", country: "China", city: "Shanghai", website: "https://www.agibot.com" }],
+    ["agile robots", { name: "Agile Robots", country: "Germany", website: "https://www.agile-robots.com" }],
+    ["agilex robotics", { name: "AgileX Robotics", country: "China", website: "https://global.agilex.ai" }],
+    ["aidin robotics inc", { name: "AIDIN Robotics", country: "South Korea", website: "https://www.aidinrobotics.com" }],
+    ["astribot", { name: "Astribot", country: "China", website: "https://www.astribot.com" }],
+    ["booster robotics", { name: "Booster Robotics", country: "China" }],
+    ["casbot", { name: "CASBOT", country: "China" }],
+    ["deep robotic", { name: "Deep Robotics", country: "China", city: "Hangzhou", website: "https://www.deeprobotics.cn" }],
+    ["deep robotics", { name: "Deep Robotics", country: "China", city: "Hangzhou", website: "https://www.deeprobotics.cn" }],
+    ["dexcelrobotics", { name: "Dexcel Robotics", country: "China" }],
+    ["digit robotics", { name: "Digit Robotics", country: "China" }],
+    ["dobot", { name: "DOBOT Robotics", country: "China", city: "Shenzhen", website: "https://www.dobot-robots.com" }],
+    ["dobot robotics", { name: "DOBOT Robotics", country: "China", city: "Shenzhen", website: "https://www.dobot-robots.com" }],
+    ["engineai", { name: "EngineAI Robotics", country: "China", city: "Shenzhen", website: "https://www.engineai.com.cn" }],
+    ["engine ai", { name: "EngineAI Robotics", country: "China", city: "Shenzhen", website: "https://www.engineai.com.cn" }],
+    ["figure", { name: "Figure AI", country: "United States", website: "https://www.figure.ai" }],
+    ["fourier", { name: "Fourier Intelligence", country: "China", city: "Shanghai", website: "https://www.fftai.com" }],
+    ["fourier gr 2", { name: "Fourier Intelligence", country: "China", city: "Shanghai", website: "https://www.fftai.com" }],
+    ["galbot", { name: "Galbot", country: "China", city: "Beijing", website: "https://www.galbot.com" }],
+    ["galaxea dynamics", { name: "Galaxea Dynamics", country: "China" }],
+    ["hexacercle technology", { name: "HexaCircle Technology", country: "China" }],
+    ["ihub robotic", { name: "I Hub Research and Robotics", country: "India", city: "Cochin" }],
+    ["i hub research and robotics", { name: "I Hub Research and Robotics", country: "India", city: "Cochin" }],
+    ["inspire robots", { name: "Inspire-Robots", country: "China", website: "https://www.inspire-robots.com" }],
+    ["jaka", { name: "JAKA Robotics", country: "China", city: "Shanghai", website: "https://www.jaka.com" }],
+    ["keenon xman r1 keenon robotics co ltd", { name: "Keenon Robotics", country: "China", city: "Shanghai", website: "https://www.keenon.com" }],
+    ["leju robot", { name: "Leju Robotics", country: "China", city: "Shenzhen", website: "https://www.lejurobot.com" }],
+    ["limx dynamics", { name: "LimX Dynamics", country: "China", website: "https://www.limxdynamics.com" }],
+    ["linkerbot", { name: "LinkerBot", country: "China", website: "https://www.linkerbot.cn" }],
+    ["magiclab", { name: "MagicLab", country: "China" }],
+    ["midea", { name: "Midea", country: "China", website: "https://www.midea.com" }],
+    ["noetix", { name: "Noetix Robotics", country: "China" }],
+    ["openloong", { name: "OpenLoong", country: "China" }],
+    ["oymotion", { name: "OYMotion", country: "China", website: "https://www.oymotion.com" }],
+    ["paxini", { name: "Paxini", country: "China", website: "https://www.paxini.ai" }],
+    ["pnbbotics adam", { name: "PNDbotics", country: "China" }],
+    ["pudurobotics", { name: "Pudu Robotics", country: "China", city: "Shenzhen", website: "https://www.pudurobotics.com" }],
+    ["pudu robotics", { name: "Pudu Robotics", country: "China", city: "Shenzhen", website: "https://www.pudurobotics.com" }],
+    ["robotera", { name: "Robot Era", country: "China", city: "Beijing", website: "https://www.robotera.com" }],
+    ["siasun robot automation", { name: "Siasun Robotics", country: "China", city: "Shenyang", website: "https://www.siasun.com" }],
+    ["topstar", { name: "Topstar", country: "China", website: "https://www.topstarltd.com" }],
+    ["ubtech", { name: "UBTECH Robotics", country: "China", city: "Shenzhen", website: "https://www.ubtrobot.com" }],
+    ["ubtech robotics", { name: "UBTECH Robotics", country: "China", city: "Shenzhen", website: "https://www.ubtrobot.com" }],
+    ["unitree", { name: "Unitree Robotics", country: "China", city: "Hangzhou", website: "https://www.unitree.com" }],
+    ["unitree robotics", { name: "Unitree Robotics", country: "China", city: "Hangzhou", website: "https://www.unitree.com" }],
+    ["unix ai", { name: "UNIX AI", country: "China" }],
+    ["veichi", { name: "VEICHI", country: "China", website: "https://www.veichi.com" }],
+    ["x humanoid", { name: "X-Humanoid", country: "China" }],
+    ["x square robot", { name: "X Square Robot", country: "China" }],
+    ["xiaomi", { name: "Xiaomi", country: "China", city: "Beijing", website: "https://www.mi.com" }],
+    ["zhejiang humanoid robot innovation center", { name: "Zhejiang Humanoid Robot Innovation Center", country: "China" }],
+    ["zw hand", { name: "ZWHAND", country: "China" }],
+  ].map(([key, value]) => [humanoidGuideAliasKey(key), value]),
+);
 
 const MASS_TECH_LABELS = {
   ai: "AI",
@@ -367,6 +539,10 @@ const wikipediaChinaRoboticsSearch = await loadSourceJson(
   "wikipediaChinaRoboticsSearch",
   fetchWikipediaChinaRoboticsSearch,
 );
+const wikipediaIndiaRoboticsSearch = await loadSourceJson(
+  "wikipediaIndiaRoboticsSearch",
+  fetchWikipediaIndiaRoboticsSearch,
+);
 const wrcPastHighlightExhibits = await loadSourceJson("wrcPastHighlightExhibits", fetchWrcPastHighlightExhibits);
 const cematAsiaRoboticsExhibitors = await loadSourceJson(
   "cematAsiaRoboticsExhibitors",
@@ -395,6 +571,12 @@ const siliconValleyRoboticsMembers = await loadSourceJson(
   "siliconValleyRoboticsMembers",
   fetchSiliconValleyRoboticsMembers,
 );
+const techBuzzChinaRoboticsTracker = await loadSourceJson(
+  "techBuzzChinaRoboticsTracker",
+  fetchTechBuzzChinaRoboticsTracker,
+);
+const humanoidGuideProducts = await loadSourceJson("humanoidGuideProducts", fetchHumanoidGuideProducts);
+const f6sIndiaRoboticsCompanies = await loadManualSourceJson("f6sIndiaRoboticsCompanies");
 
 const publicRows = [
   ...extractMassRobotics(pages.massrobotics),
@@ -424,6 +606,7 @@ const publicRows = [
   ...extractEicFundRobotSearch(eicFundRobotSearch),
   ...extractCordisRoboticsProjects(cordisRoboticsProjects),
   ...extractWikipediaChinaRoboticsSearch(wikipediaChinaRoboticsSearch),
+  ...extractWikipediaIndiaRoboticsSearch(wikipediaIndiaRoboticsSearch),
   ...extractWrcPastHighlightExhibits(wrcPastHighlightExhibits),
   ...extractCematAsiaRoboticsExhibitors(cematAsiaRoboticsExhibitors),
   ...extractOdenseRoboticsMembers(odenseRoboticsMembers),
@@ -451,6 +634,9 @@ const publicRows = [
   }),
   ...extractPittsburghRoboticsMembers(pages.pittsburghRoboticsMembers),
   ...extractSiliconValleyRoboticsMembers(siliconValleyRoboticsMembers),
+  ...extractTechBuzzChinaRoboticsTracker(techBuzzChinaRoboticsTracker),
+  ...extractHumanoidGuideProducts(humanoidGuideProducts),
+  ...extractF6sIndiaRoboticsCompanies(f6sIndiaRoboticsCompanies),
 ];
 
 const refreshedNamespaces = new Set(publicRows.map((row) => row.source_namespace).filter(Boolean));
@@ -543,6 +729,19 @@ async function loadSourceJson(key, fetcher = fetchJsonSource) {
   } catch (error) {
     if (source.optional) {
       console.warn(`No cache available for optional source ${source.url}; skipping: ${error.message}`);
+      return {};
+    }
+    throw error;
+  }
+}
+
+async function loadManualSourceJson(key) {
+  const source = SOURCES[key];
+  try {
+    return JSON.parse(await readFile(source.manualFile, "utf8"));
+  } catch (error) {
+    if (source.optional) {
+      console.warn(`No manual source file available for ${source.url}; skipping: ${error.message}`);
       return {};
     }
     throw error;
@@ -679,8 +878,16 @@ async function fetchCordisRoboticsProjects(source) {
 }
 
 async function fetchWikipediaChinaRoboticsSearch(source) {
+  return fetchMediaWikiSearchResults(MEDIAWIKI_CHINA_ROBOTICS_QUERIES);
+}
+
+async function fetchWikipediaIndiaRoboticsSearch(source) {
+  return fetchMediaWikiSearchResults(MEDIAWIKI_INDIA_ROBOTICS_QUERIES);
+}
+
+async function fetchMediaWikiSearchResults(queries) {
   const results = [];
-  for (const search of MEDIAWIKI_CHINA_ROBOTICS_QUERIES) {
+  for (const search of queries) {
     const url = new URL(`https://${search.wiki}.wikipedia.org/w/api.php`);
     url.searchParams.set("action", "query");
     url.searchParams.set("list", "search");
@@ -798,7 +1005,79 @@ async function fetchOdenseRoboticsMembers(source) {
     members.push(...(json.members ?? []));
   }
 
-  return { ...first, members, fetchedPages: totalPages };
+  const enrichedMembers = await mapWithConcurrency(members, 8, async (member) => {
+    if (!/private company/i.test(member.organisationType ?? "") || !member.permalink) {
+      return member;
+    }
+
+    try {
+      const html = await fetchHtmlText(member.permalink);
+      return {
+        ...member,
+        detail: parseOdenseMemberProfile(html, member.permalink),
+      };
+    } catch (error) {
+      console.warn(`Fetch failed for Odense member ${member.permalink}: ${error.message}`);
+      return {
+        ...member,
+        detail_fetch_error: error.message,
+      };
+    }
+  });
+
+  return {
+    ...first,
+    members: enrichedMembers,
+    fetchedPages: totalPages,
+    enrichedProfiles: enrichedMembers.filter((member) => member.detail?.website_url || member.detail?.short_description).length,
+  };
+}
+
+async function fetchHumanoidGuideProducts(source) {
+  const products = [];
+  let fetchedPages = 0;
+  let totalPages = 1;
+
+  for (let page = 1; page <= Math.min(totalPages, 12); page += 1) {
+    const url = new URL(source.url);
+    url.searchParams.set("page", String(page));
+
+    const response = await fetch(url, {
+      headers: {
+        accept: "application/json",
+        "user-agent": "RoboticsMarketAtlas/0.1 public-data-research",
+      },
+    });
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+
+    totalPages = Math.min(Number(response.headers.get("x-wp-totalpages") ?? totalPages) || totalPages, 12);
+    const json = await response.json();
+    if (!Array.isArray(json) || !json.length) break;
+
+    products.push(...json);
+    fetchedPages = page;
+    if (json.length < 100) break;
+  }
+
+  return { products, fetchedPages, totalPages };
+}
+
+async function fetchTechBuzzChinaRoboticsTracker(source) {
+  const response = await fetch(source.url, {
+    headers: {
+      accept: "application/json",
+      apikey: source.publishableKey,
+      authorization: `Bearer ${source.publishableKey}`,
+      prefer: "count=exact",
+      "user-agent": "RoboticsMarketAtlas/0.1 public-data-research",
+    },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  const companies = await response.json();
+  return {
+    companies: Array.isArray(companies) ? companies.map(parseTechBuzzJsonFields) : [],
+    contentRange: response.headers.get("content-range"),
+  };
 }
 
 async function fetchStartupSgRobotics(source) {
@@ -1215,6 +1494,23 @@ async function fetchHtmlText(url) {
   });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.text();
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      results[index] = await mapper(items[index], index);
+    }
+  }
+
+  const workerCount = Math.max(1, Math.min(concurrency, items.length));
+  await Promise.all(Array.from({ length: workerCount }, worker));
+  return results;
 }
 
 async function fetchSiliconValleyRoboticsMembers(source) {
@@ -1996,6 +2292,46 @@ function extractWikipediaChinaRoboticsSearch(json) {
   return dedupeSourceRows(rows);
 }
 
+function extractWikipediaIndiaRoboticsSearch(json) {
+  const results = json?.results;
+  if (!Array.isArray(results)) return [];
+
+  const rows = [];
+  for (const result of results) {
+    const title = cleanWikipediaTitle(result.title);
+    const description = htmlToText(result.snippet);
+    const text = `${title} ${description}`;
+    if (!isMediaWikiIndiaRoboticsCompanyResult(title, description)) continue;
+
+    const companyName = mediaWikiIndiaCompanyName(title, description);
+    const countries = unique(["India", ...inferCountriesFromText(text)]);
+
+    rows.push(
+      compactRecord({
+        company_name: companyName,
+        status: "Pending",
+        country: countries,
+        short_description: description,
+        product_type: productTypesFromText(text),
+        targeted_industries: industriesFromText(text),
+        robot_or_automated_system_type: robotTypesFromText(text),
+        hardware_component_type: hardwareTypesFromText(text),
+        software_type: softwareTypesFromText(text),
+        tags: [`${result.wiki}.wikipedia India robotics company search result`],
+        source_namespace: "wikipedia_india_robotics_search",
+        source_record_id: `${result.wiki}-${result.pageid}`,
+        source_name: "Wikipedia India Robotics Company Search",
+        source_type: "encyclopedic_robotics_company_search",
+        source_url: `https://${result.wiki}.wikipedia.org/?curid=${result.pageid}`,
+        source_confidence: 56,
+        extraction_method: "mediawiki_search_india_robotics_company_filter",
+      }),
+    );
+  }
+
+  return dedupeSourceRows(rows);
+}
+
 function extractWrcPastHighlightExhibits(json) {
   const pages = json?.pages;
   if (!Array.isArray(pages)) return [];
@@ -2109,6 +2445,96 @@ function extractCematAsiaRoboticsExhibitors(json) {
   return dedupeSourceRows(rows);
 }
 
+function parseOdenseMemberProfile(html, profileUrl) {
+  const text = String(html ?? "");
+  const urlBlockStart = text.search(/class="[^"]*mt-members-info-box__urls[^"]*"/i);
+  const urlBlock = urlBlockStart >= 0 ? text.slice(urlBlockStart, urlBlockStart + 4000) : "";
+  const imageUrl = cleanUrl(
+    absoluteUrl(
+      text.match(/<div[^>]*class="[^"]*mt-members-cover__image[^"]*"[\s\S]*?<img[^>]+src="([^"]+)"/i)?.[1],
+      profileUrl,
+    ),
+  );
+  const companyName = cleanCompanyName(
+    htmlToText(text.match(/<h1[^>]*class="[^"]*mt-members-cover__title[^"]*"[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? ""),
+  );
+  const excerpt = htmlToText(
+    text.match(/<div[^>]*class="[^"]*mt-members-cover__excerpt[^"]*"[^>]*>([\s\S]*?)<\/div>/i)?.[1] ?? "",
+  );
+  const metaDescription = decodeHtml(
+    text.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1] ?? "",
+  );
+
+  return compactRecord({
+    company_name: companyName,
+    website_url: extractOdenseProfileWebsite(urlBlock || text, profileUrl),
+    short_description: cleanOdenseProfileDescription(excerpt || metaDescription),
+    image_url: imageUrl,
+  });
+}
+
+function extractOdenseProfileWebsite(block, profileUrl) {
+  const links = [...String(block ?? "").matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((match) => ({
+      url: cleanUrl(absoluteUrl(match[1], profileUrl) ?? match[1]),
+      label: htmlToText(match[2]),
+    }))
+    .filter((link) => link.url && isLikelyOdenseCompanyWebsite(link.url, link.label, profileUrl));
+
+  return preferredUrl(links.map((link) => link.url));
+}
+
+function isLikelyOdenseCompanyWebsite(value, label, profileUrl) {
+  try {
+    const url = new URL(value);
+    const profileHost = new URL(profileUrl).hostname.replace(/^www\./, "");
+    const host = url.hostname.replace(/^www\./, "");
+    const lowerUrl = value.toLowerCase();
+    const lowerLabel = String(label ?? "").toLowerCase();
+    const excludedHosts = [
+      "odenserobotics.dk",
+      "barani.micusto.cloud",
+      "linkedin.com",
+      "facebook.com",
+      "instagram.com",
+      "youtube.com",
+      "google.com",
+      "gstatic.com",
+      "cookiebot.com",
+      "hotjar.com",
+      "wp-rocket.me",
+      "w3.org",
+      "robotstartupfund.dk",
+      "robotic-careers.com",
+      "mkt.dynamics.com",
+      "azureedge.net",
+    ];
+
+    if (host === profileHost) return false;
+    if (excludedHosts.some((excluded) => host === excluded || host.endsWith(`.${excluded}`))) return false;
+    if (/\.(?:png|jpe?g|webp|gif|svg|pdf|css|js)(?:[?#]|$)/i.test(url.pathname)) return false;
+
+    return /website|visit|go to website|homepage/i.test(lowerLabel) || !/open-contact|privacy|newsletter/i.test(lowerUrl);
+  } catch {
+    return false;
+  }
+}
+
+function cleanOdenseProfileDescription(value) {
+  const description = htmlToText(value);
+  if (description.length < 40) return null;
+  if (/Denmark'?s cluster for robotics, automation and drones/i.test(description)) return null;
+  if (/Let.?s talk about your business|all fields are required|privacy policy/i.test(description)) return null;
+  return description;
+}
+
+function odenseMemberSummary(companyName, technologies, industries) {
+  const parts = [`${companyName} is listed in the Odense Robotics member directory as a private company`];
+  if (technologies.length) parts.push(`working with ${formatList(technologies.slice(0, 3))}`);
+  if (industries.length) parts.push(`for ${formatList(industries.slice(0, 5))}`);
+  return `${parts.join(" ")}.`;
+}
+
 function extractOdenseRoboticsMembers(json) {
   const members = json?.members;
   if (!Array.isArray(members)) return [];
@@ -2116,22 +2542,31 @@ function extractOdenseRoboticsMembers(json) {
   const rows = members
     .filter((member) => /private company/i.test(member.organisationType ?? ""))
     .map((member) => {
+      const detail = member.detail ?? {};
+      const companyName = cleanCompanyName(detail.company_name || member.title);
       const technologies = termNames(member.technologyFields);
       const industries = termNames(member.industries).map(mapIndustryLabel);
       const hubs = termNames(member.hubs);
-      const text = `${member.title} ${technologies.join(" ")} ${industries.join(" ")}`;
+      const shortDescription = detail.short_description ?? odenseMemberSummary(companyName, technologies, industries);
+      const text = `${companyName} ${shortDescription} ${technologies.join(" ")} ${industries.join(" ")}`;
+      const enriched = Boolean(detail.website_url || detail.short_description || detail.image_url);
 
       return compactRecord({
-        company_name: cleanCompanyName(member.title),
+        company_name: companyName,
         status: "Pending",
+        website_url: cleanUrl(detail.website_url),
+        short_description: shortDescription,
+        image_url: cleanUrl(detail.image_url ?? member.imageUrl),
         country: ["Denmark"],
         product_type: productTypesFromText(text),
         targeted_industries: unique(industries),
         robot_or_automated_system_type: robotTypesFromText(text),
         hardware_component_type: hardwareTypesFromText(text),
+        software_type: softwareTypesFromText(text),
         tags: unique([
           "Odense Robotics member",
           member.organisationType ? `Odense organisation type: ${member.organisationType}` : null,
+          enriched ? "Odense member detail page enriched" : null,
           ...technologies.map((technology) => `Technology: ${technology}`),
           ...hubs.map((hub) => `Odense hub: ${hub}`),
         ]),
@@ -2140,12 +2575,621 @@ function extractOdenseRoboticsMembers(json) {
         source_name: "Odense Robotics Member Directory",
         source_type: "robotics_cluster_member_directory_api",
         source_url: member.permalink ?? SOURCES.odenseRoboticsMembers.url,
-        source_confidence: 72,
-        extraction_method: "wp_json_member_api",
+        source_confidence: enriched ? 78 : 73,
+        extraction_method: enriched ? "wp_json_member_api_with_detail_page" : "wp_json_member_api",
       });
     });
 
   return dedupeSourceRows(rows);
+}
+
+function extractTechBuzzChinaRoboticsTracker(json) {
+  const companies = Array.isArray(json?.companies) ? json.companies : [];
+  const rows = [];
+
+  for (const company of companies) {
+    if (company.deleted_at) continue;
+    if (/could not be verified|IMPORTANT NOTE/i.test(company.description ?? "")) continue;
+
+    const companyName = cleanCompanyName(company.name);
+    if (!companyName) continue;
+
+    const taxonomyTags = valuesList(company.taxonomy_tags);
+    const taxonomyLabels = taxonomyTags.map((tag) => TECH_BUZZ_TAXONOMY_LABELS[tag] ?? labelFromSlug(tag));
+    const categoryLabel = TECH_BUZZ_CATEGORY_LABELS[company.category] ?? labelFromSlug(company.category);
+    const products = techBuzzProductNames(company.key_products);
+    const investors = valuesList(company.key_investors);
+    const partnerships = valuesList(company.key_partnerships);
+    const fundingRounds = toArray(company.funding_rounds);
+    const lastFundingRound = techBuzzLastFundingRound(fundingRounds);
+    const text = [
+      companyName,
+      company.name_cn,
+      categoryLabel,
+      taxonomyLabels.join(" "),
+      products.join(" "),
+      htmlToText(company.description),
+    ].join(" ");
+    const taxonomy = techBuzzTaxonomy(company.category, taxonomyTags, text);
+    const sourceUrl = company.id
+      ? `https://robotics.techbuzzchina.com/company.html?id=${encodeURIComponent(company.id)}`
+      : SOURCES.techBuzzChinaRoboticsTracker.directoryUrl;
+    const teamSizeValue = numberFromValue(company.headcount ?? company.employees_estimate);
+    const teamSize = Number.isFinite(teamSizeValue) && teamSizeValue > 0 ? teamSizeValue : null;
+    const fundingRaisedUsd = numberFromValue(company.total_funding_usd);
+    const valuationUsd = numberFromValue(company.current_valuation_usd);
+
+    rows.push(compactRecord({
+      company_name: companyName,
+      website_url: cleanUrl(company.website),
+      city: cleanCompanyName(company.hq_city),
+      state: company.hq_province ? [cleanCompanyName(company.hq_province)] : [],
+      country: ["China"],
+      founded: yearFromValue(company.founded),
+      team_size: teamSize,
+      funding_raised_usd: fundingRaisedUsd,
+      valuation_usd: valuationUsd,
+      current_revenue_usd: numberFromValue(company.current_revenue_usd),
+      current_arr_usd: numberFromValue(company.current_arr_usd),
+      shipments_to_date: numberFromValue(company.shipments_to_date),
+      shipments_ytd: numberFromValue(company.shipments_ytd),
+      stock_ticker: cleanCompanyName(company.stock_ticker),
+      last_round_stage: techBuzzStageLabel(company.funding_stage),
+      status: "Pending",
+      short_description: techBuzzDescription(companyName, categoryLabel, company, products),
+      image_url: cleanUrl(company.logo),
+      product_type: taxonomy.productType,
+      targeted_industries: taxonomy.industries,
+      robot_or_automated_system_type: taxonomy.robotTypes,
+      hardware_component_type: taxonomy.hardwareTypes,
+      software_type: taxonomy.softwareTypes,
+      people: techBuzzPeopleFromMilestones(company.milestones),
+      tags: unique([
+        "Tech Buzz China robotics tracker",
+        company.name_cn ? `Chinese name: ${cleanCompanyName(company.name_cn)}` : null,
+        company.name_cn_full ? `Chinese legal name: ${cleanCompanyName(company.name_cn_full)}` : null,
+        company.pinyin_name ? `Pinyin: ${cleanCompanyName(company.pinyin_name)}` : null,
+        company.category ? `Tech Buzz category: ${categoryLabel}` : null,
+        company.funding_stage ? `Tech Buzz funding stage: ${techBuzzStageLabel(company.funding_stage)}` : null,
+        lastFundingRound ? `Latest Tech Buzz round: ${lastFundingRound}` : null,
+        fundingRaisedUsd ? `Tech Buzz total funding USD: ${fundingRaisedUsd}` : null,
+        valuationUsd ? `Tech Buzz valuation USD: ${valuationUsd}` : null,
+        teamSize ? `Tech Buzz employees estimate: ${teamSize}` : null,
+        ...taxonomyLabels.map((label) => `Tech Buzz taxonomy: ${label}`),
+        ...products.slice(0, 8).map((product) => `Tech Buzz product: ${product}`),
+        ...investors.slice(0, 10).map((investor) => `Tech Buzz investor: ${investor}`),
+        ...partnerships.slice(0, 6).map((partner) => `Tech Buzz partnership: ${partner}`),
+      ]),
+      source_namespace: "techbuzz_china_robotics_tracker",
+      source_record_id: String(company.id ?? slugify(companyName)),
+      source_record_created_at: isoDateValue(company.created_at),
+      source_record_last_edited_at: isoDateValue(company.updated_at),
+      source_name: "Tech Buzz China Humanoid Robotics Tracker",
+      source_type: "public_china_humanoid_robotics_tracker_api",
+      source_url: sourceUrl,
+      source_confidence: company.website ? 82 : 78,
+      extraction_method: "public_supabase_robotics_companies_api_structured_fields",
+    }));
+  }
+
+  return dedupeSourceRows(rows);
+}
+
+function parseTechBuzzJsonFields(row) {
+  const parsed = { ...row };
+  for (const field of TECH_BUZZ_JSON_FIELDS) {
+    if (typeof parsed[field] === "string") {
+      try {
+        parsed[field] = JSON.parse(parsed[field]);
+      } catch {
+        parsed[field] = [];
+      }
+    }
+    if (!parsed[field]) parsed[field] = [];
+  }
+  return parsed;
+}
+
+function techBuzzProductNames(value) {
+  return valuesList(value)
+    .map((product) => cleanCompanyName(typeof product === "string" ? product : product?.name ?? product?.product ?? product?.model))
+    .filter(Boolean);
+}
+
+function techBuzzLastFundingRound(rounds) {
+  const normalized = rounds
+    .map((round) => (typeof round === "string" ? { round } : round))
+    .filter((round) => round && typeof round === "object")
+    .sort((a, b) => String(b.date ?? "").localeCompare(String(a.date ?? "")));
+  const latest = normalized[0];
+  if (!latest) return null;
+
+  const label = cleanCompanyName(latest.round ?? latest.stage);
+  const amount = numberFromValue(latest.amount_usd);
+  const date = cleanCompanyName(latest.date);
+  return unique([date, label, amount ? `$${amount}` : null]).join(" ");
+}
+
+function techBuzzStageLabel(value) {
+  const label = cleanCompanyName(value);
+  return label ? labelFromSlug(label.replace(/_/g, "-")) : null;
+}
+
+function techBuzzDescription(companyName, categoryLabel, company, products) {
+  const parts = [`${companyName} is listed by Tech Buzz China as a ${categoryLabel} company`];
+  const location = unique([company.hq_city, company.hq_province]).join(", ");
+  if (location) parts.push(`based in ${location}`);
+  if (products.length) parts.push(`with tracked products including ${formatList(products.slice(0, 4))}`);
+  return `${parts.join(" ")}.`;
+}
+
+function techBuzzPeopleFromMilestones(value) {
+  const milestones = toArray(value);
+  const people = [];
+  for (const milestone of milestones) {
+    const event = typeof milestone === "string" ? milestone : milestone?.event;
+    const match = String(event ?? "").match(/\bfounded by\s+([^.;]+)/i);
+    if (!match) continue;
+    const withoutParentheticals = match[1].replace(/\([^)]*\)/g, " ");
+    const romanNames = withoutParentheticals.match(/\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,2}\b/g) ?? [];
+    people.push(
+      ...romanNames
+        .map(cleanCompanyName)
+        .filter((name) => name && !/\b(University|Robotics|Institute|Capital|Technology|Professor|PhD|Berkeley|Tsinghua)\b/i.test(name)),
+    );
+  }
+  return unique(people.slice(0, 8));
+}
+
+function techBuzzTaxonomy(category, taxonomyTags, text) {
+  const tags = new Set(taxonomyTags);
+  const productType = [];
+  const industries = unique(["Robotics development", "Manufacturing", ...industriesFromText(text)]);
+  const robotTypes = [];
+  const hardwareTypes = [];
+  const softwareTypes = [];
+
+  if (["humanoid", "robot_maker"].includes(category) || tags.has("humanoid") || tags.has("quadruped") || tags.has("legged_robot")) {
+    productType.push("Robot or automated system");
+  }
+  if (category === "ai_software" || tags.has("embodied_ai") || tags.has("robot_os") || tags.has("simulation")) {
+    productType.push("Robot software");
+  }
+  if (
+    [
+      "motor",
+      "reducer",
+      "sensor",
+      "end_effector",
+      "screw",
+      "bearing",
+      "gear",
+      "connector",
+      "battery",
+      "material",
+      "skin",
+      "chips",
+      "controller",
+      "communication",
+    ].includes(category)
+  ) {
+    productType.push("Hardware component");
+  }
+  if (category === "automation" || tags.has("robot_integrator")) productType.push("On-demand robotics or automation development");
+  if (!productType.length) productType.push(...productTypesFromText(text));
+
+  if (tags.has("humanoid") || category === "humanoid") robotTypes.push("Humanoid robot");
+  if (tags.has("quadruped")) robotTypes.push("Quadruped robot");
+  if (tags.has("legged_robot")) robotTypes.push("Legged robot");
+  if (tags.has("cobot")) robotTypes.push("Collaborative robot");
+  if (tags.has("robot_integrator")) robotTypes.push("Automated system – Other");
+
+  for (const tag of taxonomyTags) {
+    if (
+      [
+        "vision_sensor",
+        "lidar",
+        "force_sensor",
+        "tactile_sensor",
+        "imu_encoder",
+        "general_sensor",
+      ].includes(tag)
+    ) {
+      hardwareTypes.push(TECH_BUZZ_TAXONOMY_LABELS[tag]);
+    }
+    if (
+      [
+        "servo_motor",
+        "bldc_motor",
+        "coreless_motor",
+        "torque_motor",
+        "stepper_motor",
+        "linear_motor",
+        "motor_driver",
+        "general_motor",
+      ].includes(tag)
+    ) {
+      hardwareTypes.push("Actuator");
+    }
+    if (
+      [
+        "harmonic_reducer",
+        "planetary_reducer",
+        "rv_reducer",
+        "general_reducer",
+        "ball_screw",
+        "roller_screw",
+        "linear_motion",
+        "battery_power",
+        "bearing",
+        "gear",
+        "connector_cable",
+        "chip_processor",
+        "material_structure",
+        "skin_covering",
+      ].includes(tag)
+    ) {
+      hardwareTypes.push(TECH_BUZZ_TAXONOMY_LABELS[tag]);
+    }
+    if (["dexterous_hand", "gripper", "tactile_hand"].includes(tag)) hardwareTypes.push("End-effector");
+    if (tag === "embodied_ai") softwareTypes.push("AI model");
+    if (tag === "computer_vision") softwareTypes.push("Perception / vision");
+    if (tag === "robot_os") softwareTypes.push("Developer platform");
+    if (tag === "simulation") softwareTypes.push("Simulation");
+    if (tag === "controller") hardwareTypes.push("Controller");
+  }
+
+  return {
+    productType: unique(productType.length ? productType : ["Other"]),
+    industries,
+    robotTypes: unique([...robotTypes, ...robotTypesFromText(text)]),
+    hardwareTypes: unique([...hardwareTypes, ...hardwareTypesFromText(text)]),
+    softwareTypes: unique([...softwareTypes, ...softwareTypesFromText(text)]),
+  };
+}
+
+function extractHumanoidGuideProducts(json) {
+  const products = Array.isArray(json?.products) ? json.products : [];
+  const groups = new Map();
+
+  for (const product of products) {
+    const title = cleanCompanyName(htmlToText(product?.title?.rendered));
+    const categories = humanoidGuideCategoryLabels(product);
+    if (!title || !humanoidGuideIsUsableProduct(categories)) continue;
+
+    const text = [
+      title,
+      categories.join(" "),
+      htmlToText(product?.excerpt?.rendered),
+      htmlToText(product?.content?.rendered),
+    ].join(" ");
+    if (!HUMANOID_GUIDE_PRODUCT_CATEGORIES.has(categories[0]) && !isRoboticsCompanyText(text)) continue;
+
+    const externalLinks = humanoidGuideExternalLinks(product);
+    const maker = humanoidGuideProductMaker(product, text, externalLinks);
+    if (!maker?.name || HUMANOID_GUIDE_NON_COMPANY_PATTERN.test(maker.name)) continue;
+
+    const companyName = cleanCompanyName(maker.name);
+    if (!companyName) continue;
+
+    const key = slugify(companyName);
+    const existing = groups.get(key) ?? {
+      company_name: companyName,
+      city: maker.city,
+      country: maker.country ? [maker.country] : [],
+      website_urls: [],
+      product_titles: [],
+      product_links: [],
+      categories: [],
+      text: [],
+      image_urls: [],
+      confidence: maker.aliasMatched ? 72 : 68,
+    };
+
+    existing.website_urls.push(humanoidGuideCompanyWebsite(externalLinks, maker));
+    existing.product_titles.push(title);
+    existing.product_links.push(cleanUrl(product.link));
+    existing.categories.push(...categories);
+    existing.text.push(text);
+    existing.image_urls.push(cleanUrl(product.featured_image_src_large));
+    existing.country.push(...inferCountriesFromText(text));
+    if (!existing.city && maker.city) existing.city = maker.city;
+    if (maker.aliasMatched) existing.confidence = Math.max(existing.confidence, 72);
+    groups.set(key, existing);
+  }
+
+  const rows = [];
+  for (const group of groups.values()) {
+    const combinedText = group.text.join(" ");
+    const taxonomy = humanoidGuideTaxonomy(unique(group.categories), combinedText);
+    const productTitles = unique(group.product_titles);
+    const productLinks = unique(group.product_links).filter(Boolean);
+    const categories = unique(group.categories);
+
+    rows.push(compactRecord({
+      company_name: group.company_name,
+      website_url: preferredUrl(unique(group.website_urls).filter(Boolean)),
+      city: group.city,
+      country: unique(group.country),
+      status: "Pending",
+      short_description: `${group.company_name} appears in Humanoid.guide's humanoid robotics product directory with ${productTitles.length === 1 ? "product" : "products"} ${formatList(productTitles.slice(0, 5))}.`,
+      image_url: preferredUrl(unique(group.image_urls).filter(Boolean)),
+      product_type: taxonomy.productType,
+      targeted_industries: unique([...industriesFromText(combinedText), "Robotics development"]),
+      robot_or_automated_system_type: taxonomy.robotTypes,
+      hardware_component_type: taxonomy.hardwareTypes,
+      software_type: taxonomy.softwareTypes,
+      tags: unique([
+        "Humanoid.guide product directory",
+        ...categories.map((category) => `Humanoid.guide category: ${category}`),
+        ...productTitles.slice(0, 12).map((productTitle) => `Humanoid.guide product: ${productTitle}`),
+      ]),
+      source_namespace: "humanoid_guide_product_company",
+      source_record_id: slugify(group.company_name),
+      source_name: "Humanoid.guide Product Directory",
+      source_type: "public_humanoid_robot_product_directory_api",
+      source_url: productLinks[0] ?? SOURCES.humanoidGuideProducts.url,
+      source_confidence: group.confidence,
+      extraction_method: "wp_json_product_api_logo_alt_external_link_company_grouping",
+    }));
+  }
+
+  return dedupeSourceRows(rows);
+}
+
+function extractF6sIndiaRoboticsCompanies(json) {
+  const companies = Array.isArray(json?.companies) ? json.companies : [];
+  const sourceUrl = cleanUrl(json?.source_url) ?? SOURCES.f6sIndiaRoboticsCompanies.url;
+  const snapshotDate = isoDateValue(json?.snapshot_date);
+  const retrievedDate = isoDateValue(json?.retrieved_at);
+
+  const rows = [];
+  for (const company of companies) {
+    const companyName = cleanCompanyName(company.name);
+    if (!companyName) continue;
+
+    const tagline = cleanCompanyName(company.tagline);
+    const text = `${companyName} ${tagline}`;
+    const genericTagline = /\blisted by F6S India robotics directory\b/i.test(tagline);
+    const rank = Number(company.rank);
+
+    rows.push(
+      compactRecord({
+        company_name: companyName,
+        status: "Pending",
+        founded: yearFromValue(company.founded),
+        city: cleanCompanyName(company.city),
+        country: ["India"],
+        short_description: f6sIndiaShortDescription(companyName, tagline, genericTagline),
+        product_type: productTypesFromText(text),
+        targeted_industries: industriesFromText(text),
+        robot_or_automated_system_type: robotTypesFromText(text),
+        hardware_component_type: hardwareTypesFromText(text),
+        software_type: softwareTypesFromText(text),
+        tags: unique([
+          "F6S India robotics companies snapshot",
+          Number.isFinite(rank) ? `F6S India robotics rank: ${rank}` : null,
+          tagline && !genericTagline ? `F6S tagline: ${tagline}` : null,
+        ]),
+        source_namespace: "f6s_india_robotics_company_snapshot",
+        source_record_id: company.id ?? slugify(companyName),
+        source_name: "F6S India Robotics Companies Snapshot",
+        source_type: "public_startup_directory_manual_snapshot",
+        source_url: `${sourceUrl}#${slugify(companyName)}`,
+        source_record_created_at: snapshotDate,
+        source_record_last_edited_at: retrievedDate,
+        source_confidence: genericTagline ? 58 : 64,
+        extraction_method: "manual_snapshot_from_public_f6s_directory_page",
+      }),
+    );
+  }
+
+  return dedupeSourceRows(rows);
+}
+
+function humanoidGuideCategoryLabels(product) {
+  return unique(
+    toArray(product?.taxonomy_info?.product_cat)
+      .map((category) => cleanCompanyName(category?.label))
+      .filter(Boolean),
+  );
+}
+
+function humanoidGuideIsUsableProduct(categories) {
+  if (!categories.length) return false;
+  if (categories.some((category) => HUMANOID_GUIDE_SKIPPED_CATEGORIES.has(category))) return false;
+  return categories.some((category) => HUMANOID_GUIDE_PRODUCT_CATEGORIES.has(category));
+}
+
+function humanoidGuideProductMaker(product, text, externalLinks) {
+  const logoAlt = humanoidGuideLogoAlt(product);
+  const fromLogo = humanoidGuideCompanyFromLogoAlt(logoAlt);
+  const fromText = fromLogo ? null : humanoidGuideCompanyFromText(text);
+  const fromHost = humanoidGuideCompanyFromExternalHost(externalLinks);
+  const candidate = fromLogo || fromText || fromHost?.name;
+  const alias = humanoidGuideAliasForName(candidate) ?? fromHost;
+  const name = cleanCompanyName(alias?.name ?? candidate);
+  if (!name || humanoidGuideInvalidMakerName(name)) return null;
+
+  return {
+    name,
+    city: alias?.city,
+    country: alias?.country,
+    website: cleanUrl(alias?.website),
+    aliasMatched: Boolean(alias),
+  };
+}
+
+function humanoidGuideLogoAlt(product) {
+  const html = `${product?.excerpt?.rendered ?? ""} ${product?.content?.rendered ?? ""}`;
+  return decodeHtml(html.match(/<img\b[^>]*\salt=["']([^"']+)["']/i)?.[1] ?? "");
+}
+
+function humanoidGuideCompanyFromLogoAlt(value) {
+  const raw = cleanCompanyName(value);
+  if (!raw) return null;
+  const exactAlias = humanoidGuideAliasForName(raw);
+  if (exactAlias) return exactAlias.name;
+
+  const fromUrl = raw.match(/^https?:\/\/.+\/([^/?#]+)$/i)?.[1] ?? raw;
+  const cleaned = cleanCompanyName(
+    fromUrl
+      .replace(/\.(?:png|jpe?g|webp|svg)$/i, "")
+      .replace(/[-_]+/g, " ")
+      .replace(/\b(?:logo|humanoid\.?guide|humanoide\.?guide|humnaoid\.?guide|humanoid guide|humanoid\.guide|guide)\b/gi, " ")
+      .replace(/\s+/g, " "),
+  );
+  const alias = humanoidGuideAliasForName(cleaned);
+  return alias?.name ?? cleaned;
+}
+
+function humanoidGuideCompanyFromText(value) {
+  const text = cleanCompanyName(value);
+  const patterns = [
+    /\b([A-Z][A-Za-z0-9&.\- ]{2,70})['’]s\s+(?:humanoid|robot|robotic|mobile|dexterous|embodied|foundation|AI|bipedal|dual-arm)/,
+    /\b(?:from|by|built by|developed by|designed by)\s+([A-Z][A-Za-z0-9&.\- ]{2,70}?)(?=\s+(?:robotics|robot|company|startup|maker|designed|built|that|for|,|\.))/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = text.match(pattern);
+    const candidate = cleanCompanyName(match?.[1]);
+    if (candidate && !humanoidGuideInvalidMakerName(candidate)) return candidate;
+  }
+
+  return null;
+}
+
+function humanoidGuideCompanyFromExternalHost(links) {
+  const hostAliases = [
+    ["agibot.com", "agibot"],
+    ["astribot.com", "astribot"],
+    ["deeprobotics.cn", "deep robotics"],
+    ["engineai.com.cn", "engineai"],
+    ["fftai.com", "fourier"],
+    ["galbot.com", "galbot"],
+    ["jaka.com", "jaka"],
+    ["lejurobot.com", "leju robot"],
+    ["linkerbot.cn", "linkerbot"],
+    ["pudurobotics.com", "pudu robotics"],
+    ["siasun.com", "siasun robot automation"],
+    ["ubtrobot.com", "ubtech robotics"],
+    ["unitree.com", "unitree robotics"],
+  ];
+
+  for (const link of links) {
+    try {
+      const host = new URL(link).hostname.replace(/^www\./i, "").toLowerCase();
+      const match = hostAliases.find(([aliasHost]) => host === aliasHost || host.endsWith(`.${aliasHost}`));
+      if (match) return humanoidGuideAliasForName(match[1]);
+    } catch {
+      // Ignore malformed links from source HTML.
+    }
+  }
+  return null;
+}
+
+function humanoidGuideAliasForName(value) {
+  if (!value) return null;
+  return HUMANOID_GUIDE_MAKER_ALIASES.get(humanoidGuideAliasKey(value)) ?? null;
+}
+
+function humanoidGuideAliasKey(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .replace(/&amp;/g, "&")
+    .replace(/\bco\.?,?\s*ltd\.?\b/g, "co ltd")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\b(?:logo|humanoid|guide|robot|robots|robotics|technology|technologies|inc|ltd|limited|company)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function humanoidGuideInvalidMakerName(value) {
+  const name = cleanCompanyName(value);
+  if (!name || name.length < 2) return true;
+  if (/^(logo|humanoid|guide|robot|test|market survey)$/i.test(name)) return true;
+  if (/^(the|a|an|one|many|cold|scratch|control|real-world|human workers)$/i.test(name)) return true;
+  if (/^(simulated environments|extensive human motion data|large-scale video|observation and interaction)/i.test(name)) return true;
+  return HUMANOID_GUIDE_NON_COMPANY_PATTERN.test(name);
+}
+
+function humanoidGuideExternalLinks(product) {
+  const html = `${product?.excerpt?.rendered ?? ""} ${product?.content?.rendered ?? ""}`;
+  return unique(
+    [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)]
+      .map((match) => cleanUrl(absoluteUrl(match[1], product?.link ?? SOURCES.humanoidGuideProducts.url) ?? match[1]))
+      .filter((link) => link && humanoidGuideIsCompanyLink(link)),
+  );
+}
+
+function humanoidGuideIsCompanyLink(value) {
+  try {
+    const url = new URL(value);
+    const host = url.hostname.replace(/^www\./i, "").toLowerCase();
+    if (
+      host === "humanoid.guide"
+      || host.endsWith(".humanoid.guide")
+      || host === "youtube.com"
+      || host === "youtu.be"
+      || host === "vimeo.com"
+      || host === "wikipedia.org"
+      || host.endsWith(".wikipedia.org")
+      || host === "linkedin.com"
+      || host.endsWith(".linkedin.com")
+    ) {
+      return false;
+    }
+    if (/\.(?:png|jpe?g|webp|gif|svg|pdf|css|js)(?:[?#]|$)/i.test(url.pathname)) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function humanoidGuideCompanyWebsite(links, maker) {
+  const rootedLinks = links.map(humanoidGuideRootWebsite).filter(Boolean);
+  return preferredUrl([...rootedLinks, cleanUrl(maker.website)]);
+}
+
+function humanoidGuideRootWebsite(value) {
+  if (!value) return null;
+  try {
+    const url = new URL(value);
+    return cleanUrl(`${url.protocol}//${url.hostname}`);
+  } catch {
+    return null;
+  }
+}
+
+function humanoidGuideTaxonomy(categories, text) {
+  const productType = [];
+  const robotTypes = [];
+  const hardwareTypes = [];
+  const softwareTypes = [];
+
+  if (categories.includes("Humanoids")) {
+    productType.push("Robot or automated system");
+    robotTypes.push("Humanoid robot");
+  }
+  if (categories.includes("Hands")) {
+    productType.push("Hardware component");
+    hardwareTypes.push("End-effector");
+  }
+  if (categories.includes("Brains")) {
+    productType.push("Robot software");
+    softwareTypes.push("AI model");
+  }
+  if (categories.includes("Training Hardware")) {
+    productType.push("Hardware component");
+    softwareTypes.push("Developer platform");
+  }
+
+  return {
+    productType: unique([...productType, ...productTypesFromText(text)]),
+    robotTypes: unique([...robotTypes, ...robotTypesFromText(text)]),
+    hardwareTypes: unique([...hardwareTypes, ...hardwareTypesFromText(text)]),
+    softwareTypes: unique([...softwareTypes, ...softwareTypesFromText(text)]),
+  };
 }
 
 function extractStartupSgRobotics(json) {
@@ -3052,6 +4096,7 @@ function inferCountriesFromText(text) {
     [/\bItalian\b|\bItaly\b/i, "Italy"],
     [/\bGerman\b|\bGermany\b/i, "Germany"],
     [/\bDanish\b|\bDenmark\b/i, "Denmark"],
+    [/\bIndian\b|\bIndia\b|\bBengaluru\b|\bBangalore\b|\bMumbai\b|\bChennai\b|\bHyderabad\b|\bNoida\b|\bGurgaon\b|\bGurugram\b|\bKochi\b|\bCochin\b|\bPune\b|\bDelhi\b/i, "India"],
     [/\bAustralian\b|\bAustralia\b|\bPerth\b/i, "Australia"],
     [/\bAustrian\b|\bAustria\b/i, "Austria"],
   ];
@@ -3268,6 +4313,13 @@ function urlPreferenceScore(value) {
   }
 }
 
+function formatList(values) {
+  const list = unique(values);
+  if (list.length <= 1) return list[0] ?? "";
+  if (list.length === 2) return `${list[0]} and ${list[1]}`;
+  return `${list.slice(0, -1).join(", ")}, and ${list.at(-1)}`;
+}
+
 function cleanWikipediaTitle(value) {
   return String(value ?? "")
     .replace(/\s*\([^)]*\)\s*$/g, "")
@@ -3433,6 +4485,7 @@ function parseCountryFromLocationLabel(value) {
     [/\b(de|germany|berlin)\b/i, "Germany"],
     [/\b(au|australia|sydney)\b/i, "Australia"],
     [/\b(jpn|japan|tokyo)\b/i, "Japan"],
+    [/\b(india|bengaluru|bangalore|mumbai|navi mumbai|chennai|hyderabad|noida|gurgaon|gurugram|kochi|cochin|pune|delhi)\b/i, "India"],
     [/\b(viet nam|vietnam)\b/i, "Vietnam"],
   ];
 
@@ -3663,6 +4716,45 @@ function isMediaWikiRoboticsCompanyResult(title, description) {
     || /中国|中國|中华人民共和国|中華人民共和國|香港|台灣|台湾|深圳|杭州|上海|北京|苏州|蘇州|广州|廣州|浙江|广东|廣東/i.test(text);
 
   return titleLooksRoboticsCompany && textSaysCompany && textSaysChina;
+}
+
+function isMediaWikiIndiaRoboticsCompanyResult(title, description) {
+  const text = `${title} ${description}`;
+  if (!isRoboticsCompanyText(text)) return false;
+  if (/\b(list|competition|conference|tournament|sport|challenge|film|novel|character|person)\b/i.test(text)) {
+    return false;
+  }
+  if (/\b(startup india|t[-–]hub|i[- ]hub|neuralgarage|netradyne|neysa|skild ai)\b/i.test(title)) {
+    return false;
+  }
+  if (/functions related to|may refer to|disambiguation|incubator|business incubator/i.test(text)) return false;
+
+  const allowedProductPages = /^(mitra robot|indrajaal autonomous drone defence dome)$/i.test(title);
+  const titleLooksRoboticsCompany =
+    allowedProductPages
+    || /\b(robotics|robot|drone|uav|uas|aerospace|automation|addverb|asteria|garuda|sastra|ideaforge|ideaForge|miko|greyorange|orangewood)\b/i.test(title);
+  const textSaysCompany =
+    /\b(company|manufacturer|startup|enterprise|headquartered|founded|established|incorporated|officially known as)\b/i.test(text);
+  const textSaysIndia =
+    /\b(indian|india|bengaluru|bangalore|mumbai|navi mumbai|chennai|hyderabad|noida|gurgaon|gurugram|kochi|cochin|pune|delhi)\b/i.test(text);
+
+  return titleLooksRoboticsCompany && (textSaysCompany || allowedProductPages) && textSaysIndia;
+}
+
+function mediaWikiIndiaCompanyName(title, description) {
+  const normalized = cleanWikipediaTitle(title);
+  if (/^mitra robot$/i.test(normalized)) return "Invento Robotics";
+  if (/^indrajaal autonomous drone defence dome$/i.test(normalized)) {
+    return "Indrajaal Drone Defence India Private Limited";
+  }
+  return normalized;
+}
+
+function f6sIndiaShortDescription(companyName, tagline, genericTagline) {
+  if (!tagline || genericTagline) {
+    return `${companyName} appears in F6S's India robotics companies snapshot.`;
+  }
+  return `${companyName} appears in F6S's India robotics companies snapshot as: ${tagline}.`;
 }
 
 function productTypesFromText(value) {

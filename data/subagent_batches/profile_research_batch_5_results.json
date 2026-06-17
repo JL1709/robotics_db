@@ -1,0 +1,2252 @@
+[
+  {
+    "company_name": "先構技術研發股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.prefactortech.com/home.html",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.prefactortech.com/home.html"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "光寶科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.liteon.com/zh-tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.liteon.com/zh-tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "全懋精機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.camel555.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.camel555.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "凌鸟（苏州）智能系统有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "凌鸟(苏州)智能系统有限公司是中国领先的工业机器人和自动化设备产品研发、生产一体化的高新技术企业，在工厂自动化改造升级、物流装备、仓储智能化和AGV等领域，具备一流的研发、设计、制造能力。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "凱鴻管材工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.kaiflex.com.tw/en/",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.kaiflex.com.tw/en/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "创泽集团",
+    "country": "",
+    "proposed_website_url": "https://www.chuangze.cn/",
+    "proposed_short_description": "Develops and supplies commercial service robots and intelligent robot solutions for public-service, healthcare and commercial scenarios.",
+    "evidence_urls": [
+      "https://www.chuangze.cn/"
+    ],
+    "confidence": 88,
+    "status": "accepted",
+    "notes": "Official Chuangze Group site identified as the likely WRC exhibitor."
+  },
+  {
+    "company_name": "利基應用科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://innovati.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://innovati.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "利茗機械股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.li-ming.com",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.li-ming.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "創新智基投融服務股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.aiis.tw/contact/8",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.aiis.tw/contact/8"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "創盟電子工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.trumman.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.trumman.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "力山工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.rexon.net",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.rexon.net"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "力永實業有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.lyedm.com/index?lang=en",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.lyedm.com/index?lang=en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "加速进化",
+    "country": "",
+    "proposed_website_url": "https://www.boosterobotics.com/",
+    "proposed_short_description": "Develops Booster humanoid robots, including the Booster T1 developer-focused biped platform for embodied AI research and applications.",
+    "evidence_urls": [
+      "https://www.boosterobotics.com/"
+    ],
+    "confidence": 86,
+    "status": "accepted",
+    "notes": "Matched to Booster Robotics / 加速进化 product branding."
+  },
+  {
+    "company_name": "劢微机器人科技（深圳）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.multiwayrobotics.com/",
+    "proposed_short_description": "Develops autonomous forklifts, AMRs and warehouse/logistics automation solutions under the Multiway Robotics brand.",
+    "evidence_urls": [
+      "https://www.multiwayrobotics.com/"
+    ],
+    "confidence": 88,
+    "status": "accepted",
+    "notes": "Matched to Multiway Robotics official English site."
+  },
+  {
+    "company_name": "勤堃機械股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.evermore-tools.com",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "http://www.evermore-tools.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "勤業眾信聯合會計師事務所",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www2.deloitte.com/global/en.html?icid=site_selector_global",
+    "proposed_short_description": "Organization providing investment, advisory, research, association or institutional services related to industry and technology.",
+    "evidence_urls": [
+      "https://www2.deloitte.com/global/en.html?icid=site_selector_global"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "北京东方阳泰新能源科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "北京东方阳泰新能源科技有限公司于2016年9月在北京注册成立，注册资本1000万, 是一家专注于新能源汽车、自动引导搬运机器人(AGV)以及轨道交通产业链相关的检测技术及配套产品的研发和销售的创新型国家高新技术企业。产品包括动力电池PACK及模组的检测维护系统、电动汽车充电桩、电动汽车充电站设计建设以及第三方充电站委托检测服务, 动力电池智能充电系统几大板块。涵盖了电动汽车动力电池研发阶段测试、生产阶段检测、后市场检测维保以及电动汽车充电应用等多个场景；核心成员从事新能...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北京中安吉泰科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "专用于无GPS信号密闭空间炉膛中,搭载4K高清云台相机，补光模块同摄像模块融合，实现炉内清晰拍摄，拥有防撞模块，碰撞后可稳定飞行。可完成水冷壁管、燃烧器区域、燃尽风区域区域高效巡检，可自动标记地点导入云端系统，形成缺陷报告。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北京九曜智能科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "北京九曜智能科技有限公司成立于2018年，是一家集技术研发、规划设计、生产制造、售后服务为一体的工业级无人驾驶解决方案提供商，目前在北京拥有10,000㎡研发中心，具备多品类自动化车辆研发及改装能力。 九曜智能作为德国Götting KG中国区独家合作伙伴，拥有无人驾驶导航算法、调度管理系统等多项核心技术，产品具备源自德国技术的内在基因，达到国际一流水准。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北京云迹科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.yunjichina.com/",
+    "proposed_short_description": "Develops commercial service robots and robot operations platforms for hotels, buildings, healthcare and other service environments.",
+    "evidence_urls": [
+      "https://www.yunjichina.com/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official Yunji Technology site."
+  },
+  {
+    "company_name": "北京人形机器人创新中心有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.x-humanoid.com/",
+    "proposed_short_description": "Beijing humanoid robot innovation center developing the Tiangong general-purpose humanoid robot platform.",
+    "evidence_urls": [
+      "https://www.x-humanoid.com/"
+    ],
+    "confidence": 86,
+    "status": "accepted",
+    "notes": "Official-looking X-Humanoid/Beijing Humanoid Robot Innovation Center site."
+  },
+  {
+    "company_name": "北京加速进化科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.boosterobotics.com/",
+    "proposed_short_description": "Develops Booster humanoid robots, including the Booster T1 developer-focused biped platform for embodied AI research and applications.",
+    "evidence_urls": [
+      "https://www.boosterobotics.com/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official Booster Robotics site matches company/product name."
+  },
+  {
+    "company_name": "北京旷视科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.megvii.com/",
+    "proposed_short_description": "AI company providing computer vision, IoT and smart logistics solutions, including AMR and warehouse automation systems.",
+    "evidence_urls": [
+      "https://www.megvii.com/"
+    ],
+    "confidence": 95,
+    "status": "accepted",
+    "notes": "Official Megvii site."
+  },
+  {
+    "company_name": "北京机械工业自动化研究所有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "北京机械工业自动化研究所有限公司 is listed as a CeMAT ASIA 2020 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北京肃为电器设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "北京肃为电器设备有限公司，创建于2009年，致力于为电驱动系统设计和集成控制器、驱动器、传感器、人机交互界面（仪表）及相关配套件。产品广泛应用于电驱动的物料搬运、工程机械、电动车辆、风力发电、AGV、高空作业设备、铁路车辆等。公司是意大利ZAPI、英国Albright、德国Frei指定代理商，具备提供全系列ZAPI、 Albright、 Frei产品的能力，并可客户化定制。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北京银河通用机器人有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.galbot.com/",
+    "proposed_short_description": "Develops Galbot general-purpose embodied robots, including wheeled dual-arm humanoid platforms for commercial manipulation tasks.",
+    "evidence_urls": [
+      "https://www.galbot.com/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official Galbot site matched to 银河通用."
+  },
+  {
+    "company_name": "北大山思跃力",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "北大山思跃力 exhibited WE双臂协作机器人 at World Robot Conference 2016.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北方车辆研究所",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "北方车辆研究所 exhibited 月球车 at World Robot Conference 2019.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "北理工",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "北理工 exhibited 人形机器人 at World Robot Conference 2022.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "千里眼精密部件股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.sharp-eyed.com",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "http://www.sharp-eyed.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "南京天地人自动化技术有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "南京天地人自动化技术有限公司创建于2011年,是国内专业的仓储自动化技术型公司。公司主要专注于穿梭板的研发、生产及销售，行业口碑及市场份额已跃居国内第一位。 TDR穿梭车远销全世界30多个国家：美国、加拿大、澳大利亚、日本、葡萄牙、秘鲁、智利、阿根挺、巴西、巴拉圭、印度、印尼、马来、越南、泰国、菲律宾、阿尔及利亚等国家。与国内外数百家知名跨国公司、集成商、货架厂、贸易商建立长期稳定的合作关系,共计数千台穿梭车数百个成功案例,如:中石油、中石化、中粮、伊利、蒙牛、一头牛、...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "南京康普曼传动机械有限公司(Nanjing) Co.,Ltd(represented by Shanghai UK Logistics Equipment Co.,Ltd)",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "起源创立于 1926 年的 Kampmann & Scheuss 家族企业，位于德国西部鲁尔工业区的多特蒙德市，专业制造大型工业容器、工装设备及工业用齿条。自上世纪50年代末开始致力于动力传动设备的研发、制造及服务，为全球的工业用户提供可靠、高效的动力传动系统解决方案。康普曼品牌 KPM 传动严格遵循德国 DIN 标准设计和制造齿轮并通过先进软件系统（KISSSOFT&IMOS）进行齿形计算、设计、模拟、分析和验证。康普曼进入中国以来，凭借我们在德国本土及在中国的三个制...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "南京金航特自动化科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "南京金航特自动化科技有限公司主要致力于智能制造、工业自动化、智能控制、软件系统集成、自动化设备、智能工装、桁架机器人等的研发、制造和销售；公司是集咨询规划、物流托管服务、系统集成与物流技术装备产品制造与软件系统研发为一体的智能供应链物流综合解决方案提供商。主打产品：智能料箱、智能工具箱、智慧分拣移动终端、智能仓储管理、智能工作台、电子标签拣选系统、物流咨询、物流托管服务、储运一体化工装设计与制作。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "南京飞天金属制品实业有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "南京飞天金属制品实业有限公司是国内较大的仓储物流系统设备制造商和集成商，从事金属托盘、仓储货架、工位器具、物流系统和自动化立体仓库的规划、设计、制造、安装、咨询服务。公司位于南京市江宁区玫瑰大道9号，工厂车间万余平米，生产设施完善，拥有规模化液压弯管机、全自动数控箍筋机，高精度专用货架轧机、数控冲压机床，机器人焊接、自动喷塑等多条生产线，形成完整的生产体系。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "博众精工科技股份有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.bozhon.com/",
+    "proposed_short_description": "Provides industrial automation equipment, intelligent manufacturing systems, smart logistics and robotics-related equipment integration.",
+    "evidence_urls": [
+      "https://www.bozhon.com/"
+    ],
+    "confidence": 93,
+    "status": "accepted",
+    "notes": "Official Bozhon Precision Industry Technology site."
+  },
+  {
+    "company_name": "博智林",
+    "country": "",
+    "proposed_website_url": "https://www.bzlrobot.com/",
+    "proposed_short_description": "Develops construction robots and intelligent construction systems under the Bright Dream Robotics / Bozhilin brand.",
+    "evidence_urls": [
+      "https://www.bzlrobot.com/"
+    ],
+    "confidence": 82,
+    "status": "accepted",
+    "notes": "Official-looking Bozhilin/Bright Dream Robotics site."
+  },
+  {
+    "company_name": "博鈞科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.mobisnet.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.mobisnet.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "原見精機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.touche.solutions",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.touche.solutions"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "友嘉實業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.feeler.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.feeler.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台企再造管理顧問有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://tcg-tw.com",
+    "proposed_short_description": "Organization providing investment, advisory, research, association or institutional services related to industry and technology.",
+    "evidence_urls": [
+      "https://tcg-tw.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台廣電子股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.hirose.com/tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.hirose.com/tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台朔重工（宁波）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.fhi.com.tw/",
+    "proposed_short_description": "Formosa Heavy Industries business providing automated warehousing, material handling and logistics automation systems.",
+    "evidence_urls": [
+      "https://www.fhi.com.tw/"
+    ],
+    "confidence": 78,
+    "status": "uncertain",
+    "notes": "Parent/company site likely; Ningbo subsidiary-specific site not confirmed."
+  },
+  {
+    "company_name": "台杉投資管理顧問股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.taiwaniacapital.com",
+    "proposed_short_description": "Organization providing investment, advisory, research, association or institutional services related to industry and technology.",
+    "evidence_urls": [
+      "https://www.taiwaniacapital.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣三菱電機自動化股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.setsuyo.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.setsuyo.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣人本實業有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.cugroup.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "http://www.cugroup.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣保來得股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.porite.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.porite.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣信名豐有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": null,
+    "proposed_short_description": null,
+    "evidence_urls": [],
+    "confidence": 20,
+    "status": "not_found",
+    "notes": "No confident official website identified in this pass; retained available source description only when present."
+  },
+  {
+    "company_name": "台灣安川電機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.yaskawa.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.yaskawa.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣廣登電子股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.quadrep.com.tw/en/default.asp",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.quadrep.com.tw/en/default.asp"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣愛普生科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.epson.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.epson.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣新光保全股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.sks.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.sks.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣新東機械股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.twsinto.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "http://www.twsinto.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣易格斯有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.igus.de",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.igus.de"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣智慧物聯網產業協會",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.twiota.org/en/default.aspx",
+    "proposed_short_description": "Organization providing investment, advisory, research, association or institutional services related to industry and technology.",
+    "evidence_urls": [
+      "http://www.twiota.org/en/default.aspx"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣智能機器人科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.tirc.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.tirc.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣檢驗科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.sgs.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.sgs.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣歐姆龍股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.omron.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.omron.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣瀧澤科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.takisawa.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.takisawa.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣脈動股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.tpm-pac.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.tpm-pac.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣開天傳動科技有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.ktr.com/tw/",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.ktr.com/tw/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台灣麥柯昇精密電機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.maxongroup.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.maxongroup.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台華精技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.tai-wa.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.tai-wa.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "台超企業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.v-tech.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.v-tech.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "启东亦大通自动化设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "启东亦大通自动化设备有限公司 is listed as a CeMAT ASIA 2020 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "和全豐光電股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.buenooptics.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.buenooptics.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "和利康源",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "和利康源 exhibited 中药调理设备 at World Robot Conference 2021.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "和椿科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.aurotek.com.tw/index.aspx",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.aurotek.com.tw/index.aspx"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "和泰豐田物料運搬股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.toyota-if.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.toyota-if.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "和碩聯合科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.pegatroncorp.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.pegatroncorp.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "哈伯精密股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.habor.com/en/",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.habor.com/en/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "哈工大机器人集团",
+    "country": "China",
+    "proposed_website_url": "https://www.hrgrobotics.com/",
+    "proposed_short_description": "Robotics group spun out of Harbin Institute of Technology, developing industrial, service, special and medical robot technologies.",
+    "evidence_urls": [
+      "https://www.hrgrobotics.com/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official HRG Robotics site."
+  },
+  {
+    "company_name": "哥伦布物流（上海）有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "哥伦布物流（上海）有限公司坐落于上海张江高科技园区，致力于“托盘搬运机器人”（PTR）的研发及智能化发展，用创新的产品与技术推动物流行业密集存储方案的变革。公司将继续不懈努力，以制造全球最好的智能PTR为使命，为中国智造 2025和工业 4.0作出自身的贡献！",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "嘉聯益科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.careergroups.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.careergroups.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "四叶草（苏州）智能科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.aiagvs.com/",
+    "proposed_short_description": "Provides digital factory and smart logistics software/hardware including AGV controllers, dispatching platforms and industrial IoT systems.",
+    "evidence_urls": [
+      "https://www.aiagvs.com/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Company description in source explicitly names this official website."
+  },
+  {
+    "company_name": "四零四科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.moxa.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.moxa.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "固緯電子實業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.gwinstek.com/en-global",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.gwinstek.com/en-global"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "国兴智能",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "国兴智能 exhibited 消防机器人 at World Robot Conference 2021.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "国地共建具身智能机器人创新中心",
+    "country": "China",
+    "proposed_website_url": "https://www.x-humanoid.com/",
+    "proposed_short_description": "National-local humanoid robot innovation center associated with the Tiangong general-purpose humanoid robot platform.",
+    "evidence_urls": [
+      "https://www.x-humanoid.com/"
+    ],
+    "confidence": 78,
+    "status": "uncertain",
+    "notes": "Likely same Beijing humanoid innovation center; legal entity name differs."
+  },
+  {
+    "company_name": "国家农业智能装备工程中心",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "国家农业智能装备工程中心 exhibited 露地蔬菜对靶施药机器人 at World Robot Conference 2024.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "国家地方共建人形机器人创新中心",
+    "country": "China",
+    "proposed_website_url": "https://www.x-humanoid.com/",
+    "proposed_short_description": "National-local humanoid robot innovation center associated with Qinglong and Tiangong humanoid robot platforms.",
+    "evidence_urls": [
+      "https://www.x-humanoid.com/"
+    ],
+    "confidence": 78,
+    "status": "uncertain",
+    "notes": "Likely same Beijing humanoid innovation center; legal entity name differs."
+  },
+  {
+    "company_name": "圖策科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.graphen.ai/tw/",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.graphen.ai/tw/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "圣瑞斯智能物流设备（昆山）有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "企业简介 圣瑞斯智能物流设备（昆山）有限公司坐落于江苏苏州一座古老文明的城市是国家历史文 化名城和风景旅游城市，国家高新技术产业基地，长江三角洲重要的中心城市之一。位于江苏省 东南部，长江三角洲中部，是江苏长江经济带重要组成部分。东临上海，南接嘉兴，西抱太湖， 北依长江。进入21世纪以来中国物流行业欣欣向荣的中国物流装备行业孕育了一批新兴企业，其 中专注于伸缩叉研发制造的苏州圣瑞斯智能物流设备(昆山)有限公司，在物流自动化行业有着10年 的加工制造经验力求打造全面的设计...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "地平线机器人",
+    "country": "China",
+    "proposed_website_url": "https://www.horizon.cc/",
+    "proposed_short_description": "Develops automotive intelligent computing chips, software and autonomous-driving computing platforms under the Horizon Robotics brand.",
+    "evidence_urls": [
+      "https://www.horizon.cc/"
+    ],
+    "confidence": 94,
+    "status": "accepted",
+    "notes": "Official Horizon Robotics site."
+  },
+  {
+    "company_name": "均豪精密工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.gpmcorp.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.gpmcorp.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "埃夫特",
+    "country": "",
+    "proposed_website_url": "https://www.efort.com.cn/",
+    "proposed_short_description": "Industrial robot manufacturer providing robot bodies, controllers and robotic automation solutions for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.efort.com.cn/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official EFORT site."
+  },
+  {
+    "company_name": "塔米",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "塔米 exhibited 塔米机器人 at World Robot Conference 2015.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "士林電機廠股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://en.seec.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://en.seec.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "大基机器人",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "大基机器人 exhibited 机械外骨骼 at World Robot Conference 2016.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "大氣電漿股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.airaurora.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.airaurora.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "大艾",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "大艾 exhibited 外骨骼康复机器人 at World Robot Conference 2022.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "大象",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "大象 exhibited 仿生机器人 at World Robot Conference 2023.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "大銀微系統股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.hiwinmikro.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.hiwinmikro.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "天智航",
+    "country": "",
+    "proposed_website_url": "https://www.tinavi.com/",
+    "proposed_short_description": "Develops orthopedic surgical robots and related navigation systems under the TINAVI brand.",
+    "evidence_urls": [
+      "https://www.tinavi.com/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official TINAVI site."
+  },
+  {
+    "company_name": "天津大学-威高集团",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "天津大学-威高集团 exhibited 天津大学-威高集团 at World Robot Conference 2015.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "天津环宇自动化科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "发着 (浙江) 供应链有限公司是一家专注于新型高性能金属材料与智能物流装备研发的创新型企业。公司团队深耕金属材料领域近十年，率先将先进合金科技应用于托盘行业，成功研发出突破性的发着®合金托盘系列产品。 我们以“材料科技重塑物流效率”为使命，聚焦托盘结构优化、轻量化设计与绿色制造，产品兼具超强度、超轻量、耐腐蚀、可上货架、长寿命等优势。公司致力于推动仓储与运输装备的全面升级，为客户提供更高效、更安全、更低碳的物流解决方案。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "太仓艾拉德物流设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "太仓艾拉德物流设备有限公司成立于2013年，，总部位于意大利都灵，是世界上各大著名as/rs系统集成商及自动化设备商的合作伙伴。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "孟申機械工廠股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.msm.com.tw/?lan=en",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.msm.com.tw/?lan=en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "宁波智千智能工程有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "智千，舒普智能制造集团旗下，基于智能机器人、RGS及产线需求为基础的智能仓储物流解决方案落地实施专家，持续推进需求单元与仓储物流单元的高度融合！ 从数字工厂、智能仓储、智能物流的规划，到软硬件的设计、研发、生产、实施，智千拥有“五位一体”的强大服务能力。通过全方位的智能系统调度、智能算法驱动、智能装备联动，实现从仓储、物流到生产运营的集约化、可视化和智慧化，持续为客户创造价值！",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宁波汇燊金属线棒科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "汇燊已是中国铝合金线棒连接系统行业实现连接件产品自动化、规模化、标准化的专业生产工厂，亦成为全球铝合金线棒连接系统主要制造商之一。制定了系统的企业产品标准，具备检验检测的保证机制和能力，产品性能比肩国外品牌，并形成稳定的区域经销体系。 未来，汇燊仍将竭尽所能为客户伙伴提供优质和高性价比的产品，并持之以恒投入产品研发，为客户创造价值。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宁波舜宇贝尔自动化有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "宁波舜宇贝尔自动化有限公司成立于2017年4月，公司定位为一家集设计研发、技术服务、 自动化系统于一体的高新技术企业，为客户提供基于AGV（Automated Guided Vehicle）应用的柔性智能制造生产线。依托德国技术，以研发、制造AGV物流机器人为主营业务。同时，公司也为客户提供基于AGV应用的智能制造集成方案及配套的自动化设备。公司位于浙江省余姚市安山路，注册资本200万欧元。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宁波迪亚工业设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "宁波迪亚成立于2014年，是一家集精益生产改造、智能物流规划以及工业自动化制造为一体的生产厂家，公司自成立以来，为3000多家制造装配型企业提供了科学有效精益生产一站式服务。公司专业设计、生产工业3.0精益生产线、低成本自动化生产线、非标工作台、周转车、货架、汽车零部件周转器具等柔性生产设备。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宁波道充科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "宁波道充科技有限公司以下简称（道充科技），位于浙江省宁波市南部科创大走廊——鄞州区国家千人产业园，是一家集研发、生产、销售于一体的高科技企业。 公司专注于大功率智能无线充电系统的产业化，产品主要应用于智慧出行、智慧物流、智能运维以及智能制造等领域，通过自动化、非接触的无线充电技术，真正实现用电设备的全程自动化安全运行。 研发团队由国家青年千人专家领衔，基于谐振耦合的无线电能传输核心技术，辅以人工智能、物联网等相关技术。目前公司已经开发出覆盖100W~20KW功率范围的系...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宇数科技",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "宇数科技 exhibited GO1四足机器人头 at World Robot Conference 2022.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宇树科技",
+    "country": "China",
+    "proposed_website_url": "https://www.unitree.com/",
+    "proposed_short_description": "Develops Unitree quadruped and humanoid robots, robot actuators and embodied intelligence platforms.",
+    "evidence_urls": [
+      "https://www.unitree.com/"
+    ],
+    "confidence": 95,
+    "status": "accepted",
+    "notes": "Official Unitree Robotics site."
+  },
+  {
+    "company_name": "宇瞻科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://iiot.apacer.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://iiot.apacer.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "宇隆科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.turvo.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.turvo.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "安博先進股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.anxpert.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.anxpert.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "安川首钢",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "安川首钢 exhibited 新能源电池盒智能生产线 at World Robot Conference 2023.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "安徽优可顺自动化科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "安徽优可顺自动化科技有限公司 is listed as a CeMAT ASIA 2024 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "安徽宇锋仓储设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "安徽宇锋智能科技有限公司是一家专业从事智能仓储、智能车间、平台系统等多元化业务的系统集成商以及多模式AGV、堆垛机、全系列电动工业车辆等智能装备的研发、销售、制造、服务于一体的国家高新技术企业。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "安徽新动新能源科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "安徽新动新能源科技有限公司致力于生产制造高品质电动叉车锂电池、AGV锂电池、各类电动物流设备动力锂电池，为智能的新能源物流设备提供最优质的产品及最专业的解决方案，广泛应用于各行各业",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "安徽闻祥自动化科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "安徽闻祥自动化科技有限公司 is listed as a CeMAT ASIA 2020 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "宜科（天津）电子有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "宜科（天津）电子有限公司是2003年在天津成立的中国工业自动化龙头企业。经过多年的努力，已形成覆盖全国的销售和服务网络。作为中国本土工业自动化产品和智能制造解决方案的供应商，宜科在汽车、汽车零部件、工程机械、机器人等领域处于领先地位。 宜科提供从系统层、控制层、网络层到执行层到智能工厂总体规划实施的全方位服务。产品和解决方案包括但不限工业互联网平台、MES、物联网集成开发解决方案和服务等，全方位帮助助企业实现智能制造。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "富世達股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": null,
+    "proposed_short_description": null,
+    "evidence_urls": [],
+    "confidence": 20,
+    "status": "not_found",
+    "notes": "No confident official website identified in this pass; retained available source description only when present."
+  },
+  {
+    "company_name": "富田電機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": null,
+    "proposed_short_description": null,
+    "evidence_urls": [],
+    "confidence": 20,
+    "status": "not_found",
+    "notes": "No confident official website identified in this pass; retained available source description only when present."
+  },
+  {
+    "company_name": "富育實業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://sites.google.com/view/wealth-automation",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://sites.google.com/view/wealth-automation"
+    ],
+    "confidence": 70,
+    "status": "uncertain",
+    "notes": "Existing candidate is a Google Sites page; plausible but not confirmed as the primary official domain."
+  },
+  {
+    "company_name": "富采控股股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.ennostar.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.ennostar.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "寶元數控股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.lnc.com.tw/en-us/",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.lnc.com.tw/en-us/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "小i机器人",
+    "country": "China; Hong Kong",
+    "proposed_website_url": "https://www.xiaoi.com/",
+    "proposed_short_description": "AI company offering conversational AI, knowledge automation and virtual assistant technologies under the Xiao-I brand.",
+    "evidence_urls": [
+      "https://www.xiaoi.com/"
+    ],
+    "confidence": 93,
+    "status": "accepted",
+    "notes": "Official Xiao-I site."
+  },
+  {
+    "company_name": "展昭國際企業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.chanchao.com.tw/en/",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.chanchao.com.tw/en/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "山东新北洋信息技术股份有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.snbc.com.cn/",
+    "proposed_short_description": "Develops intelligent devices, printing/scanning equipment and automation solutions for finance, logistics, retail and service sectors.",
+    "evidence_urls": [
+      "https://www.snbc.com.cn/"
+    ],
+    "confidence": 90,
+    "status": "accepted",
+    "notes": "Official SNBC site."
+  },
+  {
+    "company_name": "山东理工精密机械有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "山东理工精密机械有限公司是一家研发、生产、销售各种非标异形精密滚珠丝杠副的国家高新技术企业.公司主要优势产品有AGV升降丝杠(单支举升，多支举升)、多级可伸缩丝杠，双向自限位丝杠、左右旋丝杠、微型丝杠、耐盐雾丝杠等直线传动部件，是国内第一家自主研发并实现标准化和批量化生产超大直径中空薄壁静音AGV升降丝杠的企业。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "川崎机器人（天津）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://robotics.kawasaki.com/",
+    "proposed_short_description": "Kawasaki Robotics China/Tianjin entity supplying industrial robots and robot automation solutions.",
+    "evidence_urls": [
+      "https://robotics.kawasaki.com/"
+    ],
+    "confidence": 86,
+    "status": "accepted",
+    "notes": "Official Kawasaki Robotics global site used for the China subsidiary."
+  },
+  {
+    "company_name": "工搜搜/高工移动机器人",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "高工移动机器人是高工咨询旗下专注于移动机器人上中下游产业链的集产业研究、品牌策划、会议活动、媒体传播、金融投资于一体的全方位企业服务平台。 平台拥有专业的行业调研专家队伍，通过全年全国各地的移动机器人及相关企业、下游应用典型行业企业的走访调研，定期发布移动机器人相关产业市场分析报告，为政府部门、金融机构及创新企业提供全方位的战略规划、资本对接、品牌定位、市场调研及供应链整合的研究、咨询服务。 工搜搜是一家工业产品选项和专业知识搜索引擎平台。工搜搜将传统的纸质目录变成在线...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "工業技術研究院",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.itri.org.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.itri.org.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "常州精纳电机有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "精纳电机是专业从事伺服电机产品的研发与生产的高科技企业，公司所有产品均符合欧盟CE及ROHS要求，并且已经通过了UL认证。严格按照ISO9001的要求实行从市场到研发到生产到销售的全面质量管理；我们以项目管理的方式保证快速响应客户需求。为客户提供售前咨询、方案设计、项目实施和售后服务等周到完善的支持。我们推行以客户为导向的理念，通过研究客户需求，来寻找自动化技术平台之上的高速发展的产业机会。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "常州轩茂轴承有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "常州轩茂轴承有限公司是一家专注于滚轮轴承研发、生产与销售的企业，我们的团队深耕轴承领域多年，致力于为工业、物流、物料搬运等行业提供高品质轴承解决方案。​ 公司核心产品涵盖常规滚轮轴承-KR,KRV,KRE,NUKR,PWKR,NUTR，NNTR等；复合滚轮轴承和特种滚轮轴承以及非标滚轮定制，选用优质材料以及热处理工艺，使得产品更耐磨、从而延长产品使用寿命，能适配 conveyor 系统、自动化物料搬运设备、重型工业机械等多场景，有效提升设备运行效率，降低维护成本。​ 公...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "常鴻新科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.ertek.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.ertek.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "广东明斯特自动化有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "公司成立于2009年1月深圳松岗，公司专业研发，生产，销售各类转弯机，广泛应用快递，物流，电子，食品，医药等行业，年生产2000余台，2018年扩资扩建迁至东莞占地6000平，同年成立驭成科技，专注生产销售物流自动装卸伸缩机，为客户节省大量人力，提高输送效率，节省成本。明斯特人将一如既往追求更高品质，更高性价比，更快捷交期，更完善的售后配套服务。与我们合作伙伴共同成长，不断发展壮大，共同走向辉煌！",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "广州市井源机电设备有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "井源机电是专注于AGV物流系统解决方案的高新技术企业，拥有JYME和MAXAGV两大品牌，形成了包括激光导航、电磁导航、视觉导航、磁帶导航四大系列,300KG-50T的多个规格,叉车型、装配型、承载型、牵引型等种类完善的产品体系。公司致力服务于汽车、轮胎、化工、食品饮料、医药、家电等行业。欢迎各位新老朋友莅临展位洽谈交流！",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "广州市君盘实业股份有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "广州市君盘实业股份有限公司成立于1993年，专注KP系列动力电池、储能电池充电器、充电机的研发、生产、销售。 君盘充电器（机）属自主研发产品，外观及其充电技术均已获国家专利。其中发明专利变频方波充电和马斯拟合充电技术，能实现电池安全快速充电，并大幅度提升电池寿命。 君盘充电器（机）广泛适用于AGV仓储设备、两轮电动车、三轮电动车、电动叉车、电动观光车、及高尔夫球车、电动冲浪板、航模、机器人、低速电动车、电动汽车、大型储能电池等电动设备。公司已获得ISO9001管理体系认...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "广州数控",
+    "country": "China",
+    "proposed_website_url": "https://www.gsk.com.cn/",
+    "proposed_short_description": "Manufactures CNC systems, industrial robots, servo drives and automation equipment under the GSK CNC brand.",
+    "evidence_urls": [
+      "https://www.gsk.com.cn/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official Guangzhou CNC Equipment / GSK site."
+  },
+  {
+    "company_name": "广州映博智能科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "广州映博智能科技有限公司 exhibited 派宝机器人 at World Robot Conference 2017.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "广州科航金属制品有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "广州科航金属制品有限公司，现有广东科航科技有限公司，广州市番禺科航脚轮厂，中山市科航塑胶科技有限公司三家兄弟企业，发展成集产品生产、加工、贸易的规模企业。是一家专注于工业脚轮、PU包胶轮、PU零部件制作领域，集研发、生产和销售为一体的现代化大型企业。工厂坐落于珠三角腹地的广州番禺沙湾镇。公司厂房面积12000平方米，员工200多人，是PU零件、组件制造加工行业规模最大，实力最强的企业之一。 凭着先进的生产工艺和精良的模具设计优势，公司生产的AGV车驱动轮，电动叉车驱动轮...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "康力优蓝",
+    "country": "",
+    "proposed_website_url": "https://www.canbot.com.cn/",
+    "proposed_short_description": "Develops Canbot service robots for education, commercial service, public guidance and intelligent interaction scenarios.",
+    "evidence_urls": [
+      "https://www.canbot.com.cn/"
+    ],
+    "confidence": 82,
+    "status": "accepted",
+    "notes": "Official-looking Canbot/Kangli Youlan site."
+  },
+  {
+    "company_name": "康多",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "康多 exhibited 腔镜手术机器人 at World Robot Conference 2022.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "廣運機械工程股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.kenmec.com/tw/index.aspx",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.kenmec.com/tw/index.aspx"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "弘川科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.rgk-fa.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.rgk-fa.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "弘翔精密科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.urvision-tw.com",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.urvision-tw.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "強茂股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.panjit.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.panjit.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "彬台科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.taibeco.com.tw/tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.taibeco.com.tw/tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "得利捷（深圳）工业自动化有限公司(represented by Shanghai Inspect Spring Automation Technology Co., LTD)",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "得利捷（深圳）工业自动化有限公司(represented by Shanghai Inspect Spring Automation Technology Co., LTD) is listed as a CeMAT ASIA 2021 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "復盛股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.fusheng.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.fusheng.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "微星科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://tw.msi.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://tw.msi.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "德国航空航天中心",
+    "country": "",
+    "proposed_website_url": null,
+    "proposed_short_description": "德国航空航天中心 exhibited 机械手臂 at World Robot Conference 2017.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "思辟德智能科技（江苏）有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "思辟德包装设备（上海）有限公司成立于2013年。因为发展需要，公司在2017年在江苏南通自购土地建设厂房，厂房使用面积近2万平方 我司主要致力于后段自动化包装流水线的研发与制造，帮助客户提高包装效率，降低生产成本，在不断的研究和开发自动化设备时，为了满足不同客户的不同需求，还致力于各种单机的研发与生产。 思辟德包装以良好的服务，优质的设备，成为您理想的包装设备供应商！",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "恩德科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.anderson.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.anderson.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "意欧斯智能科技股份有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.eoslift.com/",
+    "proposed_short_description": "Provides logistics automation, warehousing systems, AGV material handling and intelligent logistics equipment solutions.",
+    "evidence_urls": [
+      "https://www.eoslift.com/"
+    ],
+    "confidence": 76,
+    "status": "uncertain",
+    "notes": "Likely EOS/意欧斯 site, but exact corporate website needs confirmation."
+  },
+  {
+    "company_name": "意欧斯物流科技（上海）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.eoslift.com/",
+    "proposed_short_description": "Provides logistics automation, warehousing systems, AGV material handling and intelligent logistics equipment solutions.",
+    "evidence_urls": [
+      "https://www.eoslift.com/"
+    ],
+    "confidence": 78,
+    "status": "uncertain",
+    "notes": "Likely EOS/意欧斯 logistics technology site, but exact entity match is not fully confirmed."
+  },
+  {
+    "company_name": "愛發股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.apic.com.tw/msg/message-eng-company-485.html",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.apic.com.tw/msg/message-eng-company-485.html"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "所羅門股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.solomon.com.tw/en/home/",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.solomon.com.tw/en/home/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "掌宇股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.kandh.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.kandh.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "採智科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.idminer.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.idminer.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "摩登纳（中国）自动化设备有限公司(represented by MODULA SPA)",
+    "country": "China",
+    "proposed_website_url": "https://www.modula.eu/",
+    "proposed_short_description": "Modula manufactures automated vertical lift modules and goods-to-person storage systems for industrial and warehouse automation.",
+    "evidence_urls": [
+      "https://www.modula.eu/"
+    ],
+    "confidence": 91,
+    "status": "accepted",
+    "notes": "Official Modula SPA site; China entity represented by Modula."
+  },
+  {
+    "company_name": "擎朗",
+    "country": "",
+    "proposed_website_url": "https://www.keenon.com/",
+    "proposed_short_description": "Develops Keenon commercial service robots for delivery, hospitality, healthcare, cleaning and retail environments.",
+    "evidence_urls": [
+      "https://www.keenon.com/"
+    ],
+    "confidence": 94,
+    "status": "accepted",
+    "notes": "Official Keenon Robotics site."
+  },
+  {
+    "company_name": "擎罡實業有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.sensor.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.sensor.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "擎邦國際科技工程股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.kpec.com.tw/?q=en",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.kpec.com.tw/?q=en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "放伴智能股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.io-grid.com",
+    "proposed_short_description": "Robotics or intelligent automation company associated with robot products, systems or related solutions.",
+    "evidence_urls": [
+      "https://www.io-grid.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "斯坦德机器人（深圳）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.standard-robots.com/",
+    "proposed_short_description": "Develops AMRs and flexible logistics automation systems for industrial manufacturing and warehousing.",
+    "evidence_urls": [
+      "https://www.standard-robots.com/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official Standard Robots site."
+  },
+  {
+    "company_name": "斯耐尔自动化系统有限公司",
+    "country": "卢森堡",
+    "proposed_website_url": "https://www.ctisystems.com/",
+    "proposed_short_description": "CTI Systems provides heavy-load material handling, storage and production automation systems, including aircraft maintenance platforms.",
+    "evidence_urls": [
+      "https://www.ctisystems.com/"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Matched to CTI Systems official site from source description."
+  },
+  {
+    "company_name": "斯邁德科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.smartscan.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.smartscan.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新代科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.syntecclub.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.syntecclub.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新勢明科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://newsemi.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://newsemi.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新呈工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.everbiz.com.tw",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.everbiz.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新壽公寓大廈管理維護股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.skhb.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.skhb.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新松",
+    "country": "",
+    "proposed_website_url": "https://www.siasun.com/",
+    "proposed_short_description": "Chinese robotics and automation company providing industrial robots, mobile robots, intelligent logistics and smart factory systems.",
+    "evidence_urls": [
+      "https://www.siasun.com/"
+    ],
+    "confidence": 94,
+    "status": "accepted",
+    "notes": "Official SIASUN site."
+  },
+  {
+    "company_name": "新松机器人",
+    "country": "China",
+    "proposed_website_url": "https://www.siasun.com/",
+    "proposed_short_description": "Chinese robotics and automation company providing industrial robots, mobile robots, intelligent logistics and smart factory systems.",
+    "evidence_urls": [
+      "https://www.siasun.com/"
+    ],
+    "confidence": 95,
+    "status": "accepted",
+    "notes": "Official SIASUN site."
+  },
+  {
+    "company_name": "新漢股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.nexcom.com.tw",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "http://www.nexcom.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "新陳科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.tric.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.tric.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "方舟扣件科技有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "http://www.arkfastech.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "http://www.arkfastech.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "日商駿河精機股份有限公司台灣分公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://tw.surugaseiki.com",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://tw.surugaseiki.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "日本软银集团",
+    "country": "Japan",
+    "proposed_website_url": "https://group.softbank/",
+    "proposed_short_description": "Japanese technology investment and telecommunications group; SoftBank Robotics has developed humanoid and service robot products.",
+    "evidence_urls": [
+      "https://group.softbank/"
+    ],
+    "confidence": 88,
+    "status": "accepted",
+    "notes": "Official SoftBank Group site; robotics activity is via SoftBank Robotics."
+  },
+  {
+    "company_name": "旭東機械工業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.wisepioneer.com.tw/html/index.php",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.wisepioneer.com.tw/html/index.php"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "昆山网电科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "昆山网电科技有限公司是全球专精于电力线通信（PLC）网络产品的开发设计及制造的主要公司之一。公司拥有一批通信技术的专业人才和优秀的海外人员，是集研发、生产和销售于一体的高科技型现代企业。产品远销全世界30多个国家和地区，并广泛应用于民用，工矿，运营商，铁路，航空，部队等领域。目前公司拥有20多项专利，为国家认可的高新技术企业，具有5条SMT自动化产线和2条DIP产线。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "昆山豫忻展自动化科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "昆山豫忻展自动化科技有限公司 is listed as a CeMAT ASIA 2020 exhibitor matching robotics or logistics automation signals.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "昕鈺實業股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.comoss.com",
+    "proposed_short_description": null,
+    "evidence_urls": [
+      "https://www.comoss.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "星动纪元",
+    "country": "",
+    "proposed_website_url": "https://www.robot-era.com/",
+    "proposed_short_description": "Develops humanoid robots and embodied intelligence systems under the Robot Era / 星动纪元 brand.",
+    "evidence_urls": [
+      "https://www.robot-era.com/"
+    ],
+    "confidence": 86,
+    "status": "accepted",
+    "notes": "Official-looking Robot Era site."
+  },
+  {
+    "company_name": "星尘智能（深圳）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.astribot.com/",
+    "proposed_short_description": "Develops Astribot S1, a general-purpose AI robot focused on dexterous manipulation and embodied intelligence.",
+    "evidence_urls": [
+      "https://www.astribot.com/"
+    ],
+    "confidence": 92,
+    "status": "accepted",
+    "notes": "Official Astribot site."
+  },
+  {
+    "company_name": "映興電子股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.avertronics.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.avertronics.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "晶傑精機有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.sunus.com.tw/en",
+    "proposed_short_description": "Manufactures industrial machinery, precision components or automation-related equipment for manufacturing applications.",
+    "evidence_urls": [
+      "https://www.sunus.com.tw/en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "智元机器人",
+    "country": "China",
+    "proposed_website_url": "https://www.agibot.com/",
+    "proposed_short_description": "AgiBot develops humanoid and embodied robots for industrial, service and research applications.",
+    "evidence_urls": [
+      "https://www.agibot.com/"
+    ],
+    "confidence": 96,
+    "status": "accepted",
+    "notes": "Official AgiBot site."
+  },
+  {
+    "company_name": "曜鋅科技有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.yaosin.com/index.php?lang=en",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.yaosin.com/index.php?lang=en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "有萬科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.yuban.com.tw",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.yuban.com.tw"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "未来机器人（深圳）有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.visionnav.com/",
+    "proposed_short_description": "VisionNav Robotics develops autonomous forklifts and unmanned industrial vehicles for warehouse and production logistics.",
+    "evidence_urls": [
+      "https://www.visionnav.com/"
+    ],
+    "confidence": 94,
+    "status": "accepted",
+    "notes": "Official VisionNav Robotics site."
+  },
+  {
+    "company_name": "术锐",
+    "country": "",
+    "proposed_website_url": "https://www.surgerii.com/",
+    "proposed_short_description": "Develops single-port laparoscopic surgical robots and minimally invasive robotic surgery systems.",
+    "evidence_urls": [
+      "https://www.surgerii.com/"
+    ],
+    "confidence": 86,
+    "status": "accepted",
+    "notes": "Official-looking Surgerii/术锐 site."
+  },
+  {
+    "company_name": "极创科技",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "极创科技 exhibited 特种底盘系列 at World Robot Conference 2022.",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "极智嘉科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.geekplus.com/",
+    "proposed_short_description": "Geek+ develops AMR-based goods-to-person, sorting, picking and warehouse robotics solutions for logistics automation.",
+    "evidence_urls": [
+      "https://www.geekplus.com/"
+    ],
+    "confidence": 96,
+    "status": "accepted",
+    "notes": "Official Geek+ site."
+  },
+  {
+    "company_name": "杭州人形机器人创新中心",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "专为化工厂高危环境（毒、爆、腐）设计，完全替代人工作业，杜绝人员暴露风险，为生命护航，为企业安全合规赋能。 全自主 “智” 动化闭环运行： 集自动取满瓶、精准搬运、空瓶补给于一体，实现样品流转全流程自动化、无人化，无缝衔接车间与实验室。 智能抓取与搬运： 精准识别定位取样点与放置点，针对玻璃瓶定制柔性自适应夹具，确保操作平稳可靠。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州宇树科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.unitree.com/",
+    "proposed_short_description": "Develops Unitree quadruped and humanoid robots, robot actuators and embodied intelligence platforms.",
+    "evidence_urls": [
+      "https://www.unitree.com/"
+    ],
+    "confidence": 96,
+    "status": "accepted",
+    "notes": "Official Unitree Robotics site."
+  },
+  {
+    "company_name": "杭州欧镭激光技术有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "杭州欧镭激光技术有限公司是一家以位置感知技术为核心的高科技传感器公司；拥有来自全球具有丰富DFM研发经验的团队60余人和完善的激光生产、组装和调教产线，以及全自动化可追溯的MES管理平台；是国内拥有完整自主知识产权并具有大规模量产制造能力的激光雷达公司之一。 公司自成立以来，凭借多年在激光测距领域的经验和技术积累，自成立以来，已拥有从核心技术到核心器件的专利超过30项。现有量产产品包含1D、2D、3D全系列激光雷达、红外探测传感器等。所有产品在出厂前，均经过专业实验室严...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州海康机器人技术有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.hikrobotics.com/",
+    "proposed_short_description": "Provides machine vision and mobile robot products for intelligent manufacturing and logistics automation.",
+    "evidence_urls": [
+      "https://www.hikrobotics.com/"
+    ],
+    "confidence": 96,
+    "status": "accepted",
+    "notes": "Official Hikrobot site."
+  },
+  {
+    "company_name": "杭州灵西机器人智能科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "杭州灵西机器人智能科技有限公司（LINX ROBOT）是国内知名的机器人视觉智能解决方案提供商，公司以3D视觉技术为核心，专注于仓储物流、工业制造、电商、新能源、电力及医药等行业，为客户提供3D视觉相机、AI算法和机器人视觉集成解决方案。 公司成立于2017年7月，总部位于杭州人工智能小镇，是国家高新技术企业、杭州市高新技术企业，在机器人3D视觉及运动规划领域拥有几十项自主研发的专利技术和知识产权，并获得多项荣誉资质。目前，公司正处于快速发展期，成立至今已完成多轮融资。...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州申昊科技股份有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "列车车底检测机器人采用轮式运动平台组合机械臂、视觉系统的方式，运行于列车检修地沟中，代替人工完成列车车底、车侧外观的检测任务，解决传统人工检测遇到的现场环境艰苦、劳动强度大、受人员主观因素影响等问题，从而降低检修人员工作强度、提升检修质量，及时全面消除列车运行安全隐患。",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州祥龙物流设备科技股份有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "杭州祥龙物流设备科技股份有限公司成立于2018年，位于桐庐县富春江畔，占地面积65亩，作业面积2.6万平米。祥龙物流是一家物流自动化智能设备制造、大型物流转运中心自动化工艺流程设计及立体仓储设计及制造的现代物流领域全环节的高科技公司，是国家邮政总局认定的首批“邮政行业技术研发中心”。公司产品主要包括各种文件类、包裹类及重件和大件类智能分拣系统、各种转运枢纽中心的矩阵输送系统、各类高级智能搬运机器人",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州联核科技有限公司",
+    "country": "China",
+    "proposed_website_url": null,
+    "proposed_short_description": "杭州联核科技有限公司是无人驾驶工业车辆领域的一家创新型高新技术企业，聚焦无人叉车主业发展，坚持以市场为导向，以创新为驱动，以效率为核心，致力于为客户提供咨询规划、方案设计、系统集成、项目实施、售后支持的可落地无人叉车解决方案和优秀的产品使用体验，无人叉车项目案例覆盖近20个省（含直辖市），广泛应用于电力、军工、空港、家居、纺织、机械制造、电商物流等行业。 公司核心团队由多家上市公司以及世界500强背景的成员组成，在电动叉车和移动机器人领域拥有5年以上研发经验，并与浙江大...",
+    "evidence_urls": [],
+    "confidence": 35,
+    "status": "uncertain",
+    "notes": "Useful source description exists, but no safe official website candidate was identified."
+  },
+  {
+    "company_name": "杭州迦智科技有限公司",
+    "country": "China",
+    "proposed_website_url": "https://www.i-plus-mobot.com/",
+    "proposed_short_description": "Develops industrial mobile robots and software for smart factory logistics under the IPlusMobot brand.",
+    "evidence_urls": [
+      "https://www.i-plus-mobot.com/"
+    ],
+    "confidence": 88,
+    "status": "accepted",
+    "notes": "Official-looking IPlusMobot site."
+  },
+  {
+    "company_name": "東佑達自動化科技股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.toyorobot.com",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.toyorobot.com"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  },
+  {
+    "company_name": "東元電機股份有限公司",
+    "country": "Taiwan",
+    "proposed_website_url": "https://www.teco.com.tw/en",
+    "proposed_short_description": "Technology company supplying industrial, electronic, automation or smart manufacturing products and services.",
+    "evidence_urls": [
+      "https://www.teco.com.tw/en"
+    ],
+    "confidence": 84,
+    "status": "accepted",
+    "notes": "Existing batch URL appears to be the official company, parent, regional or product/business website despite prior automated broken status."
+  }
+]
