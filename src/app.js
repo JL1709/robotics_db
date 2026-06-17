@@ -42,7 +42,6 @@ const SORTS = [
   { value: "founded_desc", label: "Newest founded" },
   { value: "founded_asc", label: "Oldest founded" },
   { value: "country", label: "Country" },
-  { value: "updated", label: "Recently edited" },
 ];
 
 const state = {
@@ -141,10 +140,6 @@ function normalizeCompany(company) {
     company.website_status,
     company.website_final_url,
     company.website_validation_notes,
-    company.candidate_website_url,
-    company.candidate_short_description,
-    company.candidate_status,
-    company.candidate_notes,
     company.source_name,
     company.source_url,
     `website confidence ${normalized.website_confidence_score}`,
@@ -879,16 +874,10 @@ function renderDrawer(company) {
             ${detail("Website final URL", company.website_final_url)}
             ${detail("Website confidence", `${company.website_confidence_score}/100`)}
             ${detail("Source", company.source_name)}
-            ${detail("Candidate website", company.candidate_website_url)}
-            ${detail("Candidate confidence", company.candidate_confidence ? `${company.candidate_confidence}/100` : null)}
-            ${detail("Candidate status", formatWebsiteStatus(company.candidate_status))}
-            ${detail("Candidate notes", company.candidate_notes)}
-            ${detail("Candidate evidence", company.candidate_evidence_urls)}
             ${detail("Tags", company.tags)}
             ${detail("City", company.city)}
             ${detail("State", company.state)}
             ${detail("Affiliations", company.affiliations)}
-            ${detail("Last edited", formatDate(company.last_edited_time))}
           </div>
         </div>
       </aside>
@@ -1313,12 +1302,6 @@ function sortCompanies(rows) {
     if (state.sort === "country") {
       return (a.country[0] ?? "").localeCompare(b.country[0] ?? "") || byName(a, b);
     }
-    if (state.sort === "updated") {
-      return (
-        new Date(b.last_edited_time ?? 0).getTime() -
-          new Date(a.last_edited_time ?? 0).getTime() || byName(a, b)
-      );
-    }
     return byName(a, b);
   });
   return sorted;
@@ -1617,25 +1600,12 @@ function formatWebsiteStatus(value) {
 }
 
 function getWebsiteConfidenceScore(company) {
-  if (hasTrustedNotionWebsite(company)) return 99;
-  if (company.profile_review_status === "not_found" || company.candidate_status === "not_found") {
-    return 0;
-  }
   if (BAD_WEBSITE_STATUSES.has(company.website_status)) return 0;
 
   const websiteConfidence = clampConfidence(company.website_confidence);
   if (hasCompanyWebsite(company) && websiteConfidence > 0) return websiteConfidence;
 
-  const candidateConfidence = clampConfidence(company.candidate_confidence);
-  if (company.profile_review_status === "needs_review" || company.candidate_website_url) {
-    return candidateConfidence;
-  }
-
   return 0;
-}
-
-function hasTrustedNotionWebsite(company) {
-  return Boolean(company.trusted_notion_website);
 }
 
 function confidenceTone(score) {
@@ -1778,9 +1748,6 @@ function toCsv(rows) {
     "website_confidence_score",
     "website_status",
     "website_confidence",
-    "candidate_website_url",
-    "candidate_confidence",
-    "candidate_status",
     "linkedin_url",
     "source_name",
     "source_url",

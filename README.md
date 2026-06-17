@@ -25,8 +25,8 @@ PORT=8080 ./run_app.sh
 
 - `data/robotics_companies.json` is the only company data file used by the app.
 - The file is intentionally lean and contains only dashboard fields, app-owned
-  `company_id`, `source_name`, `source_url`, website quality fields, candidate
-  website fields, and `trusted_notion_website`.
+  `company_id`, `source_name`, `source_url`, website fields, website preview
+  images, source metadata, and robotics classification fields.
 - `data/world-countries.geojson` is retained only as the map geometry asset for
   the dashboard's world map.
 - `vendor/d3.v7.min.js` is retained only for map projection and SVG rendering.
