@@ -82,7 +82,7 @@ async function init() {
     }
 
     companies = (await response.json()).map(normalizeCompany);
-    byId = new Map(companies.map((company) => [company.notion_page_id, company]));
+    byId = new Map(companies.map((company) => [company.company_id, company]));
     yearBounds = getYearBounds(companies);
     await loadWorldMapData();
     applyYearMode("modern");
@@ -145,6 +145,8 @@ function normalizeCompany(company) {
     company.candidate_short_description,
     company.candidate_status,
     company.candidate_notes,
+    company.source_name,
+    company.source_url,
     `website confidence ${normalized.website_confidence_score}`,
     company.linkedin_url,
     company.city,
@@ -771,7 +773,7 @@ function renderCard(company) {
   ].slice(0, 5);
 
   return `
-    <article class="company-card" role="button" tabindex="0" data-open-company="${company.notion_page_id}">
+    <article class="company-card" role="button" tabindex="0" data-open-company="${company.company_id}">
       <div class="card-cover">
         ${company.website_preview_url ? `<img src="${escapeAttr(company.website_preview_url)}" alt="" loading="lazy" onerror="this.remove()" />` : ""}
       </div>
@@ -812,7 +814,7 @@ function renderTable(rows) {
           ${rows
             .map(
               (company) => `
-                <tr data-open-company="${company.notion_page_id}">
+                <tr data-open-company="${company.company_id}">
                   <td class="table-company">${escapeHtml(company.company_name)}</td>
                   <td class="table-description">${escapeHtml(company.short_description ?? "")}</td>
                   <td>${chipList(company.product_type.slice(0, 3), "teal")}</td>
@@ -836,7 +838,7 @@ function renderDrawer(company) {
     return `<div class="drawer-overlay${open}" id="drawer-overlay"></div>`;
   }
 
-  const isCompared = state.compareIds.has(company.notion_page_id);
+  const isCompared = state.compareIds.has(company.company_id);
   return `
     <div class="drawer-overlay${open}" id="drawer-overlay">
       <aside class="drawer" role="dialog" aria-modal="true" aria-label="${escapeAttr(company.company_name)}">
@@ -862,9 +864,9 @@ function renderDrawer(company) {
                 ? `<a href="${escapeAttr(company.linkedin_url)}" target="_blank" rel="noreferrer">${icon("external")}LinkedIn</a>`
                 : `<a aria-disabled="true">${icon("external")}LinkedIn</a>`
             }
-            <a href="${escapeAttr(company.notion_page_url)}" target="_blank" rel="noreferrer">${icon("database")}Source</a>
+            <a href="${escapeAttr(company.source_url)}" target="_blank" rel="noreferrer" title="${escapeAttr(company.source_name ?? "Source")}">${icon("database")}Source</a>
           </div>
-          <button class="primary-button" id="toggle-compare" data-company-id="${company.notion_page_id}" type="button">
+          <button class="primary-button" id="toggle-compare" data-company-id="${company.company_id}" type="button">
             ${icon("compare")}${isCompared ? "Remove from compare" : "Add to compare"}
           </button>
           <div class="detail-grid">
@@ -876,6 +878,7 @@ function renderDrawer(company) {
             ${detail("Website status", formatWebsiteStatus(company.website_status))}
             ${detail("Website final URL", company.website_final_url)}
             ${detail("Website confidence", `${company.website_confidence_score}/100`)}
+            ${detail("Source", company.source_name)}
             ${detail("Candidate website", company.candidate_website_url)}
             ${detail("Candidate confidence", company.candidate_confidence ? `${company.candidate_confidence}/100` : null)}
             ${detail("Candidate status", formatWebsiteStatus(company.candidate_status))}
@@ -924,7 +927,7 @@ function renderCompareTray(rows) {
             (company) => `
               <span class="compare-token">
                 <span>${escapeHtml(company.company_name)}</span>
-                <button type="button" data-remove-compare="${company.notion_page_id}" aria-label="Remove">x</button>
+                <button type="button" data-remove-compare="${company.company_id}" aria-label="Remove">x</button>
               </span>
             `,
           )
@@ -1632,33 +1635,7 @@ function getWebsiteConfidenceScore(company) {
 }
 
 function hasTrustedNotionWebsite(company) {
-  if (!hasCompanyWebsite(company)) return false;
-  return (company.source_records ?? []).some((source) => {
-    if (!isTrustedNotionSource(source)) return false;
-    return Boolean(normalizeComparableUrl(source.observed_fields?.website_url));
-  });
-}
-
-function isTrustedNotionSource(source) {
-  return (
-    source?.source_name === "Petr Novikov Robotics Database" ||
-    String(source?.source_id ?? "").startsWith("notion:") ||
-    String(source?.source_url ?? "").includes("petrnovikov.notion.site") ||
-    String(source?.observed_fields?.notion_page_url ?? "").includes("petrnovikov.notion.site")
-  );
-}
-
-function normalizeComparableUrl(value) {
-  if (typeof value !== "string" || !value.trim()) return null;
-  try {
-    const url = new URL(/^[a-z][a-z0-9+.-]*:\/\//i.test(value) ? value : `https://${value}`);
-    url.hostname = url.hostname.toLowerCase();
-    let normalized = url.toString();
-    if (normalized.endsWith("/") && url.pathname === "/") normalized = normalized.slice(0, -1);
-    return normalized;
-  } catch {
-    return value.trim();
-  }
+  return Boolean(company.trusted_notion_website);
 }
 
 function confidenceTone(score) {
@@ -1805,7 +1782,8 @@ function toCsv(rows) {
     "candidate_confidence",
     "candidate_status",
     "linkedin_url",
-    "notion_page_url",
+    "source_name",
+    "source_url",
   ];
   const header = columns.join(",");
   const body = rows.map((row) =>

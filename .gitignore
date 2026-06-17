@@ -1,1 +1,4 @@
 .env
+data/*
+!data/robotics_companies.json
+!data/world-countries.geojson
